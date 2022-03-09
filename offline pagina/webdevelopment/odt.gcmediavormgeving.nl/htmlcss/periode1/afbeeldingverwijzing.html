@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Afbeeldingen & Verwijzingen</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <link rel="stylesheet" href="../extrea.css" type="text/css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - Afbeeldingen & Verwijzingen</h1>
+        </div>
+        <div class="ui-content" role="main">
+<h2>Afbeeldingen</h2>
+<p>Afbeeldingen maken je webpagina aantrekkelijker. Ook kun je ze gebruiken om je webpagina visueel in te delen. En als laatste zegt een plaatje soms meer dan een lap tekst. <br /> <br /> Op de homepage mogen de afbeeldingen niet te groot zijn, anders duurt het laden te lang. Dus zorg je voor kleine afbeeldingen. Op speciale fotopagina&rsquo;s mogen wel scherpe foto&rsquo;s staan die wat groter zijn. Maar dan begrijpt de gebruiker ook dat het laden langer kan duren.</p>
+<p>Er is een groot aantal bestandstypes voor afbeeldingen. De meest bekende en gebruikte zijn:</p>
+<table class="table overzicht">
+<tbody>
+<tr>
+<td width="33%">
+Type:
+</td>
+<td>
+Voordeel:
+</td>
+<td>
+Nadeel:
+</td>
+</tr>
+<tr>
+<td>
+<strong>BMP</strong> (bitmap): elke pixel wordt afzonderlijk opgeslagen met de RGB-waardes.
+</td>
+<td>
+Je kunt elke pixel afzonderlijk bewerken.
+</td>
+<td>
+BMP-bestanden zijn veel te groot qua bestandsformaat.
+</td>
+</tr>
+<tr>
+<td>
+<strong>GIF</strong> (Graphics Interchange Format): er zijn maar 256 kleuren mogelijk (8 bits = 2<sup>8</sup>). Kleurvlakken worden opgeslagen met hun co&ouml;rdinaten en kleur. Hoe groter de kleurvlakken, hoe kleiner het bestand.
+</td>
+<td>
+Clipart-bestanden met weinig kleuren zijn heel klein.<br /> Lossless: vergroten of verkleinen leidt niet tot kwaliteitsverlies.<br /> 
+</td>
+<td>
+Weinig kleuren, geen kleurverloop.
+</td>
+</tr>
+<tr>
+<td>
+<strong>PNG</strong> (Portable Network Graphics): zelfde compressiemethode als bij GIF. Maar met 16,7 miljoen kleuren (24 bits = 2<sup>24</sup>).
+</td>
+<td>
+Veel kleuren mogelijk, dus clipart-bestanden met veel kleuren zijn relatief klein.<br /> Lossless: vergroten of verkleinen leidt niet tot kwaliteitsverlies.
+</td>
+<td>
+Clipart-bestanden met weinig kleuren zijn wat groter dan bij GIF-formaat.
+</td>
+</tr>
+<tr>
+<td>
+<strong>JPEG</strong> (Joint Photographic Expert Group): opgeslagen worden posities en kleurverlopen. Daardoor is deze techniek met name geschikt voor kleurverlopen, zoals foto&rsquo;s.
+</td>
+<td>
+Veel kleuren mogelijk, bestanden met veel kleurverlopen zijn relatief klein (foto&rsquo;s)
+</td>
+<td>
+Bestanden zonder kleurverlopen zijn groter dan bij GIF- of PNG-formaat
+</td>
+</tr>
+</tbody>
+</table>
+<p>Het toevoegen van een afbeelding gaat met de tag <span class="redText">&lt;img&gt;</span>. Dit alleen is echter niet voldoende. Je moet een aantal eigenschappen opgeven. O.a. de locatie van je afbeelding. De belangrijkste eigenschappen, die je kan toevoegen aan het element &lt;img&gt;, staan hier op een rijtje:</p>
+<table class="table overzicht">
+<tbody>
+<tr>
+<td>Eigenschap
+</td>
+<td>Betekenis
+</td>
+</tr>
+<tr>
+<td>src="pad/naam"
+</td>
+<td>Locatie van de afbeelding.
+</td>
+</tr>
+<tr>
+<td>height="pixels"<br>
+width="pixels"
+</td>
+<td>hoogte<br>
+breedte
+</td>
+</tr>
+<tr>
+<td>border="getal"
+</td>
+<td>Randdikte om je afbeelding.
+</td>
+</tr>
+<tr>
+<td>align="instelling"
+</td>
+<td>uitlijning van de tekst op de afbeelding: left, right, top, middle, bottom
+</td>
+</tr>
+<tr>
+<td>hspace="pixels"<br>
+vspace="pixels"
+</td>
+<td>horizontale afstand tot omringende tekst
+<br>verticale afstand tot omringende tekst
+</td>
+</tr>
+<tr>
+<td>alt="tekst"
+</td>
+<td>alternatieve tekst als afbeelding niet wordt weergegeven
+</td>
+</tr>
+<tr>
+<td>title="tekst"
+</td>
+<td>tooltip bij de afbeelding
+</td>
+</tr>
+</tbody>
+</table>
+<p>Om er zeker voor te zijn dat je afbeelding werkt, is het verstandig om in de map waar je alle HTML opdracht opslaat, een images map aan te maken. Vervolgens plaats je alle afbeeldingen die je gebruikt op je website in die map. Op die manier wordt de path naam van je bestand altijd images/bestandsnaam.</p>
+
+
+<table class="table let-op">
+          <tr>
+            <td>Let op:</td>
+          </tr>
+          <tr>
+          <td>
+          De <span class="redText">src</span> eigenschap is de enige die verplicht is voor het werken van een afbeelding, echter  de <span class="redText">alt</span> wordt ook gezien als een verplichte eigenschap.</td></tr></table>
+          <br>
+          <table class="table opdracht">
+        	<tr><td>Opdracht 1: Afbeelding toevoegen</td></tr>
+            <tr><td>
+            <p>Open in je editor een nieuw HTML bestand.&nbsp;</p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht5-1.html</strong></li>
+<li>Maak in de map waar je de opdrachten opslaat een nieuwe map aan en noem deze&nbsp;<strong>images</strong>.&nbsp;</li>
+<li>Ga naar google en klik bovenaan op afbeeldingen.</li>
+<li>Zoek naar een afbeelding van je favoriete band/game/club. Sla het bestand op in de images map die je&nbsp;zojuist hebt aangemaakt.</li>
+<li>Ga nu naar je editor en pas de titel van de pagina aan naar <strong>Eerst afbeelding</strong>.</li>
+<li>Zet je muis cursor tussen de &lt;body&gt; tags.</li>
+<li>Druk op <strong>enter</strong> en type <strong>&lt;img</strong></li>
+<li>Type nu een <strong>spatie</strong>. Je ziet dat er weer een heel keuze menu verschijnt voor alle eigenschappen die je kan opgeven. Ga naar <strong>src</strong> en druk op <strong>enter</strong>.</li>
+<li>Je ziet dat achter src =&rdquo;&rdquo; is toegevoegd en dat de cursur tussen de aanhalingstekens staan. Dit is ook de bedoeling. Hiertussen gaan we namelijk de locatie van je afbeelding typen. Als je Dreamweaver gebruikt kun je ook je afbeelding selecteren en voegt hij zelf de juiste locatie toe.</li>
+<li>Zorg dat de afbeelding die je zojuist hebt opgeslagen, wordt weergegeven. De locatie naar het plaatje moet zijn <strong>images/bestandsnaam</strong>. Zo niet, dan heb je het plaatje op een verkeerde plek opgeslagen.</li>
+<li>Ga met je muis aan het einde van de regel staan en typ een <strong>&gt;</strong>. img is weer zo&rsquo;n tag die je niet sluit. Dit kennen we van de br- en hr-tag.</li>
+<li>Open je bestand vanuit de verkenner zodat deze in je browser wordt geopend. Controleer of je afbeelding op het scherm staan. Zo niet, dan is de locatie naar het bestand verkeerd.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht5-1.html</strong>.</p>
+            </td></tr>
+            </table>
+            <br>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 2: Afbeelding bewerken</td></tr>
+            <tr><td>
+            <p>Open in je editor een nieuw HTML bestand.</p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht5-2.html</strong></li>
+<li>Klik <a href="img/uitzicht.JPG" target="_blank">hier</a> om de afbeelding uitzicht.JPG te downloaden en plaats deze in je images map.</li>
+<li>Maak de pagina zoals hieronder na.<br>
+<img src="img/h5o2.png"></li>
+<li>De rand is 2px dik en de afstand tussen de tekst en de afbeelding is overal 5px.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht5-2.html</strong>. </p>
+            </td></tr>
+            </table>
+            <h2>Verwijzingen</h2>
+            <p>Verwijzingen worden ook wel hyperlinks genoemd.&nbsp; Er zijn op verschillende manieren verwijzingen mogelijk. Je maakt een woord, zin of afbeelding &ldquo;klikbaar&rdquo; en daardoor gaat de gebruiker naar een andere webpagina. Een menu bestaat dus uit verwijzingen.</p>
+ Je kunt verwijzen naar:
+<ul>
+<li>andere posities op dezelfde pagina</li>
+<li>andere pagina&rsquo;s</li>
+<li>URL&rsquo;s: http, ftp</li>
+<li>email-adressen</li>
+</ul>
+<p>Een verwijzing maak je met de tag <span class="redText">&lt;a&gt;</span> klikbare tekst <span class="redText">&lt;/a&gt;. </span>Net zoals bij het toevoegen van een afbeelding is dit niet voldoende. Er zijn een aantal verplichte eigenschappen.</p>
+<table class="table overzicht">
+<tbody>
+<tr>
+<td>
+Eigenschap
+</td>
+<td>
+Betekenis
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">href</span>=&rdquo;bestemming&rdquo;
+</td>
+<td>
+Locatie van de doelpagina.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">name</span>=&rdquo;ankernaam&rdquo;
+</td>
+<td>
+de naam van een anker (bladwijzer)
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">target</span>=&rdquo;doelvenster&rdquo;
+</td>
+<td>
+het type venster of frame waar de doelpagina wordt getoond
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">title</span>=&rdquo;toelichting&rdquo;
+</td>
+<td>
+een toelichting bij de hyperlink
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="table let-op">
+          <tr>
+            <td>Let op:</td>
+          </tr>
+          <tr>
+          <td>
+          De <span class="redText">href</span> eigenschap is voor een verwijzing verplicht. Anders weer de browser niet waar de gebruiker &ldquo;heen gestuurd&rdquo; moet worden.</td></tr></table>
+          <p>We gaan nu een verwijzing maken naar een eerder gemaakte opdracht.</p>
+           <table class="table opdracht">
+        	<tr><td>Opdracht 3: Verwijzing</td></tr>
+            <tr><td>
+            <p>Open in je editor een nieuw HTML bestand.</p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht5-3.html</strong></li>
+<li>Verander de <strong>titel</strong> in<strong> Opdracht5-3</strong>.</li>
+<li>Ga nu met de muiscursor tussen de <strong>body</strong> tag staan en druk op <strong>enter</strong>.</li>
+<li>Type nu de volgende regel over:<br>
+<img src="img/h5o3.png"></li>
+<li>Je hebt nu een verwijzing gemaakt naar de vorige opdracht.</li>
+<li>Test, door het bestand in de verkenner te openen, in je browser of de verwijzing werkt. Op het moment dat je Opdracht5-3.html opent en je op de tekst klikt moet Opdracht 5-2 verschijnen. Zo niet, dan heb je waarschijnlijk Opdracht5-2 op een andere manier opgeslagen.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht5-3.html</strong>.</p>
+
+            </td></tr>
+            </table>
+            <p>Je ziet dat de tekst dat tussen de <span class="redText">&lt;a&gt; </span>en<span class="redText"> &lt;/a&gt;</span> staat, klikbaar wordt. Je kunt ook een deel van een zin klikbaar maken. Je moet dan een hele zin typen en het woord of woorden die klikbaar moeten zijn, zet je binnen de <span class="redText">&lt;a&gt;</span> tag.</p>
+<p>Je kunt ook verwijzen naar een andere website. In de <span class="redText">href</span> zet je dan het volledige webadres, dus inclusief http://.</p>
+<table class="table opdracht">
+        	<tr><td>Opdracht 4: Verwijzing</td></tr>
+            <tr><td>
+            <p>Open in je editor een nieuw HTML bestand.</p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht5-4.html</strong></li>
+<li>Verander de <strong>titel</strong> in<strong> Opdracht5-4</strong>.</li>
+<li>Maak het onderstaande na. Het woord <span style="text-decoration: underline;">hier</span> verwijst naar jouw favoriete website.<br>
+<img src="img/h5o4.png"></li>
+<li>Test, door het bestand in de verkenner te openen, in je browser of de verwijzing werkt. Op het moment dat je Opdracht5-4.html opent en op het woord hier klikt wordt jouw favoriete pagina geopend.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht5-4.html</strong>. </p>
+
+            </td></tr>
+            </table>
+            <p>Het vervelende is dat je favoriete website wordt geopend in je huidige scherm. Dit is namelijk standaard (default) zo. Dit kun je aanpassen. Je kan namelijk de eigenschap <span class="redText">target</span> aan het <span class="redText">&lt;a&gt;</span> element toevoegen. Dit doe je op dezelfde manier als dat je een href toevoegt.</p>
+            <table class="table overzicht">
+<tbody>
+<tr>
+<td>
+eigenschap
+</td>
+<td>
+betekenis
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">target</span>=&rdquo;_blank&rdquo;
+</td>
+<td>
+Opent in een nieuw venster / tabblad
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">target</span>=&rdquo;_self&rdquo;
+</td>
+<td>
+Opent in hetzelfde scherm als de link. Dit is default.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">target</span>=&rdquo;_top&rdquo;
+</td>
+<td>
+Zelfde als _self
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">target</span>=&rdquo;_parent&rdquo;
+</td>
+<td>
+Zelfde als _self
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="table opdracht">
+        	<tr><td>Opdracht 5: Verwijzing nieuwe pagina</td></tr>
+            <tr><td>
+           <p>Open in je editor het bestand <strong>Opdracht5-4.html</strong></p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht5-5.html</strong></li>
+<li>Verander de <strong>titel</strong> in<strong> Opdracht5-5</strong>.</li>
+<li>Voeg aan de &lt;a&gt; een target toe zodat de verwijzing in een nieuw scherm wordt geopend.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht5-5.html</strong>.</p>
+
+            </td></tr>
+            </table>
+
+
+         </div>
+        <div data-role="footer" data-position="fixed" >
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

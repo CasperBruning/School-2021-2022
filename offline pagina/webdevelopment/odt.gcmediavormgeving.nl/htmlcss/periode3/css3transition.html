@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - CSS3 Bewegingen</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+   	<style type="text/css">
+	
+	</style>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML5 & CSS3 - CSS3 Bewegingen</h1>
+        </div>
+      <div class="ui-content" role="main">
+        <h2>Transition</h2>
+        <table class="info table">
+          <tbody>
+            <tr>
+              <th>Property</th>
+              <th title="Internet Explorer"><img src="img/ie9-logo.png"></th>
+              <th title="Chrome"><img src="img/Google_Chrome_logo.png"></th>
+              <th title="Firefox"><img src="img/firefox-logo.png"></th>
+              <th title="Safari"><img src="img/safari-logo.png"></th>
+              <th title="Opera"><img src="img/Opera_Logo.png"></th>
+          </tr>
+            <tr>
+              <td>transition</td>
+              <td>10.0</td>
+              <td>26.0<br>
+                4.0 -webkit-</td>
+              <td>16.0<br>
+                4.0 -moz-</td>
+              <td>6.1<br>
+                3.1 -webkit-</td>
+              <td>12.1<br>
+                10.5 -o-</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <div id="vb1">Beweeg je muis hierover!</span></div>
+        <p>Met CSS3  is het mogelijk om elementen te laten veranderen van stijl, zonder dat daar  Flash of ActionScript aan te pas komt. Dit doen we met de eigenschap <strong>transition</strong>. Je ziet dat er bij de nieuwste browsers geen prefix gebruikt hoeft te worden. Wil je het echter ook op oude webbrowsers laten werken, moet je wel een prefix gebruiken. In de voorbeelden wordt de prefix van -webkit- gebruikt. Dit om de oude safari browsers te ondersteunen.</p>
+      
+        <table class="table let-op">
+          <tr>
+            <td>Let    op:</td>
+          </tr>
+          <tr>
+            <td>Transition werkt niet in Internet Explorer 9 en eerder</td>
+          </tr>
+        </table>
+        <br>
+        <table class="table overzicht">
+          <tr>
+            <td colspan="2">transition</td>
+          </tr>
+          <tr>
+            <td >transition-property</td>
+            <td>Optioneel.    Welke eigenschap moet aangepast worden</td>
+          </tr>
+          <tr>
+            <td>transition-duration </td>
+            <td>Verplicht. De tijd dat de animatie er over doet. Uitgedrukt in    seconden. </td>
+          </tr>
+          <tr>
+            <td>transition-timing-function </td>
+            <td>Optioneel. Welke manier van bewegen. Default is ease.</td>
+          </tr>
+          <tr>
+            <td>transition-delay </td>
+            <td>Optioneel. Vertraging van de start van de animatie. Default 0    seconden.</td>
+          </tr>
+          <tr>
+            <td>transition</td>
+            <td>Het    combineren van alle 4 bovenstaand.</td>
+          </tr>
+        </table>
+        <p>CSS3  transitions zijn effecten waarmee een element geleidelijk veranderd van de ene  stijl naar de andere. Het makkelijkste is om de transition eigenschap te gebruiken en  daarachter de waardes te vermelden. Transition eist &eacute;&eacute;n eigenschap. De <strong>tijd </strong>hoelang het  element er over moet doen. De andere drie zijn optioneel al valt aan te raden om de <strong>naam van het element</strong> die je wilt  wijzigen ook erbij te vermelden. De syntax zie je in  voorbeeld 5-1.</p>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 5-1</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld5-1.png"></td>
+          </tr>
+        </table>
+        <p>
+          Bekijk voorbeeld5-2. Van deze divisie wordt de breedte aangepast. Dit kan je zien bij het <strong>hover</strong> gedeelte. De waarde van de breedte is daar anders dan bij het origineel. De tijd die  er over gedaan wordt is 2 seconden. Let erop dat je de tijd invult. Default is  het namelijk 0 seconden, dus als je niets invult zal je geen resultaat zien.
+          </p>
+          <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 5-2</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld5-2.png"></td>
+          </tr>
+        </table>
+<p>Kijk goed naar de divisie <strong>#verandering</strong>. Je ziet dat je daar alle eigenschappen van de divisie moet opgeven. Ook de transition geef je daar aan. Je geeft dus aan hoelang de verandering moet duren. In dit geval 2 seconden. Doordat bij <strong>#verandering:hover</strong> de breedte anders is dan bij <strong>#verandering</strong>, wordt de transition in werking gezet.</p>
+      <table  class="table opdracht">
+        <tr>
+          <td>Opdracht 1: transition</td>
+        </tr>
+        <tr>
+          <td>Maak een nieuwe HTML5 pagina aan.
+            <ul>
+              <li>Voeg een stylesheet toe en maak <strong>voorbeeld 5-2</strong> na.</li>
+              <li>Voeg de divisie toe aan je HTML en zet er de    tekst in: <strong>verandering van breedte</strong>.</li>
+            </ul>
+            <p>Sla het bestand op als <strong>Opdracht5-1.html. </strong>Test het in verschillende webbrowsers. </p></td>
+        </tr>
+      </table>
+      <br>
+      <div id="opd2">Verandering van de hoogte.</div>
+      <br>
+     <table  class="table opdracht">
+        <tr>
+          <td>Opdracht 2: transition</td>
+        </tr>
+        <tr>
+          <td>Maak een nieuwe HTML5 pagina aan.
+            <ul>
+              <li>Ga met je muis over de divisie hierboven en probeer deze zo goed mogelijk na te maken. Enkele gegevens: </li>
+             
+              <li>Breedte en hoogte: <strong>150px</strong>.</li>
+              <li><strong>Hoogte</strong> aan het einde van de beweging is <strong>450px</strong>.</li>
+              <li>Let ook op de ronde hoeken.</li>
+              <li>De beweging duurt <strong>3 seconden</strong>.</li>
+            </ul>
+            <p>Sla het bestand op als <strong>Opdracht5-2.html. </strong>Test het in verschillende webbrowsers. </p></td>
+        </tr>
+      </table>
+      <p>Het is ook mogelijk om meerdere aanpassingen tegelijk uit te voeren. Dit doe je door meerdere waardes bij het <strong>:hover</strong> eigenschap in te vullen. Je kunt zoveel veranderingen toevoegen als je zelf wilt.
+       </p>
+       <div id="opd3">Verandering van breedte, hoogte en achtergrondkleur.</div>
+       <br>
+      <table class="table opdracht">
+        <tr>
+          <td>Opdracht 3: meerdere veranderingen</td>
+        </tr>
+        <tr>
+          <td>Maak een nieuwe HTML5 pagina aan.
+            <ul>
+              <li>Kijk goed naar <strong>de divisie hierboven</strong>.</li>
+              <li>Maak de begin divisie precies na. </li>
+              <li>Zorg dat er een transition in zit van <strong>2 seconden</strong>.</li>
+              <li>Ga met je muis over de divisie</li>
+              <li>Zorg dat het einde exact is zoals hierboven. Kijk goed welke elementen er allemaal veranderen.</li>
+            </ul>
+            <p>Sla het bestand op als <strong>Opdracht5-3.html. </strong>Test het in verschillende webbrowsers. </p></td>
+        </tr>
+      </table>
+      <p>Vorige  les zijn we bezig geweest met het draaien van divisies of afbeeldingen. Dit  kunnen we nu prima toepassen in combinatie met de transition. Het verschil  tussen de 2d en 3d draaiing wordt dan een stuk duidelijker. </p>
+      <table class="opdracht table">
+        <tr>
+          <td>Opdracht 4: 2d draaiing</td>
+        </tr>
+        <tr>
+          <td>Maak een nieuwe HTML5 pagina aan.
+            <ul>
+              <li>Maak een divisie aan genaamd <strong>#draaiing</strong></li>
+              <li>Breedte en hoogte zijn <strong>100px</strong>.</li>
+              <li>Achtergrondkleur <strong>blauw</strong>.</li>
+              <li>Zorg dat, zodra je met je muis over de divisie    heen gaat, de divisie in <strong>2 seconden</strong>, <strong>360 graden</strong> draait (<strong>rotate</strong>)</li>
+              <li>Het voorbeeld staat hieronder.</li>
+            </ul>
+            <p>Sla het bestand op als <strong>Opdracht5-4.html. </strong>Test het in verschillende webbrowsers. </p></td>
+        </tr>
+      </table>
+      <br>
+      <div id="opd4">2d draaiing</div>
+      <p>Je  ziet dat deze na het rond draaien weer precies op dezelfde plek staat. Nu gaan  we een 3d draaiing maken. Let erbij op dat <strong>Safari</strong> de 3d draaiing alleen ondersteunt met een prefix! </p>
+      <table class="table opdracht">
+        <tr>
+          <td>Opdracht 5: 3d draaiing</td>
+        </tr>
+        <tr>
+          <td>Maak een nieuwe HTML5 pagina aan.
+            <ul>
+              <li>Maak een divisie aan genaamd <strong>#draaiing3D</strong></li>
+              <li>Breedte en hoogte zijn <strong>100px</strong>.</li>
+              <li>Achtergrondkleur <strong>salmon</strong>.</li>
+              <li>Zorg dat, zodra je met je muis over de divisie    heen gaat, de divisie in <strong>2 seconden</strong>, <strong>360 graden</strong> een 3d rotatie maakt.    Als je niet meer weet hoe dit moet, pak dan het lesmateriaal <a href="css3transform.html">CSS3 transform</a>    erbij.</li>
+              <li>Een voorbeeld van een 3d draaiing zie je bij de divisie hieronder. Door het jQuery framework werkt het niet altijd helemaal goed. Een keer klikken helpt.</li>
+            </ul>
+            <p>Sla het bestand op als <strong>Opdracht5-5.html. </strong>Test het in verschillende webbrowsers. </p></td>
+        </tr>
+      </table>
+      <br>
+      <div id="opd5">3d draaiing</div>
+      </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

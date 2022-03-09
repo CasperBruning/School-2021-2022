@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - CSS3</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+   
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML5 & CSS3 - CSS3</h1>
+        </div>
+      <div class="ui-content" role="main">
+        <h2>CSS3</h2>
+        <p>Zonder CSS3 heeft HTML5 niet heel veel meer waarde. De  nieuwe mogelijkheden in CSS3 zijn spectaculair te noemen. Een aantal  vernieuwingen op een rij.</p>
+        <table class="table overzicht">
+          <tr>
+            <td colspan="2">Nieuwe mogelijkheden</td>
+          </tr>
+          <tr>
+            <td>Borders</td>
+            <td>Het    is mogelijk om divisies ronde hoeken te geven.</td>
+          </tr>
+          <tr>
+            <td>Box    shadow</td>
+            <td>Het    is mogelijk om een divisie een schaduw te geven.</td>
+          </tr>
+          <tr>
+            <td>Tekst    effects</td>
+            <td>Er    zijn verschillende tekst effects mogelijk</td>
+          </tr>
+          <tr>
+            <td>Fonts</td>
+            <td>Je    kunt nu andere lettertypes implementeren zonder dat de gebruiker deze hoeft    te downloaden.</td>
+          </tr>
+          <tr>
+            <td>Transforms</td>
+            <td>De    mogelijkheid om objecten te draaien</td>
+          </tr>
+          <tr>
+            <td>transitions</td>
+            <td>Overgangen    cre&euml;ren </td>
+          </tr>
+          <tr>
+            <td>Animations</td>
+            <td>Het    maken van bewegingen</td>
+          </tr>
+        </table>
+        <p><br>
+          Je ziet dat er een hoop nieuwe mogelijkheden bij zijn gekomen. Let er wel goed  bij op dat niet alle nieuwe mogelijkheden worden ondersteund door elke  webbrowser. Bij elk onderdeel wordt aangegeven welke webbrowser het ondersteund  maar dit zou verouderd kunnen zijn. Aan te raden is om dit van te voren te  controleren op <a href="../../index-2.htm" target="_blank">http://www.html5test.com</a>. </p>
+        <table class="table let-op">
+          <tr>
+            <td>Let    op:</td>
+          </tr>
+          <tr>
+            <td>Niet elke webbrowser ondersteund alle nieuwe mogelijkheden van    CSS3.</td>
+          </tr>
+        </table>
+        <p>
+          Internet Explorer 9 ondersteunt aardig wat nieuwe mogelijkheden. Versie 8 en  lager helemaal niet. Bij elke update van een webbrowser worden er weer nieuwe functionaliteiten toegevoegd. Bij elke opdracht staat een tabel waarin je kan aflezen vanaf welke versie een bepaalde eigenschap wordt ondersteund. Het is dus aan te raden dat je controleert welke versie van webbrowser jij hebt. </p><p>
+          Het kan zijn dat er voor een aantal versienummers een <strong>prefix</strong> staat. Dit kan zijn <strong>-webkit-</strong> voor Chrome, Safari en later ook Opera. Laatst genoemde had vroeger een eigen prefix namelijk <strong>-o-</strong>. Inmiddels zijn ze over naar het webkit van Chrome. <strong>-moz-</strong> voor firefox en heel af en toe <strong>-ms-</strong> voor Internet Explorer. Dit betekend dat je de bewuste prefix moet toevoegen aan je css code om het voor die bewuste browser werkbaar te maken. In het lesmateriaal komen we hier later nog op terug. Als je dus onderstaand overzicht bekijkt zie je dat border-radius werkt vanaf IE 9. Daaronder wordt dus niet ondersteund.</p>
+        <h2>Borders</h2>
+        <table class="table info">
+           <tr>
+              <th>Property</th>
+              <th title="Internet Explorer"><img src="img/ie9-logo.png"></th>
+              <th title="Chrome"><img src="img/Google_Chrome_logo.png"></th>
+              <th title="Firefox"><img src="img/firefox-logo.png"></th>
+              <th title="Safari"><img src="img/safari-logo.png"></th>
+              <th title="Opera"><img src="img/Opera_Logo.png"></th>
+          </tr>
+            <tr>
+              <td>border-radius</td>
+              <td>9.0</td>
+              <td>5.0<br>
+                4.0 -webkit-</td>
+              <td>4.0<br>
+                3.0 -moz-</td>
+              <td>5.0<br>
+                3.1 -webkit-</td>
+              <td>10.5</td>
+            </tr>
+            <tr>
+              <td>box-shadow</td>
+              <td>9.0</td>
+              <td>10.0<br>
+                4.0 -webkit-</td>
+              <td>4.0<br>
+                3.5 -moz-</td>
+              <td>5.1<br>
+                3.1 -webkit-</td>
+              <td>10.5</td>
+            </tr>
+            <tr>
+              <td>border-image</td>
+              <td>11.0</td>
+              <td>16.0<br>
+                4.0 -webkit-</td>
+              <td>15.0<br>
+                3.5 -moz-</td>
+              <td>6.0<br>
+                3.1 -webkit-</td>
+              <td>15.0<br>
+                11.0 -o-</td>
+            </tr>
+        </table>
+        <p>Met CSS2 was het nog vrij lastig om divisies ronde hoeken te  geven. In CSS3 is dat een stuk makkelijker geworden. In voorbeeld 3-1 zie je  met welke CSS code je dit doet.</p>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 3-1</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld3-1.png"></td>
+          </tr>
+        </table>
+        <p>
+          Met de <strong>border-radius</strong> maak je dus een  ronde hoek. Hoe hoger het aantal pixels, hoe ronder (groter) de hoek wordt. Om deze  zichtbaar te maken moet de divisie een achtergrond kleur hebben en eventueel  een rand.</p>
+        <table class="table opdracht">
+          <tr>
+            <td>Opdracht 1: divisie met ronde hoek maken</td>
+          </tr>
+          <tr>
+            <td><p>Maak een nieuwe HTML5 pagina aan.</p>
+              <ul>
+                <li>Maak in de CSS een divisie aan genaamd <strong>#rondeHoeken</strong></li>
+                <li>Geef de divisie een <strong>lichtgrijze</strong> achtergrond kleur.</li>
+                <li>Geef de <strong>randen</strong> een dikte van <strong>2px solid black</strong>.</li>
+                <li>De <strong>radius</strong> is <strong>25px</strong>.</li>
+                <li>De <strong>breedte</strong> van de divisie is <strong>300px</strong>.</li>
+                <li>Voeg een <strong>padding    van 10px</strong> toe.</li>
+                <li>Voeg de divisie nu toe aan de HTML. Type hier    nu wat tekst in.</li>
+              </ul>
+              <p>Sla het bestand op als <strong>Opdracht3-1.html. </strong>Test het in je webbrowser. Je divisie moet er    dan ongeveer uitzien zoals in voorbeeld3-2.</p></td>
+          </tr>
+        </table>
+        <br>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 3-2</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld3-2.png"></td>
+          </tr>
+        </table>
+        <p>
+          Bij het gebruik van ronde hoeken is het altijd aan te raden om een padding toe  te voegen. De rand kan anders door de tekst heen &ldquo;snijden&rdquo;.
+        Je ziet dat elke hoek even rond is. Je kunt er ook voor  kiezen om elke hoek apart een aantal pixels te geven. Dit doe je met de waardes  zoals aangegeven in de tabel hieronder</p>
+        <table class="table overzicht">
+          <tr>
+            <td colspan="2">Ronde hoeken</td>
+          </tr>
+          <tr>
+            <td width="25%">border-top-left-radius</td>
+            <td>Linkerbovenhoek</td>
+          </tr>
+          <tr>
+            <td>border-top-right-radius</td>
+            <td>Rechterbovenhoek</td>
+          </tr>
+          <tr>
+            <td>border-bottom-left-radius</td>
+            <td>Linkeronderhoek</td>
+          </tr>
+          <tr>
+            <td>border-    bottom -right-radius</td>
+            <td>Rechteronderhoek</td>
+          </tr>
+        </table>
+        
+<p>Dit kan ook sneller. Net zoals bij de eigenschap <strong>border</strong> kun je bij <strong>border-radius</strong> ook meerdere waardes invullen. Bekijk voorbeeld 3-3.</p>
+ <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 3-3</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld3-3.png"></td>
+          </tr>
+        </table>
+<p>
+  De eerste waarde geldt voor de linkerbovenhoek. De tweede voor rechtsboven, de  derde voor rechtsonder en de vierde voor linksonder.</p>
+<table class="table opdracht">
+  <tr>
+    <td>Opdracht 2: divisie met ronde hoek maken</td>
+  </tr>
+  <tr>
+    <td><p>Maak een nieuwe HTML5 pagina aan.</p>
+      <ul>
+        <li>Maak in de CSS een divisie aan genaamd <strong>#rondeHoeken</strong></li>
+        <li>Geef de divisie een <strong>licht blauw</strong> achtergrond kleur.</li>
+        <li>Geef de <strong>randen</strong> een dikte van <strong>2px solid black</strong>.</li>
+        <li>Stel de ronde hoeken als volgt in:</li>
+        <ul>
+          <li>Linksboven: 10px</li>
+          <li>Linksonder: 0px</li>
+          <li>Rechtsonder: 0px</li>
+          <li>Rechtsboven:  10px</li>
+        </ul>
+        <li>De <strong>breedte</strong> van de divisie is <strong>200px</strong>.</li>
+        <li>Voeg een <strong>padding    van 5px</strong> toe.</li>
+        <li>Voeg de divisie nu toe aan de HTML. Type hier    nu wat tekst in.</li>
+      </ul>
+      <p>Sla het bestand op als <strong>Opdracht3-2.html. </strong>Test het in je webbrowser. Je divisie moet er    dan ongeveer uitzien zoals in voorbeeld3-4.</p></td>
+  </tr>
+</table>
+<br>
+<table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 3-4</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld3-4.png"></td>
+          </tr>
+        </table>
+
+      <h2>Box-shadow</h2>
+      <p>Het is met CSS3 ook een stuk gemakkelijker geworden om  divisies een schaduw te geven. Bij de box-shadow moeten meerdere waardes  ingevuld worden. De syntax is als volgt:<br>
+      <img src="img/div-syntax.png" border="1">
+      </p>
+      <table class="table overzicht">
+        <tr>
+          <td>waarde</td>
+          <td>eigenschap</td>
+        </tr>
+        <tr>
+          <td>h-shadow</td>
+          <td>Verplicht.    De positie van de horizontale schaduw. Er kunnen ook negatieve waardes worden    ingevuld.</td>
+        </tr>
+        <tr>
+          <td>v-shadow</td>
+          <td>Verplicht.    De positie van de verticale schaduw. Er kunnen ook negatieve waardes worden    ingevuld.</td>
+        </tr>
+        <tr>
+          <td>blur</td>
+          <td>Optioneel. De blur afstand</td>
+        </tr>
+        <tr>
+          <td>spread</td>
+          <td>Optioneel.    De grootte van de shaduw</td>
+        </tr>
+        <tr>
+          <td>color</td>
+          <td>Optioneel.    Kleur van de schaduw</td>
+        </tr>
+        <tr>
+          <td>Inset</td>
+          <td>Optioneel.    Zorgt ervoor dat de schaduw aan de binnenkant van de divisie komt i.p.v.    erbuiten.</td>
+        </tr>
+      </table>
+      <br>
+      <table class="table opdracht">
+        <tr>
+          <td>Opdracht 3: box-shadow</td>
+        </tr>
+        <tr>
+          <td>Maak een nieuwe HTML5 pagina aan.
+            <ul>
+              <li>Maak in de CSS een divisie aan genaamd <strong>#schaduw</strong></li>
+              <li>Geef de divisie een <strong>gele</strong> achtergrond kleur.</li>
+              <li>De <strong>hoogte</strong> van de divisie is <strong>200px</strong>.</li>
+              <li>De <strong>breedte</strong> van de divisie is <strong>200px</strong>.</li>
+              <li>Voeg een <strong>grijze    schaduw</strong> toe met <strong>10px</strong> afstand.</li>
+              <li>Voeg de divisie nu toe aan de HTML. Type hier    nu wat tekst in.</li>
+            </ul>
+            <p>Sla het bestand op als <strong>Opdracht3-3.html. </strong>Test het in je webbrowser. Je divisie moet er    dan ongeveer uitzien zoals in voorbeeld3-5.</p></td>
+        </tr>
+      </table>
+      <br>
+      <table class="normal voorbeeld">
+        <tr>
+          <td>Voorbeeld 3-5</td>
+        </tr>
+        <tr>
+          <td><img src="img/voorbeeld3-5.png"></td>
+        </tr>
+      </table>
+      <br>
+      <table class="table opdracht">
+        <tr>
+          <td>Opdracht 4: namaken</td>
+        </tr>
+        <tr>
+          <td>Maak een nieuwe HTML5 pagina aan.
+            <ul>
+              <li>Kijk goed naar voorbeeld 3-6. </li>
+              <li>Probeer deze zo goed mogelijk na te maken.</li>
+            </ul>
+            <p>Sla het bestand op als <strong>Opdracht3-4.html. </strong>Test het in je webbrowser. </p></td>
+        </tr>
+      </table>
+      <br>
+      <table class="normal voorbeeld">
+        <tr>
+          <td>Voorbeeld 3-6</td>
+        </tr>
+        <tr>
+          <td><img src="img/voorbeeld3-6.png"></td>
+        </tr>
+      </table>
+      <h2>Text Effects</h2>
+      <table class="table info">
+        <tbody>
+          <tr>
+              <th>Property</th>
+              <th title="Internet Explorer"><img src="img/ie9-logo.png"></th>
+              <th title="Chrome"><img src="img/Google_Chrome_logo.png"></th>
+              <th title="Firefox"><img src="img/firefox-logo.png"></th>
+              <th title="Safari"><img src="img/safari-logo.png"></th>
+              <th title="Opera"><img src="img/Opera_Logo.png"></th>
+          </tr>
+          <tr>
+            <td>text-shadow</td>
+            <td>10.0</td>
+            <td>4.0</td>
+            <td>3.5</td>
+            <td>4.0</td>
+            <td>9.5</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>In CSS3 zijn verschillende tekst effecten mogelijk. Net  zoals je een divisie een schaduw kan geven, kan dat bij tekst nu ook. De  werking is hetzelfde als bij box-shadow. </p>
+       <table class="table overzicht">
+        <tr>
+          <td>waarde</td>
+          <td>eigenschap</td>
+        </tr>
+        <tr>
+          <td>h-shadow</td>
+          <td>Verplicht.    De positie van de horizontale schaduw. Er kunnen ook negatieve waardes worden    ingevuld. </td>
+        </tr>
+        <tr>
+          <td>v-shadow</td>
+          <td>Verplicht.    De positie van de verticale schaduw. Er kunnen ook negatieve waardes worden    ingevuld.</td>
+        </tr>
+        <tr>
+          <td>blur</td>
+          <td>Optioneel. De blur afstand</td>
+        </tr>
+        <tr>
+          <td>color</td>
+          <td>Optioneel.    Kleur van de schaduw</td>
+        </tr>
+      </table>
+      <br>
+       <table class="normal voorbeeld">
+        <tr>
+          <td>Voorbeeld 3-7</td>
+        </tr>
+        <tr>
+          <td><img src="img/voorbeeld3-7.png"></td>
+        </tr>
+      </table>
+      <br>
+       <table class="table opdracht">
+         <tr>
+           <td>Opdracht 5: namaken</td>
+         </tr>
+         <tr>
+           <td>Maak een nieuwe HTML5 pagina aan.
+             <ul>
+               <li>Kijk goed naar voorbeeld 3-7. </li>
+               <li>Type het stylesheet over in je nieuwe bestand. </li>
+               <li>Maak een h1 tussen de body tags.</li>
+               <li>Voeg daar de tekst &ldquo;Dit is de titel van de    pagina&rdquo; aan toe.</li>
+             </ul>
+             <p>Sla het bestand op als <strong>Opdracht3-5.html. </strong>Test het in je webbrowser. De pagina moet eruit    zien als voorbeeld 3-8.</p></td>
+         </tr>
+       </table>
+       <br>
+       <table class="normal voorbeeld">
+        <tr>
+          <td>Voorbeeld 3-8</td>
+        </tr>
+        <tr>
+          <td><img src="img/voorbeeld3-8.png"></td>
+        </tr>
+      </table>
+      <br>
+       <table class="normal voorbeeld">
+        <tr>
+          <td>Voorbeeld 3-9</td>
+        </tr>
+        <tr>
+          <td><img src="img/voorbeeld3-9.png"></td>
+        </tr>
+      </table>
+      <br>
+       <table class="table opdracht">
+         <tr>
+           <td>Opdracht 6: namaken</td>
+         </tr>
+         <tr>
+           <td width="614" valign="top"><p>Maak een nieuwe HTML5 pagina aan.</p>
+             <ul>
+               <li>Kijk goed naar voorbeeld 3-9. Probeer deze zo    goed mogelijk na te maken. Lees de tekst goed, daar kun je een hoop    informatie uithalen.</li>
+               <ul>
+                 <li>De tekst divisie is <strong>200px breed</strong>.</li>
+                 <li>Kleur is &ldquo;<strong>salmon</strong>&rdquo;</li>
+                 <li><strong>Schaduw</strong> van divisie is <strong>lightgrijs</strong>, van    titel is <strong>grijs</strong>.</li>
+                 <li><strong>Padding</strong> is 5px.</li>
+                 <li><strong>Rand</strong> is 2px dik</li>
+                 <li>Lettertype <strong>verdana</strong>. 11px. </li>
+                 <li>Titel is 16px vet gedrukt.</li>
+               </ul>
+             </ul>
+             <p>Sla het bestand op als <strong>Opdracht3-6.html. </strong>Test het in je webbrowser. De pagina moet eruit    zien als voorbeeld 3-9.</p></td>
+         </tr>
+       </table>
+       <h2>Fonts</h2>
+       <p>Het is nu mogelijk om gebruik te maken van andere letter types dan de standaard voorgeschreven lettertypes. Zelfs zonder dat de gebruiker het bewuste lettertype ge&iuml;nstalleerd moet hebben. Dit doe je met de <strong>@font-face</strong> regel. 
+       <table class="info table">
+         <tbody>
+          <tr>
+              <th>Property</th>
+              <th title="Internet Explorer"><img src="img/ie9-logo.png"></th>
+              <th title="Chrome"><img src="img/Google_Chrome_logo.png"></th>
+              <th title="Firefox"><img src="img/firefox-logo.png"></th>
+              <th title="Safari"><img src="img/safari-logo.png"></th>
+              <th title="Opera"><img src="img/Opera_Logo.png"></th>
+          </tr>
+           <tr>
+             <td>TTF/OTF fonts</td>
+             <td>9.0*</td>
+             <td>4.0</td>
+             <td>3.5</td>
+             <td>3.1</td>
+             <td>10.0</td>
+           </tr>
+           <tr>
+             <td>WOFF fonts</td>
+             <td>9.0</td>
+             <td>5.0</td>
+             <td>3.6</td>
+             <td>5.1</td>
+             <td>11.1</td>
+           </tr>
+           <tr>
+             <td>SVG fonts</td>
+             <td>Not supported</td>
+             <td>4.0</td>
+             <td>Not supported</td>
+             <td>3.2</td>
+             <td>9.0</td>
+           </tr>
+           <tr>
+             <td>EOT fonts</td>
+             <td>6.0</td>
+             <td>Not supported</td>
+             <td>Not supported</td>
+             <td>Not supported</td>
+             <td>Not supported</td>
+           </tr>
+         </tbody>
+       </table>
+       <p>* Werkt alleen als het font wordt ingesteld als &quot;installable&quot;.</p>
+       <p>Je ziet dus dat vanaf IE 9 het woff type wordt ondersteund door alle webbrowsers. Dit lettertype valt dus ook aan te raden. Het is niet moeilijk om bijvoorbeeld ttf om te zetten naar eot of woff. </p>
+       <table class="table let-op">
+         <tr>
+           <td>Let    op:</td>
+         </tr>
+         <tr>
+           <td>Internet Explorer 8 en lager ondersteunen de nieuwe @font-face regel    niet!</td>
+         </tr>
+       </table>
+       <br>
+       <table class="voorbeeld normal">
+         <tr>
+           <td>Voorbeeld 3-10</td>
+         </tr>
+         <tr>
+           <td><img src="img/voorbeeld3-10.png"></td>
+         </tr>
+       </table>
+       <p>
+         Je moet het <strong>@font-face</strong> gebruiken om  de naam te verzinnen voor je lettertype (<strong>font-family</strong>)  en <strong>src</strong> voor de locatie van het  lettertype. Vervolgens koppel je d.m.v. font-family dat lettertype aan een  bepaalde divisie of class.<br>
+         Als je een lettertype alleen in ttf formaat hebt kun je op  de website <a href="../../index-7.htm" target="_blank">http://ttf2woff.com/</a> deze heel gemakkelijk omzetten naar een woff bestand.</p>
+       <table class="opdracht table">
+         <tr>
+           <td>Opdracht 7: font gebruiken</td>
+         </tr>
+         <tr>
+           <td>Maak een nieuwe HTML5 pagina aan.
+             <ul>
+               <li>Ga naar <a href="../../index-8.htm">http://www.dafont.com</a>,    download een lettertype en sla deze op in dezelfde map als waar je deze    opdracht op slaat.</li>
+               <li>Maak in de CSS een @font-rule aan en voeg het    lettertype toe.</li>
+               <li>Zorg ervoor dat deze op alle webbrowsers werkt. </li>
+             </ul>
+             <p>Sla het bestand op als <strong>Opdracht3-7.html. </strong>Test het in je webbrowser. Het lettertype moet    nu zichtbaar zijn.</p></td>
+         </tr>
+       </table>
+<p>&nbsp;</p>
+      </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

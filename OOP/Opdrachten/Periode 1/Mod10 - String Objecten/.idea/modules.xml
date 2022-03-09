@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Mod10 - String Objecten.iml" filepath="$PROJECT_DIR$/.idea/Mod10 - String Objecten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod10_2/Mod10_2.iml" filepath="$PROJECT_DIR$/Mod10_2/Mod10_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10_1/mod10_1.iml" filepath="$PROJECT_DIR$/mod10_1/mod10_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10_10/mod10_10.iml" filepath="$PROJECT_DIR$/mod10_10/mod10_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10_3/mod10_3.iml" filepath="$PROJECT_DIR$/mod10_3/mod10_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10_4/mod10_4.iml" filepath="$PROJECT_DIR$/mod10_4/mod10_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10_5/mod10_5.iml" filepath="$PROJECT_DIR$/mod10_5/mod10_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10_6/mod10_6.iml" filepath="$PROJECT_DIR$/mod10_6/mod10_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10_7/mod10_7.iml" filepath="$PROJECT_DIR$/mod10_7/mod10_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10_8/mod10_8.iml" filepath="$PROJECT_DIR$/mod10_8/mod10_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10_9/mod10_9.iml" filepath="$PROJECT_DIR$/mod10_9/mod10_9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10h_1/mod10h_1.iml" filepath="$PROJECT_DIR$/mod10h_1/mod10h_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10h_2/mod10h_2.iml" filepath="$PROJECT_DIR$/mod10h_2/mod10h_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10h_3/mod10h_3.iml" filepath="$PROJECT_DIR$/mod10h_3/mod10h_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10h_4/mod10h_4.iml" filepath="$PROJECT_DIR$/mod10h_4/mod10h_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod10h_5/mod10h_5.iml" filepath="$PROJECT_DIR$/mod10h_5/mod10h_5.iml" />
+    </modules>
+  </component>
+</project>

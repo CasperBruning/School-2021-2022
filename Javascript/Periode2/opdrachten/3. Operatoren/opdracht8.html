@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Getallen vergelijken</h1>
+<hr>
+<p id="uitkomst"></p>
+<script>
+    let getal1 = prompt('Geef een getal')
+    let getal2 = prompt('Geef nog een getal')
+    let gelijkAan = "";
+    getal1 === getal2 ? gelijkAan = 'De twee getallen zijn gelijk aan elkaar' : gelijkAan = 'De twee getallen zijn niet gelijk aan elkaar';
+    console.log(gelijkAan)
+    document.querySelector('#uitkomst').innerHTML = `De getallen die u heeft ingevoerd zijn ${getal1} en ${getal2} <br> ${gelijkAan}`
+</script>
+</body>
+</html>

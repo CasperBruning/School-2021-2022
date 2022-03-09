@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Tabellen</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <link rel="stylesheet" href="../extrea.css" type="text/css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - Tabellen</h1>
+        </div>
+        <div class="ui-content" role="main">
+        <h2>Tabellen</h2>
+      <p>Tabellen kun je gebruiken voor het indelen van je pagina of om gegevens netjes weer te geven. Om een tabel te ontwikkelen moet je gebruik maken van meerdere html-tags.</p>
+<ul>
+<li>De hele tabel met <span class="redText">&lt;table&gt;</span> en <span class="redText">&lt;/table&gt;</span></li>
+<li>Elke rij met met <span class="redText">&lt;tr&gt;</span> en <span class="redText">&lt;/tr&gt;</span></li>
+<li>Elke cel met met <span class="redText">&lt;td&gt;</span> en <span class="redText">&lt;/td&gt;</span> of kolomkoppen met <span class="redText">&lt;th&gt;</span> en <span class="redText">&lt;/th&gt;</span></li>
+<li>Cellen samenvoegen horizontaal (<span class="redText">colspan</span>) en verticaal (<span class="redText">rowspan</span>)</li>
+</ul>
+
+<table class="table voorbeeld">
+<tbody>
+<tr>
+<td colspan="2">
+Voorbeeld 1 
+</td>
+</tr>
+<tr>
+<td><img src="img/h6v1.png" border='1'></td>
+<td>
+<img src="img/h6v2.png" border='1'>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Elke tabel open je met een <strong style="color:#18a401;">&lt;table&gt;</strong> tag. Vervolgens voeg je een &ldquo;rij&rdquo; (<strong style="color:#1200ff;">&lt;tr&gt;</strong>)  toe. Als laatste ga je een &ldquo;cel&rdquo; (<strong style="color:#f04141;">&lt;td&gt;</strong>) aanmaken. In die cel ga je tekst zetten. Als je dat hebt gedaan sluit je de cel (<strong style="color:#f04141;">&lt;/td&gt;</strong>) weer af.&nbsp; Als je genoeg &ldquo;cellen&rdquo; op 1 rij hebt staan dan sluit je ook de rij weer af (<strong style="color:#1200ff;">&lt;/tr&gt;</strong>). Je kan nu het hele proces herhalen van een rij aanmaken, cellen aanmaken. Zorg dat je helemaal aan het einde niet vergeet de tabel af te sluiten (<strong style="color:#18a401;">&lt;/table&gt;</strong>).</p>
+<table class="table let-op">
+          <tbody><tr>
+            <td>Let op:</td>
+          </tr>
+          <tr>
+          <td>
+     Zorg dat je alle tags sluit, anders is de hele uitkomst van de tabel anders!
+         </td></tr></tbody></table>
+         <p>Om het overzichtelijk te houden is het aan te raden om de code in te springen (tab-toets) op het moment dat er een nieuwe openingstag wordt getypt terwijl de laatste tag nog niet is afgesloten. Er wordt een <strong style="color:#1200ff;">&lt;tr&gt; </strong>getypt terwijl <strong style="color:#18a401;">&lt;table&gt;</strong> nog niet is afgesloten. De <strong style="color:#1200ff;">&lt;tr&gt;</strong> spring je dan in. Bij <strong style="color:#f04141;">&lt;td&gt; </strong>geldt hetzelfde. Hiermee houdt je de code overzichtelijk .</p>
+         <table class="table opdracht">
+        	<tr><td>Opdracht 1: Tabellen</td></tr>
+            <tr><td>
+            <p>Open in je editor een nieuw HTML bestand.</p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht6-1.html</strong></li>
+<li>Maak de tabel van Voorbeeld 1 exact na.</li>
+<li>Test in je browser of je tabel klopt.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht6-1.html</strong>.</p>
+            </td></tr>
+            </table>
+            <p>Je ziet dat bij <span class="redText">&lt;table&gt;</span> de eigenschap <span class="redText">border=&rdquo;1&rdquo;</span> is toegevoegd. Eigenlijk is dit opmaak van je pagina en doen we dit met CSS. Dit gaan we later ook doen maar als je nu de eigenschap weg laat, zie je in je browser de randen niet. Daardoor is het lastig controleren of je het goed gedaan hebt. Er zijn nog veel meer eigenschappen die je aan <span class="redText">&lt;table&gt;</span>, <span class="redText">&lt;tr&gt; </span>en <span class="redText">&lt;td&gt;</span> kan koppelen maar dit is allemaal opmaak. Hier komen we later bij het CSS verhaal op terug.</p>
+<p>Als <strong>vervanging</strong> van de <span class="redText">&lt;td&gt;</span> kan je ook <span class="redText">&lt;th&gt;</span> gebruiken. Dit staat voor Table Header. De tekst in deze cel wordt automatisch vetgedrukt. Eigenlijk opmaak maar de <span class="redText">&lt;th&gt;</span> mag gebruikt worden.</p>
+<table class="table opdracht">
+        	<tr><td>Opdracht 2: Tabellen</td></tr>
+            <tr><td>
+            <p>Open in je editor een nieuw HTML bestand.</p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht6-2.html</strong></li>
+<li>Maak de onderstaande tabel na. Gebruik hiervoor de <strong>&lt;th&gt;</strong> waar dit nodig is.<br>
+<img src="img/h6o2.png"></li>
+<li>Test in je browser of je tabel klopt.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht6-2.html</strong>. </p>
+            </td></tr>
+            </table>
+            <p>Wat wel belangrijke eigenschappen van een <strong>&lt;td&gt; </strong>zijn de <strong>colspan</strong> en <strong>rowspan</strong>. Hiermee voeg je namelijk cellen samen. Wil je dit <span style="text-decoration: underline;">horizontaal</span> doen, dus op een rij, dan gebruik je de <span style="text-decoration: underline;">colspan</span>. Wil je dit <span style="text-decoration: underline;">verticaal</span> doen, dus in een kolom, dan gebruik je de <span style="text-decoration: underline;">rowspan</span>.</p>
+<p>Hoe werkt het? Stel we willen in het voorbeeld hierboven Cel 8 en Cel 9 samenvoegen. Dit is horizontaal en dus op een rij. Je hebt dus de colspan nodig. Dit is een eigenschap van een &lt;td&gt;.</p>
+<p>Je gaat naar de &lt;td&gt; van de &eacute;&eacute;rste cel die samengevoegd moet worden. In dit geval is dat dus Cel 8. Aan de &lt;td&gt; voeg je een colspan toe. De code wordt dan: <img src="img/h6v3.PNG" width="300" border="1">. De 2 staat voor het aantal cellen dat moet worden samengevoegd. Dat is hier Cel 8 &amp; 9 dus 2 cellen.&nbsp;<strong>Belangrijk is dan nog dat je de &lt;td&gt; van cel 9 weghaalt</strong>! Anders zou je laatste rij 4 cellen bevatten.</p>
+<table class="table opdracht">
+        	<tr><td>Opdracht 3: Row- & colspan</td></tr>
+            <tr><td>
+            <p>Open in je editor het bestand van <strong>Opdracht6-2.html</strong></p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht6-3.html</strong></li>
+<li>Maak de onderstaande tabel na. Gebruik hiervoor de <strong>colspan </strong>&amp;<strong> rowspan</strong> waar dit nodig is.<br>
+<img src="img/h6o3.png"></li>
+<li>Test in je browser of je tabel klopt.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht6-3.html</strong>. </p>
+            </td></tr>
+            </table>
+            <br>
+            <img src="img/rooster.PNG">
+            <table class="table opdracht">
+        	<tr><td>Opdracht 4: Rooster</td></tr>
+            <tr><td>
+            <p>Open in je editor een nieuw HTML bestand.</p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht6-4.html</strong></li>
+<li>Probeer met een tabel&nbsp;het&nbsp;rooster dat hierboven staat, zo goed mogelijk na te maken. Gebruik hiervoor de <strong>&lt;th&gt;, colspan &amp; rowspan</strong>.</li>
+<li>De blauwe kleur hoef je niet toe te voegen maar die cellen zijn samengevoegd.</li>
+<li>Test in je browser of je tabel klopt.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht6-4.html</strong>.</p>
+            </td></tr>
+            </table>
+         </div>
+        <div data-role="footer" data-position="fixed" >
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

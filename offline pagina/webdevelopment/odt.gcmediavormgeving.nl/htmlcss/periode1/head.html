@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Head</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <link rel="stylesheet" href="../extrea.css" type="text/css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - Head</h1>
+        </div>
+        <div class="ui-content" role="main">
+        <h2>De head</h2>
+       <p> 
+       Tussen <span class="redText">&lt;head&gt;</span> & <span class="redText">&lt;/head&gt;</span> kan je een aantal "eigenschappen" geven. Hieronder zie je een aantal eigenschappen die je in de HEAD-sectie zou kunnen gebruiken. Alleen de 1e (<span class="redText">&lt;title&gt;</span>) is verplicht.
+      </p>
+      <table class="table overzicht">
+          <tr>
+            <td>tags:</td>
+            <td>Doel:</td>
+          </tr>
+          <tr>
+<td width="50%">
+&lt;title&gt;Titel van pagina&lt;/title&gt;
+</td>
+<td>
+Hiermee geef je je site een &ldquo;titel&rdquo;. Deze staat boven in de browser als je webpagina word geladen.
+</td>
+</tr>
+<tr>
+<td>
+&lt;style type=&rdquo;text/css&rdquo;&gt;&lt;/style&gt;
+</td>
+<td>
+Tussen deze tags kan je CSS code zetten waarmee je de webpagina kan opmaken.
+</td>
+</tr>
+<tr>
+<td>
+&lt;link rel="stylesheet" type="text/css" href="mijnstyle.css" &gt;
+</td>
+<td>
+Hiermee koppel je een &ldquo;externe&rdquo; CSS bestand (stylesheet) aan je webpagina.
+</td>
+</tr>
+<tr>
+<td>
+&lt;meta name="description" content="Beschrijving" &gt;
+</td>
+<td>
+Met deze tag geef je de webpagina een beschrijving. Vooral belangrijk voor zoekmachines.
+</td>
+</tr>
+<tr>
+<td>
+&lt;meta name="author" content="Jouw naam" &gt;
+</td>
+<td>
+Met deze tag kan je vermelden dat jij de auteur bent. Vooral belangrijk voor zoekmachines.
+</td>
+</tr>
+<tr>
+<td>
+&lt;meta name="keywords" content="Zoekwoorden" &gt;
+</td>
+<td>
+Met deze tag geef je een aantal zoekwoorden op. Zoekmachines registreren dit en zodra er op deze woorden gezocht wordt, komt jou webpagina eerder naar voren.
+</td>
+</tr>
+        </table>
+        <p>Alles wat in de HEAD-sectie staat is vooral belangrijk voor zoekmachines. We gaan nu nog niet heel veel aandacht aan de head besteden. Het is belangrijk om te weten waar het voor dient. <br><br>
+
+Als je goed kijkt zie je dat de tag <span class="redText">&lt;meta&gt;</span> meerdere malen voorkomt. Je ziet dat er verschillende eigenschappen aan de tag zitten. Dit gaan we nader bekijken. 
+</p>
+ <table class="table opdracht">
+        	<tr><td>Opdracht 1: meta tag</td></tr>
+            <tr><td>
+            <p>Open in je editor het bestand Opdracht1-2.html</p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht2-1.html</strong></li>
+<li>Ga met je cursor achter de sluittag van title staan (&lt;/title&gt;) en druk op <strong>enter</strong>.</li>
+<li>Type nu <strong>&lt;meta</strong> en daarna een <strong>spatie</strong>.</li>
+<li>Als je met Dreamweaver werkt merk je dat er een uitvouwmenu verschijnt.</li>
+<li>Type nu <strong>name </strong>en druk op de <strong>tab-toets</strong>.</li>
+<li>Je ziet dat er automatisch <strong>=&rdquo;&rdquo; </strong> Ook staat je cursor nu precies tussen de twee aanhalingstekens in. Dat is ook de bedoeling. Je ziet ook een nieuw uitklapmenu verschijnen.</li>
+<li>Ga met de pijltjes toets naar <strong>description </strong>en druk op <strong>enter</strong>. Mocht je uitklapmenu verdwenen zijn, kun je deze altijd oproepen door op ctrl+spatiebalk te drukken.</li>
+<li>Type vervolgens weer een <strong>spatie</strong> en selecteer nu <strong>content.</strong>&nbsp;Druk weer op <strong>enter.</strong></li>
+<li>Type nu weer tussen de twee aanhalingstekens een beschrijving van deze opdracht.</li>
+<li>Als je daarmee klaar bent ga je achter het laatste aanhalingsteken staan en type je een&nbsp;<strong>&gt;</strong>. Hiermee sluit je de meta tag af.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht2-1.html</strong>.</p>
+            </td></tr>
+            </table>
+            <p>Je ziet dat de meta tag niet op de originele manier wordt afgesloten. Je zou verwachten aan het einde van de regel &lt;/meta&gt;. Dit is alleen het geval wanneer de tekst tussen de begin- en sluittag be&iuml;nvloed wordt door de tag. In dit geval staat alle info al in de eigenschappen dus wordt de tag <strong>niet</strong> afgesloten.</p>
+            <table class="table let-op">
+        	<tr><td>Let op:</td></tr>
+            <tr><td>Ook de &lt;br&gt; (enter op je scherm) en &lt;hr&gt; (horizontale lijn) tags worden <strong>niet</strong> afgesloten!</td></tr>
+        </table> 
+        <p>Bijna elk html element heeft verschillende eigenschappen. Om te kijken welke eigenschappen er mogelijk zijn kun je altijd met je cursor voor de <strong>&gt; </strong>van de begin-tag gaan staan en een spatie typen. In Dreamweaver verschijnt dan het uitvouwmenu, ook wel de <strong>codehint</strong> genoemd.</p>
+        <table class="table opdracht">
+        	<tr><td>Opdracht 2: meta tag uitbreiden</td></tr>
+            <tr><td>
+            <p>Open in je editor <strong>Opdracht 2-1.html</strong></p>
+<ul>
+<li>Voer een nieuwe meta tag in met bij name <strong>Author</strong> en bij content<strong> jouw naam</strong>.</li>
+<li>Voer nog een nieuwe meta tag in met <strong>keywords</strong> en een aantal zoekwoorden die over deze opdracht gaan. De zoekwoorden moeten met een komma gescheiden worden.</li>
+<li>Probeer zoveel mogelijk gebruik te maken van de codehint. Lukt dit niet, type het dan zelf. Kijk daarbij goed naar waar je wat neer moet zetten.</li>
+<li>Je pagina moet er dan uitzien zoals hieronder
+<img src="img/h2o2.PNG">
+</li>
+</ul>
+Sla de opdracht op als <strong>Opdracht2-2.html</strong>.
+            </td></tr>
+            </table>
+         </div>
+        <div data-role="footer" data-position="fixed" >
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

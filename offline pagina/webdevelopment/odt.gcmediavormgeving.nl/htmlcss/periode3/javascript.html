@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - JavaScript</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+   	<script type="text/javascript">
+	
+	function displayDate(){
+		document.getElementById("demo").innerHTML=Date();	
+	}
+	
+	function showAlert() {
+		alert("Mijn eerste JavaScript!");	
+	}
+	
+	function count(a,b){
+		var total = a+b;
+		alert(total);	
+	}
+	
+	function play(){
+		var vid=document.getElementById("myVideo");
+		if(vid.paused){
+			vid.play();
+			document.getElementById("play").innerHTML="Pause";
+		} else {
+			vid.pause();
+			document.getElementById("play").innerHTML="Play";
+		}
+	}
+	
+	function volume(){
+		var vid=document.getElementById("myVideo");
+		if(vid.volume==1){
+			vid.volume=0;
+			document.getElementById("volume").innerHTML="Aan";	
+		} else {
+			vid.volume=1;
+			document.getElementById("volume").innerHTML="Uit";	
+		}
+	}
+	
+	function klein(){
+		var vid=document.getElementById("myVideo");
+		vid.width=300;	
+	}
+	function normal(){
+		var vid=document.getElementById("myVideo");
+		vid.width=420;	
+	}
+	function groot(){
+		var vid=document.getElementById("myVideo");
+		vid.width=560;	
+	}
+	</script>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML5 & CSS3 - JavaScript</h1>
+        </div>
+      <div class="ui-content" role="main">
+        <h2>Introductie JavaScript</h2>
+ <p><strong>JavaScript</strong> is een  scripttaal die veel gebruikt wordt om webpagina's interactief te maken en  webapplicaties te ontwikkelen.<br><br>
+          De syntaxis van JavaScript vertoont overeenkomsten met de  programmeertaal Java. Omdat beide talen het meest zichtbaar zijn op en rond de  browser, maar vooral door de naamgeving, worden ze vaak met elkaar verward. De  gelijkenis houdt daar echter op, want JavaScript heeft inhoudelijk meer gemeen  met functionele programmeertalen, het biedt prototype-gebaseerde overerving en  niet, zoals Java en de meeste objectgeori&euml;nteerde talen, klasse-gebaseerde  overerving.<br><br>
+          JavaScript staat tussen de <strong>&lt;head&gt;</strong> tags op je HTML pagina. Een voorbeeld daarvan zie je  in voorbeeld8-3</p>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 9-1</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld9-1.png"></td>
+          </tr>
+        </table>
+        <p>
+          Binnen de code maak je zelf functies aan welke je vervolgens in je HTML code  aan roept. Hieronder zie je een  voorbeeld van een script. Daarna volgt een regel voor regel uitleg.</p>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 9-2</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld9-2.png"></td>
+          </tr>
+        </table>
+        <br>
+        <table class="overzicht table">
+          <tr>
+            <td valign="top">regelnummer</td>
+            <td valign="top" align="center">uitleg</td>
+          </tr>
+          <tr>
+            <td valign="top" align="right">4</td>
+            <td valign="top">Opening van de <strong>&lt;script&gt;</strong> tag. Let goed op het type.</td>
+          </tr>
+          <tr>
+            <td valign="top" align="right">5</td>
+            <td valign="top">Er wordt een function gemaakt genaamd <strong>showAlert(). </strong>Vergeet niet de <strong>{</strong> net zoals bij CSS.</td>
+          </tr>
+          <tr>
+            <td valign="top" align="right">6</td>
+            <td valign="top">Dit is wat de functie uitvoert, in dit geval een <strong>alert. </strong>Een alert is een soort pop-up met tekst erin. De tekst    binnen de dubbele quotes, wordt weergegeven. Vergeet niet de <strong>;</strong> aan het einde.</td>
+          </tr>
+          <tr>
+            <td valign="top" align="right">7 </td>
+            <td valign="top">De functie wordt afgesloten met een <strong>}</strong>.</td>
+          </tr>
+          <tr>
+            <td valign="top" align="right">8</td>
+            <td valign="top">De <strong>&lt;/script&gt;</strong> tag    wordt afgesloten.</td>
+          </tr>
+          <tr>
+            <td valign="top" align="right">12</td>
+            <td valign="top">In de HTML wordt een button aangemaakt. Zodra op deze button wordt    geklikt (<strong>onclick</strong>) wordt de functie <strong>showAlert()</strong> uitgevoerd. Het woord    Melding staat op de button vermeld. </td>
+          </tr>
+        </table>
+        <br>
+         <table class="opdracht table">
+          <tr>
+            <td>Opdracht 1: Alert box</td>
+          </tr>
+          <tr>
+            <td valign="top">Maak een nieuw HTML5 bestand.
+              <ul>
+                <li>Type voorbeeld 9-2 over. </li>
+                <li>Sla het bestand op en test of het werkt. Zodra    je op je knop drukt, krijg je een messagebox te zien met daarin de getypte    tekst.</li>
+                <li>Klik <a href="#" onClick="showAlert()">hier</a> voor een demo.
+              </ul>
+              Sla het bestand op als <strong>Opdracht9-1.html</strong>.</td>
+          </tr>
+        </table>
+        <p>
+          Je ziet op regel 5 dat de functie <strong>showAlert()</strong> gemaakt wordt. De twee ronde haken lijken doelloos maar hebben wel degelijk een  functie. Binnen deze haken kun je een tekst of waarde meegeven welke binnen de  functie gebruikt (moeten) worden. Zo kan JavaScript twee getallen bij elkaar <strong>optellen</strong>.<br><br>
+          Om dit te doen moet je een aantal stappen doorlopen. Als  eerste moeten er twee getallen meegegeven worden aan de functie, zodat deze  weet welke getallen bij elkaar opgeteld moeten worden. Dit doe je door in de  HTML, waar de functie wordt aangeroepen twee getallen tussen de ronde haken te  vermelden, gescheiden door een komma. Een voorbeeld daarvan zie je hieronder<br>
+  <br><img src="img/voorbeeld9-3.png" style="max-width:100%;border:solid 1px black;"><br><br>
+          Dit is de functie <strong>countNumbers(). </strong>Binnen deze functie staan de getallen 4 en 5. In de JavaScript moet deze  functie dan ook bestaan en moeten de twee getallen in een variabele worden  gezet. <br><br>
+          <img src="img/voorbeeld9-4.png" style="max-width:100%;border:solid 1px black;">
+        </p>
+        <p>
+Op regel  5 wordt de functie naam genoemd en worden de getallen die mee gestuurd worden  in een variabele opgeslagen. In dit geval <strong>a</strong> en <strong>b</strong>. Daarna wordt op regel 6 een  nieuwe variabele aangemaakt genaamd <strong>totaal.</strong> Door het woordje <strong>var</strong> voor totaal,  weet JavaScript dat het om een nieuwe variabele gaat. In totaal worden a (getal  4) en b (getal 5) bij elkaar opgeteld. Vervolgens wordt op regel 7 totaal  afgedrukt in een messagebox.<br>
+<br><img src="img/voorbeeld9-5.png" style="max-width:100%;"></p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 2: Optellen</td>
+          </tr>
+          <tr>
+            <td valign="top">Maak een nieuw HTML5    bestand.
+              <ul>
+                <li>Probeer, zoals hierboven staat uitgelegd, een    functie te maken die twee getallen bij elkaar optelt. </li>
+                <li>Test in je webbrowser of inderdaad de twee,    door jouw bedachte getallen, bij elkaar optelt.</li>
+              </ul>
+              Sla het bestand op    als <strong>Opdracht9-2.html</strong>.</td>
+          </tr>
+        </table>
+        <h2>JavaScript</h2>
+        <p>Hierboven zijn we begonnen met het ontwikkelen van <strong>javascript</strong>. Weet je het nut er nog van?  Waarom was het ook alweer handig? Wat is het verschil met HTML? Javascript  wordt door alle webbrowsers ondersteund en is ontwikkeld om de statische HTML  pagina&rsquo;s interactief te maken. Nu is met de komst van HTML5, html al meer  interactief geworden maar nog niet voldoende om het te doen vervangen.<br><br>
+          Hierboven hebben we een functie gemaakt welke een tekst of  opgetelde getallen in een messageBox liet zien. Dit gebeurde steeds op het  moment dat erop een knop gedrukt werd. In javascript is het ook mogelijk om  tekst op het scherm te laten veranderen.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 3: Namaken</td>
+          </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.
+              <ul>
+                <li>Zet de volgende regel tussen de body tags. <br>
+                <img src="img/opdracht9-3.png"></li>
+                <li>Voeg daaronder de volgende regel toe<br>
+                <img src="img/opdracht9-31.png"> </li>
+                <li>Test het bestand in je webbrowser, het moet er    dan uitzien zoals <strong>hieronder</strong> afgebeeld.</li>
+                <li>Klik <a href="#" onClick="count(4,5)">hier</a> voor een demo.
+              </ul>
+              Sla het bestand op als <strong>opdracht9-3.html</strong></td>
+          </tr>
+        </table>
+        <br>
+       
+            <p id="demo">Hier staat nu normale tekst</p>
+            <a href="#" onClick="displayDate()">laat de datum zien</a>
+        
+        
+        <p><br>
+          Als je nu op "laat de datum zien" drukt, dan verschijnt daarboven de huidige datum en tijd. Bij jou is dat nog niet. Dat komt omdat we nog geen  javascript hebben toegevoegd. Dat gaan we nu doen.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 4: DisplayDate()</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>opdracht9-3.html</strong>.
+              <ul>
+                <li>Voeg tussen de head de &lt;script&gt; tags    toe, zodat je javascript kan toevoegen.</li>
+                <li>Maak vervolgens de functie <strong>displayDate()</strong></li>
+                <li>type de volgende regel binnen je functie<br>
+                <img src="img/opdracht9-4.png"> </li>
+                <li>Sla het bestand op als <strong>opdracht9-4.html</strong>.</li>
+                <li>Test het bestand in je webbrowser. Zodra je op    de knop drukt veranderd de gewone tekst in de huidige tijd en datum.</li>
+              </ul></td>
+          </tr>
+        </table>
+        <p>Je hebt net gezien dat je HTML elementen kunt  &ldquo;identificeren&rdquo; met <img src="img/hfst9-1.png">. Daardoor worden de elementen met javascript te  benaderen. Dit doe je met de javascript functie     <img src="img/hfst9-2.png">. Met <strong>innerHTML</strong> kun je de tekst van het  bewuste element aanpassen. In dit geval wordt de functie <strong>Date()</strong> daar geplaatst. Dat zorgt ervoor dat de datum en tijd wordt  geplaatst.</p>
+        <h2>Video</h2>
+        <p>Ook in vorige les behandeld, is de &lt;video&gt; tag. Een  video is aan te sturen door middel van play-, pauze- en stopknoppen. Deze  knoppen kun je ook zelf maken en de video beheren. De werking daarvan gaat met  javascript.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 5: Video aansturen</td>
+          </tr>
+          <tr>
+            <td>Open een nieuw HTML bestand
+              <ul>
+                <li>Zorg voor een video in twee formaten zodat <strong>alle webbrowsers</strong> deze ondersteunen.    Zorg voor een <strong>andere video dan de    vorige les</strong>. Als je niet meer weet hoe dit moet, bekijk dan even de lessen    over audio &amp; video.</li>
+                <li>Voeg aan je pagina de video toe, <strong>zonder</strong> controls. Geef de video wel    een id mee, zodat deze dadelijk met javascript te benaderen is. Noem deze <strong>video1</strong>.</li>
+                <li>Sla het bestand op als <strong>opdracht9-5.html.</strong></li>
+                <li>Test in je webbrowser of het filmpje werkt.</li>
+                <li>Omdat je geen controls hebt, begint het    filmpje niet maar wordt alleen <strong>geladen</strong>.</li>
+                <li>Voeg een button boven het filmpje toe die de    functie <strong>play()</strong> uitvoert zodra er op <strong>geklikt</strong> wordt. </li>
+                <li>Voeg nu javascript toe en maak daarin de    functie <strong>play()</strong> aan.</li>
+                <li>Met de functie <strong>getElementById</strong> kun je het filmpje aanroepen. Doe dat en zet er <strong>.play();</strong> achter. Kijk goed naar de    uitleg hierboven.</li>
+                <li>Sla het bestand op en test het in je    webbrowser. Zodra het filmpje geladen is, druk je op de play knop. Het    filmpje moet nu af gaan spelen.</li>
+                <li>Onderaan deze pagina zie je een demo</li>
+              </ul>
+              Sla het bestand op als <strong>opdracht9-5.html</strong></td>
+          </tr>
+        </table>
+        <p>
+          Alleen een play knop is natuurlijk niet voldoende. Eigenlijk is de play knop  ook een pauze knop. Het is namelijk of play of pause. We willen deze knop dus  uitbreiden. Het video element kent een aantal statussen. E&eacute;n daarvan is <strong>paused</strong>. Het video element weet dus of  het filmpje afspeelt of gepauzeerd is. Hier kunnen we handig gebruik van maken.  We zullen door middel van een if-statement moeten controleren of het filmpje  speelt of gepauzeerd is. <br><br>
+          Het if-statement in javascript is hetzelfde als in andere  programmeertalen. De syntax zie je in voorbeeld8-2. Omdat we steeds de video  moeten aanspreken in de code, is het handig om aan het begin van je javascript  code de waarde <strong>document.getElementById(&ldquo;video1&rdquo;);</strong> af te vangen in een variabele. Dit scheelt een hoop typewerk binnen de if en  het houdt je code overzichtelijk. Een voorbeeld staat in voorbeeld9-4.</p>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 9-4</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld9-7.png"></td>
+          </tr>
+        </table>
+        <br>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 6: Pauze knop</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>opdracht9-5.html</strong>.
+              <ul>
+                <li>Zorg dat er een variabele is met <strong>myVideo</strong> waarin de tekst    document.getElementById wordt afgevangen.</li>
+                <li>Voeg een if-statement toe aan de play functie    waarin wordt gecheckt of de video op pauze staat (<strong>myVideo.paused</strong>). </li>
+                <li>Als dat <strong>waar</strong> is, moet de video <strong>afgespeeld</strong> worden.</li>
+                <li>Als dat <strong>niet    waar</strong> is, moet de video op pauze gezet worden (<strong>pause();</strong>)</li>
+                <li>Pas de tekst op de knop aan naar <strong>Play/Pauze</strong></li>
+                <li>Test in je webbrowser of je knop werkt. </li>
+                <li>Onderaan deze pagina zie je een demo</li>
+              </ul>
+              Sla het bestand op als <strong>opdracht9-6.html</strong></td>
+          </tr>
+        </table>
+        <p>
+          Een andere eigenschap is <strong>volume</strong>.  Deze kan je ook regelen. Volume ligt tussen de waarde 0 en 1. Waarbij de  laagste waarde het zachtst is. Hier moet dus echt een waarde worden toegevoegd.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 7: Volume knop</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>opdracht9-6.html</strong>.
+              <ul>
+                <li>Voeg een nieuwe knop aan de html toe die <strong>volume</strong> heet en de functie <strong>volume()</strong> aanroept.</li>
+                <li>Maak in je javascript de functie volume() en    zet daar het <strong>volume op 0</strong>.</li>
+                <li>Sla het bestand op als <strong>opdracht9-5.html</strong>.</li>
+                <li>Test in je webbrowser of het geluid <strong>stopt</strong> zodra er op de volume knop    wordt gedrukt.</li>
+                <li>Het nadeel is nu dat het geluid niet meer aan    kan. Breid je functie uit met een <strong>if-statement</strong> waarbij gecheckt wordt op de <strong>huidige    volume waarde</strong> en aan de hand daarvan het volume op 1 of 0 wordt gezet.</li>
+                <li>Onderaan deze pagina zie je een demo</li>
+              </ul>
+              Sla het bestand op als <strong>opdracht9-7.html</strong></td>
+          </tr>
+        </table>
+        <p>
+          Naast volume kun je ook de <strong>afmetingen</strong> van je film aanpassen. Dit doe je door de <strong>width</strong> een andere waarde dan het origineel te geven. Width is de breedte. Omdat het  een filmpje is wordt de <strong>hoogte</strong> automatisch mee veranderd.</p>
+          <p><img src="img/hfst9-3.png" style="max-width:100%;border:solid 1px black;" >
+          </p>
+          <table class="opdracht table">
+          <tr>
+            <td>Opdracht 8: Grootte aanpassen</td>
+          </tr>
+            <tr>
+              <td>Open het bestand <strong>opdracht9-7.html</strong>.
+                <ul>
+                  <li>Voeg drie knoppen toe en noem deze <strong>groter</strong>, <strong>kleiner</strong>, <strong>normaal</strong>. Geef    ze alle drie, functionele functienamen.</li>
+                  <li>Voeg de <strong>drie</strong> <strong>functies</strong> toe aan je javascript.</li>
+                  <li>Kijk in je Windows hoe breed je video is.</li>
+                  <li>Voeg bij de groter functie<strong>, 150px toe</strong> aan het origineel.</li>
+                  <li>Bij de functie kleiner haal je <strong>150px van</strong> het origineel af.</li>
+                  <li>De functie normaal zorgt ervoor dat de breedte    weer het <strong>origineel</strong> aanneemt.</li>
+                  <li>Sla het bestand op als <strong>opdracht9-8.html</strong>. en test of het werkt in je webbrowser.</li>
+                  <li>Hieronder zie je een demo</li>
+                </ul>
+                </td>
+            </tr>
+          </table>
+          <br>
+          <video width="420" id="myVideo">
+          	<source src="../../files/What is HTML5.mp4" type="video/mp4">
+          </video><br>
+          <a href="#" id="play" onClick="play()">Play</a>
+          Volume: <a href="#" id="volume" onClick="volume()">Uit</a>
+          size: <a href="#" onClick="klein()">Klein</a>
+          <a href="#" onClick="normal()">Normaal</a>
+          <a href="#" onClick="groot()">Groot</a> <br><br>
+          <table class="opdracht table">
+          <tr>
+            <td>Opdracht 9: Audio</td>
+          </tr>
+            <tr>
+              <td>Open een nieuw HTML bestand</p>
+                <ul>
+                  <li>Voeg een audio bestand toe zonder controls</li>
+                  <li>Voeg twee knoppen toe, play en volume.</li>
+                  <li>Probeer, net zoals in de opdrachten hierboven,    om het afspelen en de volume van het audio bestand te regelen.</li>
+                </ul>
+                Sla het bestand op als <strong>opdracht9-9.html</strong></td>
+            </tr>
+          </table>
+
+      </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

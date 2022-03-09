@@ -1,0 +1,37 @@
+Taalinstellingen	
+Een tekstverwerkingsprogramma moet natuurlijk een groot aantal taalvoorzieningen hebben, zoals:
+- spellingcontrole
+- taal instellen
+- synoniemen opzoeken
+
+Andere voorzieningen zijn handig, zoals:
+- standaard stukken tekst invoegen (autotekst)
+- automatische correctie van typfouten (autocorrectie)
+
+
+Spellingcontrole
+Deze kan na afloop van het invoeren van de tekst plaatsvinden, maar ook tijdens het invoeren. Daarvoor beschikt het programma over een standaard woordenlijst om de woorden op te zoeken.
+
+
+Taal instellen
+Hiermee kun je achteraf instellen in welke taal een tekstdeel staat, zodat de spellingcontrole daarmee rekening houdt. Pas dit maar eens toe op de volgende teksten:
+
+Hamlet is without question the most famous play in the English language. Probably written in 1601 or 1602, the tragedy is a milestone in Shakespeare's dramatic development; the playwright achieved artistic maturity in this work through his brilliant depiction of the hero's struggle with two opposing forces: moral integrity and the need to avenge his father's murder.
+
+Un groupe inconnu a revendiqué dimanche l'incendie criminel qui a détruit un centre social juif à Paris 11e, à l'aube
+Sur un site internet islamiste, un "groupe de jeunes moudjahidine" qui se fait appeler "Groupe des partisans de la guerre sainte islamique", affirme avoir "mis le feu au temple juif".
+
+Willy Huhn wird am 11. Januar 1909 als Sohn eines "reichsdeutschen" Kriminalbeamten im lothringischen Metz geboren und wächst nach der Ausweisung der Familie aus Frankreich 1919 in Berlin auf. Nach einer Buchhändlerlehre wird er 1929 Mitglied im Zentralverband der Angestellten und 1930 als Mitglied der Jungsozialistischen Vereinigung Mitglied der SPD. 1931 schließt er sich der Sozialistischen Arbeiterpartei Deutschland an und bleibt bis Anfang 1933 deren Mitglied. Er arbeitet gleichzeitig und bis in die ersten Jahre des Nazireiches konspirativ mit früheren Rätekommunisten und KPD-Mitgliedern im Kreis der "Roten Kämpfer" bis die Gruppe nach 1934 auf illegale politische Arbeit verzichtet.
+
+
+
+Synoniemen opzoeken
+Synoniemen zijn woorden met dezelfde betekenis. Als je voor de derde keer of vaker een bepaald woord gebruikt, is het vaak wel zo mooi om in plaats daarvan een keer een synoniem te gebruiken.
+
+ 
+Autotekst
+Als je middels een sneltoets snel een standaard stuk tekst kunt invoeren, scheelt dat uiteraard tijd en de kans op typfouten.
+
+
+Autocorrectie
+Het is handig als de tekstverwerker typfouten corrigeert tijdens het typen. Als je dus het woord "onmiddelijk" typt, wordt de tweede "l" automatisch toegevoegd. Ook kun je dit gebruiken om afkortingen in te voeren die automatisch vervangen woorden door langere teksten.

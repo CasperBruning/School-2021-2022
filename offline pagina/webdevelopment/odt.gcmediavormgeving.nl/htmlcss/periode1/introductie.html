@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Introductie</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css">
+    <link rel="stylesheet" href="../extrea.css" type="text/css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - Introductie</h1>
+        </div>
+        <div class="ui-content" role="main">
+        <h2>HTML</h2>
+
+        <p> 
+        HTML staat voor <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage. HyperText wil zeggen dat de websitecode opgebouwd is uit  “tags”. Daarnaast ondersteunt het Hyperlinks. In het Nederlands ook wel koppelingen genoemd. Hier komen we later nog uitgebreid op terug. <br><br><img src="../img/p1h1a.jpg" align="left" style="width:300px;margin:0px 10px 10px 0px;">
+Markup Language is vrij vertaald, opmaak taal. Dit is echter achterhaald. De opmaak van je webpagina doe je met <b>CSS</b>. Over CSS gaan we het later uitgebreid hebben. We concentreren ons nu eerst op HTML. <b>HTML is puur voor de structuur van je website. CSS is voor de opmaak en vormgeving.</b><br><br> 
+Zoals gezegd bestaat een HTML pagina uit tags. Met een tag geef je aan wat er met de tekst moet gebeuren. Zo kan je de tekst opdelen in alinea's, tabellen maken, plaatjes toevoegen of een hyperlink (koppeling) maken. Bijna elke HTML tag heeft een begin- en sluittag. Een begintag ziet er als volgt uit: <span class="redText">&lt;html&gt;</span>. De opbouw is altijd hetzelfde. Je begint met een kleiner-dan-teken, daarna komt de naam van het HTML element. Vervolgens sluit je de begintag met een groter-dan-teken.<br><br> 
+De sluittag is bijna hetzelfde als de begintag. Het enige verschil is dat er na het kleiner-dan-teken een slash staat. In dit geval dus <span class="redText">&lt;/html&gt;</span>.
+
+        
+</p><br>
+<h2>Browsers en editors</h2>
+<p>Dit lesmateriaal is gemaakt in Dreamweaver CC. Dit is onderdeel van het Adobe pakket. Echter is deze editor niet gratis. Er zijn talloze editors te vinden, sommige gratis, sommige betaald. Het programmeren van HTML kan zelfs met Kladblok, echter is dat niet gebruiksvriendelijk.
+<br>
+<table class="table opdracht">
+        	<tr><td>Opdracht 1: Editor installeren</td></tr>
+            <tr><td>Zorg dat je een goede editor installeert zodat je deze kan gebruiken tijdens de lessen. Als je het Adobe pakket hebt, kan je Dreamweaver CC gebruiken. Prima gratis alternatieven zijn:
+            <ul>
+            <li><a href="../../index.htm" target="_blank">Visual Studio Code</a></li>
+            <li><a href="../../3.html" target="_blank">Sublime Text</a></li>
+            <li><a href="../../index-1.htm" target="_blank">Notepad++</a></li>
+            <li><a href="../../download/index.html" target="_blank">NetBeans</a></li></ul>
+            Mocht je nog een andere willen gebruiken, ben je daar vrij in. 
+            </td></tr>
+            </table>
+            <br>
+            Naast een goede editor moet je ook zorgen dat je webbrowsers up to date zijn. De meeste browsers updaten zichzelf automatisch echter doen ze dat niet allemaal. Omdat er verschillende browsers op de markt zijn, moet je als webontwikkelaar al deze browsers testen. Er zitten namelijk verschillen in de verschillende browsers. Dat ga je in de scores van de volgende opdracht terug zien.<br>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 2: browsers installeren</td></tr>
+            <tr><td>
+            <ul>
+            	<li>Download als eerste de laatste versies van <b>Internet Explorer/Edge, FireFox en Chrome</b>. Mocht je alle browsers al ge&iuml;nstalleerd hebben, zorg dan dat ze up-to-date zijn. </li>
+<li>Ga met de drie browsers naar de website <a href="../../index-2.htm" target="_blank">http://html5test.com</a>.</li>
+<li>Voeg de url toe aan de <b>favorieten</b> van je webbrowser.</li>
+<li>Bekijk de scores per webbrowser. Zie je het verschil?</li>
+</ul>
+            </td></tr>
+            </table>
+		<h2>De basis</h2>
+        <p>De HTML code heeft vier "basis" tags. Dit zijn de <span class="redText">&lt;html&gt;</span>, <span class="redText">&lt;head&gt;</span>, <span class="redText">&lt;title&gt;</span> en <span class="redText">&lt;body&gt;</span> tags (zie voorbeeld hieronder). Deze tags vormen de basisstructuur van elke pagina.</p>
+	<table class="normal voorbeeld">
+        	<tr><td>Voorbeeld 1-1</td></tr>
+            <tr><td><img src="img/h1v1.PNG"> </td></tr>
+        </table>
+        <p>
+        Met <span class="redText">&lt;!doctype&gt;</span> vertel je een browser hoe deze op je code (website) moet reageren. Het geeft aan in welke versie van HTML je webpagina gemaakt is. Hierover zo meer.<br><br>
+De <span class="redText">&lt;html&gt;</span> tag zorgt ervoor dat je browser de site leest als een "html" site. Het is namelijk ook mogelijk om in andere programmeertalen websites te ontwikkelen. Je begint, na de doctype, altijd met het html element. Deze sluit je ook pas weer helemaal aan het einde van je pagina.<br><br>
+In je <span class="redText">&lt;head&gt;</span> sectie plaats je de "eigenschappen" van een site zoals links naar een externe stylesheet, of bijv. auteur en beschrijving van jouw website. Daarnaast worden er ook zoekwoorden voor zoekmachines zoals Google en Bing  in de head geplaatst. Dit noemen we meta-tags.<br><br>
+Met de <span class="redText">&lt;title&gt;</span> tag geef je de website een "titel". Deze zal bovenin de browser staan.<br><br>
+In de <span class="redText">&lt;body&gt;</span> sectie komt de content van de website te staan. Dat wil zeggen dat <b>alle tekst</b> wat de bezoeker van de website op zijn scherm ziet, tussen de body elementen komt te staan. 
+
+        </p>
+        <table class="table let-op">
+        	<tr><td>Let op:</td></tr>
+            <tr><td>Zorg er altijd voor dat je al de tags afsluit. Als je dit niet doet  bestaat er een kans dat je website niet juist wordt weergegeven. </td></tr>
+        </table> 
+<h2>DOCTYPE</h2>
+<p>Zoals je in Voorbeeld1-1 ziet, staat het doctype nog voor de &lt;html&gt; tags. Als je goed kijkt zie je ook dat doctype geen verplichte tag is. Dit komt omdat deze begint met &lt;!doctype. Dat uitroepteken staat er niet voor niets. Als je dit doet dan wordt je tag  commentaar genoemd. De browser ziet je tag wel, leest deze keurig uit maar zal de tag nooit weergeven op het scherm.<br><br>
+Met de &lt;!doctype&gt; bepaal je wat voor soort webpagina je gaat maken. Zoals het in Voorbeeld1-1 staat maak je een HTML5 webpagina. Dit is sinds 2015 de webstandaard. Vroeger had je allerlei variaties van Doctypes, dit is nu gelukkig een stuk verbetert. Het is wel van belang dat de regel er staat zoals hierboven. Zo niet, dan bestaat de mogelijkheid dat de webbrowser de pagina als een HTML4 pagina beschouwd en dus niet (goed) werkt. </p>
+        <p></p>
+        <table class="table opdracht">
+        	<tr><td>Opdracht 3: Eerste webpagina</td></tr>
+            <tr><td>
+            <ul><li>Start Dreamweaver, klik op <strong>file</strong> > <strong>new...</strong> en maak een lege HTML pagina. </li>
+           <li>Afhankelijk van je kleurenschema zie je dezelfde tags als in Voorbeeld1-1.</li>
+           <li>Ga met je muis <strong>achter</strong> de openingstag van &lt;body&gt; staan en druk op enter.</li>
+           <li>De muis staat nu tussen de &lt;body&gt; en &lt;/body&gt;. Dat is goed. </li>
+           <li>Type daar de volgende twee regels:
+           <img src="img/h1o1.PNG"></li>
+           <li>Druk op <strong>ctrl + s</strong> om je pagina op te slaan. Bewaar deze in een map waar je alle opdrachten gaan opslaan. Noem het bestand <strong>opdracht1-1.html</strong>. LET OP: geen spaties gebruiken!</li>
+           <li>Ga naar de map waar je het bestand hebt opgeslagen en dubbel klik erop. Als het goed is wordt je bestand in je default webbrowser geopend en zie je, je eerste webpagina!</li>
+            </ul>
+            </td></tr>
+        </table>
+      <p>HTML bestaat uit een samenhang van begin- en  sluittags. Het gebeurd dus ook vaak dat er al een nieuwe openingstag wordt geplaatst, nog voordat de code daarvoor is afgesloten. Kijk maar in onderstaand voorbeeld:<br>
+      <table class="normal voorbeeld">
+        	<tr><td>Voorbeeld 1-2</td></tr>
+            <tr><td><p>&lt;!doctype html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&lt;meta charset="utf-8"&gt;<br>&lt;title&gt;Titel in het tabblad van de browser&lt;/title&gt;<br>&lt;/head&gt;</p>
+<p>&lt;body&gt;<br> &lt;p&gt;Hier komt alle tekst te staan. &lt;b&gt;Deze tekst staan binnen de P maar is vetgedrukt, door het B element&lt;/b&gt; En je ziet dat de tekst vetgedrukt blijft totdat je het B element afsluit. Nu wordt de P pas afgesloten.<br>&lt;/p&gt;<br>&lt;/body&gt;</p>
+<p>&lt;/html&gt;</p> </td></tr>
+        </table>
+        <br>
+        <table class="table opdracht">
+        	<tr><td>Opdracht 4: Code opbouw</td></tr>
+            <tr><td>
+            Open een nieuwe, lege HTML pagina.
+<ul><li>Kopieer de tekst van Voorbeeld1-2 en plak deze in zijn geheel over je lege html  bestand.</li>
+<li>Sla het nieuwe bestand op als <strong>opdracht1-2.html</strong>. Ga nu naar het bestand op je harde schijf en dubbel klik erop. Je pagina wordt nu in je standaard browser geopend.  </li>
+<li>Lees goed de tekst en kijk naar je code waar, welke element wordt geopend en gesloten.</li></ul>
+
+            </td></tr>
+            </table>
+      
+         </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

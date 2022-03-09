@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h2>Toon naam in alert function</h2>
+<input type="text" id="inputNaam" placeholder="Voer uw naam in">
+<button id="button1" type="button">Toon naam</button>
+
+
+<script>
+
+    document.querySelector('#button1').addEventListener("click", function(){
+        let naam = document.querySelector('#inputNaam').value
+        alert("Welkom " + naam)
+        console.log(naam)
+    });
+    
+</script>
+
+</body>
+</html>

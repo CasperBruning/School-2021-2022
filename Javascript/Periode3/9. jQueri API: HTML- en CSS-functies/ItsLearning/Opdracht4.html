@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            border: 1px solid black;
+            height: auto;
+            height: 120px;
+            width: 360px;
+
+        }
+        .yellow, .red, .blue{
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+    </style>
+    <script src="../../Jquery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            $(`.yellow`).css("background-color", "yellow").html("Dit is de gele div")
+            $(`.red`).css("background-color", "red").html("Dit is de rode div")
+            $(`.blue`).css("background-color", "blue").html("Dit is de blauwe div")
+        })
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="yellow"></div>
+    <div class="red"></div>
+    <div class="blue"></div>
+</div>
+</body>
+</html>

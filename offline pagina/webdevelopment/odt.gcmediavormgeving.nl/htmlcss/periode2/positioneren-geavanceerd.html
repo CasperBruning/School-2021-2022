@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML & CSS - Positioneren geavanceerd</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <link rel="stylesheet" href="../extrea.css" type="text/css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - Positioneren geavanceerd</h1>
+        </div>
+        <div class="ui-content" role="main">
+        <h2>Positioneren  geavanceerd</h2>
+         <table class="table voorbeeld" style="max-width: 600px">
+        	<tr><td>Voorbeeld 1</td></tr>
+            <tr><td>
+            <img src="img/h3v1.png" style="width: 600px">
+            </td></tr>
+            </table> 
+	<p>Kijk goed naar onderstaand voorbeeld. Dit hebben we nog niet eerder gemaakt. We hadden altijd een menubalk links met daarnaast of erboven een <strong>head.</strong> Zoals je kunt zien staan de head en content tussen twee menu&rsquo;s in. Om dit zo voor elkaar te krijgen moet je een extra &ldquo;container&rdquo; divisie aanmaken.</p>
+<p>We kennen allemaal de standaard <strong>container</strong> waarbinnen we alle divisies plaatsen. Om bovenstaande voor elkaar te krijgen, moeten we de divisie head en content ook <strong><span style="text-decoration: underline;">in</span></strong> een aparte divisie plaatsen. Je krijgt dus een divisie menuLinks, containerMidden, menuRechts, sluitbalk. <strong>Binnen containerMidden</strong> ga je vervolgens de divisie van head en content toevoegen.</p>
+			<p>Een voorbeeld van je HTML structuur, zonder de tekst erin, zie je hier onder</p>
+        	<img src="img/h3v2.PNG" style="border:solid 1px black;">
+        	<br><br>
+        	<table class="table opdracht">
+        	<tr><td>Opdracht 1: namaken</td></tr>
+            <tr><td>
+          <p>Kijk goed naar voorbeeld 1. Maak deze na met de volgende eigenschappen.</p>
+<p>Open een nieuw HTML5 bestand.</p>
+<ul>
+<li>Maak een <strong>intern stylesheet</strong>.</li>
+<li>Container is <strong>800px</strong> breed.</li>
+<li><strong>Menu links en rechts</strong> zijn 200px bij 470px.</li>
+<li>Head is <strong>70px</strong> hoog, de breedte kun je <strong>uitrekenen</strong>.</li>
+<li>Content kun je <strong>uitrekenen</strong></li>
+<li>Sluitbalk is <strong>30px</strong> hoog, breedte kan je <strong>uitrekenen</strong>.</li>
+<li>De tekst in de divisies is een <strong>H3</strong>. Deze moet je in de <strong>CSS</strong> een <strong>margin</strong> van <strong>0px</strong></li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht18-1.html.</strong></p>
+            </td></tr>
+            </table>
+			<p>Je ziet nu dat er ontzettend voor divisies worden geopend en weer gesloten. Het is dus van belang om goed in te springen zodat het enigzins overzichtelijk blijft. Om meer overzicht te cre&euml;ren kunnen we, behalve de divisies die we nu gemaakt hebben, ook de structuur tags uit <a href="../periode1/structuur.html" target="new">hoofdstuk 4</a> gebruiken. Dit is voor zoekmachines beter en voor ons eigen overzicht ook makkelijker. Je moet gaan bepalen welke structuur tags je kunt gebruiken.</p>
+        <table class="table opdracht">
+        	<tr><td>Opdracht 2: structuur tags toevoegen</td></tr>
+            <tr><td>
+          	<p>Open <strong>opdracht18-1.html</strong>. We gaan een aantal divisies veranderen in structuur tags.</p>
+			<ul>
+			<li>De eerste divisie is de container, die laten we zo.</li>
+			<li>De divisie van <strong>menuLinks</strong> en <strong>menuRechts</strong> gaan we veranderen in <strong>nav</strong></li>
+			<li>Divisie <strong>containerMidden</strong> hoeven we ook niet te veranderen.</li>
+			<li>Van de <strong>head</strong> kunnen we prima onze <strong>header</strong> maken.</li>
+			<li><strong>Content</strong> kan je veranderen door <strong>section</strong>.</li>
+			<li>De <strong>sluitbalk</strong> is natuurlijk de <strong>footer</strong>.</li>
+				<li>Bekijk je webpagina in je webbrowser. Als je het goed gedaan hebt, zie je <strong>geen</strong> verandering. Je doet dit puur voor je eigen overzicht en dat van de zoekmachine.</li>
+			<li>Je HTML moet eruit zien zoals de afbeelding hieronder</li>
+			</ul>
+			<p>Sla het bestand op als <strong>Opdracht18-2.html.</strong></p>
+						</td></tr>
+            </table>
+            <br>
+            <img src="img/h3v3.PNG" style="border:solid 1px black;"><br><br>
+             <table class="table opdracht">
+        	<tr><td>Opdracht 3: structuur tags toevoegen</td></tr>
+            <tr><td>
+				<p>Open de bestanden <strong>opdracht16-6.html</strong> en <strong>opdracht17-1.html</strong>.</p>
+					<ul>
+						<li>Bij beide opdrachten heb je enkel divisies gebruikt. Vervang de divisies voor structuurtags zoals je in de vorige opdracht ook hebt gedaan.</li>
+						<li>Sla beide bestanden op en controleer in je browser of deze nog hetzelfde werken als bij de start.</li>
+						<li>Als je klaar bent laat je je docent de opdrachten controleren</li>
+				</ul>
+						</td></tr>
+            </table>
+            <p>Tegenwoordig wordt er veel gebruik gemaakt van breedbeeld schermen. Het staat dan netjes om je website, horizontaal uit te lijnen. Dit kun je doen door de <strong>#container</strong> in de CSS een <strong>margin: 0px auto;</strong> mee te geven. Hiermee geef je aan dat de margin aan de bovenkant 0 pixels moet zijn en links en rechts automatisch berekend moet worden. Daardoor wordt de container in het midden van de pagina geplaatst.</p>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 4: uitlijnen</td></tr>
+            <tr><td>
+          	<p>Open het bestand Opdracht18-2.html</p>
+<ul>
+<li>Zorg dat de container in het midden van de pagina wordt uitgelijnd.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht18-4.html.</strong></p>
+						</td></tr>
+            </table>
+            <p>Je merkt dat als je de pagina in het midden uitlijnt, dat de achtergrond wit is. Om dit wat leuker te maken kun je de body een achtergrond-image geven. Het nadeel hiervan is dat dit plaatje zo groot moet zijn dat niet herhaalt wordt op de pagina. Omdat je nooit weet wordt voor resolutie iemand gebruikt, is dit dus eigenlijk niet haalbaar. Oplossing hiervoor is een plaatje die op zichzelf &ldquo;aansluit&rdquo;. Dat wil zeggen dat je deze dus horizontaal maar misschien ook verticaal herhaalt moet kunnen worden, zonder dat je het ziet.</p>
+			<p>Bekijk <a href="img/bg.png" target="new">dit</a> plaatje. Je moet goed kijken maar je ziet dat het een doorlopende kleur is van grijs naar wit. Deze is maar 10 pixels breed. Dat is prima, want het plaatje wordt toch steeds herhaald. Je koppelt de afbeelding aan het body element, in de CSS. Als je deze vervolgens alleen horizontaal herhaald, loopt deze dus precies door. Door middel van <strong>background-repeat: repeat-x;</strong> wordt de achtergrond alleen horizontaal herhaald.</p>
+        <table class="table opdracht">
+        	<tr><td>Opdracht 5: achtergrond afbeelding</td></tr>
+            <tr><td>
+          	<p>Open het bestand Opdracht18-4.html</p>
+<ul>
+<li>Download de afbeelding die je zojuist bekeken hebt&nbsp;of maak zelf een achtergrond plaatje.</li>
+<li>Voeg deze toe aan je pagina zodat deze een achtergrond krijgt.</li>
+<li>Zorg dat de afbeelding alleen horizontaal herhaald wordt.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht18-5.html.</strong></p>
+						</td></tr>
+            </table>
+        
+         </div>
+        <div data-role="footer" data-position="fixed" >
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

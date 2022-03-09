@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<H1>Getallen vergelijken</H1>
+<hr>
+<p id="uitkomst"></p>
+<script>
+    let getal1 = prompt('Geef een getal')
+    let getal2 = prompt('Geef nog een getal')
+    let groterGetal = getal1 > getal2 ? grotergetal = getal1 : grotergetal = getal2;
+    let kleinerGetal = getal1 < getal2 ? grotergetal = getal1 : grotergetal = getal2;
+
+    document.querySelector('#uitkomst').innerHTML = `De getallen die u ingevoerd heeft zijn ${getal1} en ${getal2}
+                                                    <br> van die twee getallen die je gegeven hebt is ${groterGetal} het grootste getal
+                                                     <br> en is ${kleinerGetal} het kleinste`
+
+</script>
+</body>
+</html>

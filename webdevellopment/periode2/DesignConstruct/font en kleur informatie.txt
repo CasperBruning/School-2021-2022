@@ -1,0 +1,8 @@
+Font: CooperHewit (bijlage)
+
+Zet onderstaande links in je header:
+
+Kleurcodes:
+Geel: #f7c016
+Lightgrijs: #eeeeee
+Grijs: #555

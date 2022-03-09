@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    border-color: black;
+    border-collapse: collapse;
+}
+.datum{
+    padding: 0 30px 0 30px;
+    text-align: center;
+}
+.rijnummer{
+    padding: 0 0 30px 0;
+}
+.tijden{
+    padding: 00px 20px 30px 20px;
+}
+.driecellessen{
+    padding: 0 0 90px 0;
+    background-color: #87CEEB;
+    text-align: center;
+}
+.viercellessen{
+    padding: 0 0 140px 0;
+    background-color: #87CEEB;
+    text-align: center;
+}
+.zescellessen{
+    padding: 0 0 245px 0;
+    background-color: #87CEEB;
+    text-align: center;
+}
+.underline{
+    text-decoration: underline;
+}
+p{
+    text-decoration: underline;
+}

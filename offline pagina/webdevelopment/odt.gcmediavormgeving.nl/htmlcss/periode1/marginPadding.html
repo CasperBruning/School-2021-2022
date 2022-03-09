@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Margin & Padding</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css">
+   
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - Margin & Padding</h1>
+        </div>
+        <div class="ui-content" role="main">
+		<h2>Margin & Padding</h2>
+		<p>Met <span class="redText">margin</span> en <span class="redText">padding</span> kun je de afstand van de tekst vanaf de zijkant van je scherm bepalen. Bij de vorige opdracht hebben we gewerkt met <strong>background-color</strong>.&nbsp; We hebben een achtergrond kleur aan de body gekoppeld. Dit kunnen we natuurlijk ook doen aan een <strong>h1</strong> of<strong> p</strong>.</p>
+        <table class="table voorbeeld" style="max-width:708px;">
+        	<tr><td>Voorbeeld 1</td></tr>
+            <tr><td>
+            <img src="img/h12v1.png">
+            </td></tr>
+            </table> 
+            <br>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 1: Namaken</td></tr>
+            <tr><td>
+            <p>Open in je editor een nieuw html bestand.</p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht12-1.html</strong></li>
+<li>Pas de titel aan naar <strong>Opdracht 12-1</strong></li>
+<li>Zorg dat je pagina er uitkomt te zien zoals voorbeeld 1.</li>
+<li>De titel is een <strong>&lt;h1&gt;</strong>.</li>
+<li>De alinea is een <strong>&lt;p&gt;</strong> maar een willekeurige tekst. Zorg dat je meerdere regels tekst hebt. Dat kan je kopieren van <a href="../../index-6.htm" target="_blank">Lorem Ipsum</a></li>
+<li>De opmaak doe je in de head met <strong>&lt;style&gt;</strong></li>
+<li><strong>Body </strong>heeft een <strong>blauwe</strong> achtergrond en <strong>lettertype</strong> is Verdana.</li>
+<li><strong>H1</strong> heeft een <strong>rode </strong>tekst en <strong>gele </strong>achtergrondkleur<strong>.</strong></li>
+<li><strong>P </strong>heeft een <strong>roze&nbsp;</strong>achtergrondkleur en de <strong>tekst </strong>is blauw.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht12-1.html</strong>. </p>
+            </td></tr>
+            </table>
+            <p>Als je goed kijkt zie je dat de tekst meteen tegen het begin van de gele en zalm kleur aan staat. Deze afstand kan je zelf met CSS bepalen. Dit doe je met <strong>padding</strong>. Daarnaast is er <strong>margin</strong>. Dit is voor de afstand van de tekst vanaf de kantlijn. De afstand bepaal je door een aantal pixels in te stellen. Bijvoorbeeld <span class="redText">padding-left:5px;</span></p> 
+            
+            <table class="table overzicht">
+<tbody>
+<tr>
+<td>
+CSS Code 
+</td>
+<td>
+Werking
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">padding</span>
+</td>
+<td>
+Afstand <strong>binnen</strong> het element zowel links, boven, rechts als onder.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">padding-top</span>
+</td>
+<td>
+Afstand <strong>binnen</strong> het element vanaf boven
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">padding-right</span>
+</td>
+<td>
+Afstand <strong>binnen</strong> het element vanaf rechts
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">padding-bottom</span>
+</td>
+<td>
+Afstand <strong>binnen</strong> het element vanaf onder
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">padding-left</span>
+</td>
+<td>
+Afstand <strong>binnen</strong> het element vanaf links
+</td>
+</tr>
+
+
+<tr>
+<td>&nbsp;
+
+</td>
+<td>&nbsp;
+
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">margin</span>
+</td>
+<td>
+Afstand <strong>buiten</strong> het element zowel links, boven, rechts als onder.
+</td>
+</tr>
+
+<tr>
+<td>
+<span class="redText">margin-top</span>
+</td>
+<td>
+Afstand <strong>buiten</strong> het element vanaf boven
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">margin-right</span>
+</td>
+<td>
+Afstand <strong>buiten</strong> het element vanaf rechts
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">margin-bottom</span>
+</td>
+<td>
+Afstand <strong>buiten</strong> het element vanaf onder
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">margin-left</span>
+</td>
+<td>
+Afstand <strong>buiten</strong> het element vanaf links
+</td>
+</tr>
+</tbody>
+</table> 
+<br>
+ <table class="table opdracht">
+        	<tr><td>Opdracht 2: Toepassen</td></tr>
+            <tr><td>
+           <p>Open in je editor <strong>opdracht12-1.html</strong></p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht12-2.html</strong></li>
+<li>Pas de titel aan naar <strong>Opdracht 12-2</strong></li>
+<li>Geef de <strong>h1</strong> in de stylesheet een linker&nbsp;<strong>margin</strong>&nbsp;van <strong>20px</strong>.</li>
+<li>Geef de <strong>p</strong> in de stylesheet een linker&nbsp;<strong>padding </strong>&nbsp;van <strong>20px</strong>.</li>
+<li>Controleer of je bestand er zo uit ziet als voorbeeld 2.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht12-2.html</strong>.</p>
+            </td></tr>
+            </table>
+            <br>
+             <table class="table voorbeeld" style="max-width:380px;">
+        	<tr><td>Voorbeeld 2</td></tr>
+            <tr><td>
+            <img src="img/h12v2.png">
+            </td></tr>
+            </table> 
+            <p>Je ziet dat de titel, door de <strong>margin</strong>, 20 pixels vanaf de linkerkant staat. De p staat ook een stukje van de linker kant. Dit klopt, dat is standaard zo ingesteld door je webbrowser. De <strong>p</strong> staat daarnaast ook nog eens 20 pixels ingesprongen, dit komt door de <strong>padding</strong>.</p>
+            <p>De afstand tussen de twee elementen wordt bepaald door de standaard margin die aan zowel de h1 als p zit. Deze kunnen we met CSS aanpassen. Als we van beide elementen namelijk de <strong>margin-top</strong> en <strong>margin-bottom</strong> op 0px zouden zetten, staan deze elementen strak tegen elkaar aan. </p>
+       <table class="table opdracht">
+        	<tr><td>Opdracht 3.1: margin toevoegen/verwijderen</td></tr>
+            <tr><td>
+          <p>Open in je editor <strong>opdracht12-2.html</strong></p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht12-3.html</strong></li>
+<li>Pas de titel aan naar <strong>Opdracht 12-3</strong></li>
+<li>voeg aan het <strong>h1</strong> element een <strong>margin-top</strong> en <strong>margin-bottom</strong> van 0px toe.</li>
+<li>voeg aan het <strong>p</strong> element ook een <strong>margin-top</strong> en <strong>margin-bottom</strong> van 0px toe.</li>
+<li>Bekijk het bestand in je webbrowser. Je ziet dat de elementen nu strak tegen elkaar aan staan</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht12-3.html </strong>. </p>
+            </td></tr>
+            </table>   
+            <p>Bij het <strong>h1</strong> element heb je nu drie regels met margin staan. Dit kan gelukkig een stuk eenvoudiger. Je kunt namelijk <img src="img/h12o4.PNG" style="max-width: 300px;vertical-align: middle;">toevoegen. De eerste 0px staat voor de bovenkant, de tweede 0px voor de rechterkant, de derde 0px voor de onderkant en slaat de laatste 20px op de linker kant. Voor padding geldt hetzelfde. Op die manier hoef je dus niet drie regels te typen in je CSS code, maar is &eacute;&eacute;n voldoende. </p>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 3.2: margin vereenvoudigen</td></tr>
+            <tr><td>
+          <p>Open in je editor <strong>opdracht12-3.html</strong></p>
+<ul>
+<li>Haal bij het <strong>h1</strong> element de drie margin regels weg en vervang die met zoals hierboven uitgelegd.</li>
+<li>Bij de <strong>P</strong> heb je twee regels staan met margin. Deze kan je vervangen door <strong>margin:0px;</strong></li>
+<li>Bekijk het bestand in je webbrowser. Als er is niets veranderd ten opzichte van de vorige opdracht, heb je het goed gedaan.</li>
+
+</ul>
+<p>Sla het bestand op als <strong>Opdracht12-3.html</strong>. </p>
+            </td></tr>
+            </table> 
+           <br>
+            <table class="table voorbeeld" style="max-width:795px;">
+        	<tr><td>Voorbeeld 3</td></tr>
+            <tr><td>
+            <img src="img/h12o5.PNG">
+            </td></tr>
+            </table> 
+            <br>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 4: namaken</td></tr>
+            <tr><td>
+         <p>Open in je editor een nieuw html bestand.</p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht12-4.html</strong></li>
+<li>Pas de titel aan naar <strong>Opdracht 12-4</strong></li>
+<li>Zorg dat je pagina er uitkomt te zien zoals voorbeeld 3.</li>
+<li>In de tekst staat precies wat je moet doen. Zorg dat je de padding op <strong>&eacute;&eacute;n regel</strong> typt.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht12-4.html</strong>. </p>
+            </td></tr>
+            </table>
+    </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

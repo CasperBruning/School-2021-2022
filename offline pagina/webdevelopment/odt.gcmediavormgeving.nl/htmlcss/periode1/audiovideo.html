@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Audio & Video</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css">
+    <link rel="stylesheet" href="../extrea.css" type="text/css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML5 & CSS3 - Audio & Video</h1>
+        </div>
+      <div class="ui-content" role="main">
+        <h2>Audio & Video</h2>
+                <p>Voorheen was het niet standaard mogelijk om audio &amp;  video bestanden af te spelen op je webpagina. Dit kon wel, met bepaalde plugins  (Flash/Silverlight). Het nadeel daarvan is dat verschillende browsers  verschillende plugins gebruiken. Vanaf nu is dat opgelost door de <span class="redText">&lt;audio&gt;</span> en <span class="redText">&lt;video&gt;</span> tag.</p>
+        <br>
+        <table class="table info">
+          <tbody>
+             <tr>
+              <th>Property</th>
+              <th title="Internet Explorer"><img src="img/ie9-logo.png"></th>
+              <th title="Chrome"><img src="img/Google_Chrome_logo.png"></th>
+              <th title="Firefox"><img src="img/firefox-logo.png"></th>
+              <th title="Safari"><img src="img/safari-logo.png"></th>
+              <th title="Opera"><img src="img/Opera_Logo.png"></th>
+          </tr>
+            <tr>
+              <td>Audio</td>
+              <td>9.0</td>
+              <td>4.0</td>
+              <td>5.0</td>
+              <td>4.0</td>
+              <td>12.0</td>
+            </tr>
+            <tr>
+              <td>Video</td>
+              <td>9.0</td>
+              <td>4.0 </td>
+              <td>5.0<br></td>
+              <td>4.0 </td>
+              <td>12.0</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Zoals je ziet worden de audio en video door al webbrowsers  ondersteund. Echter is er wel een kanttekening. Er bestaan meerdere formaten  audio en video bestanden. En niet elke browser ondersteund deze formaten.</p>
+        <table class="let-op table">
+          <tr>
+            <td>Let op:</td>
+          </tr>
+          <tr>
+            <td>Internet Explorer 8 en lager ondersteunen de audio en video tags    niet!</td>
+          </tr>
+        </table>
+        <h2>Audio</h2>
+        <p>Een overzicht welke browser, welke formaten ondersteund zie  je hier onder.</p>
+        <table class="overzicht table">
+          <tr>
+            <td style="width:20%">Browser</td>
+            <td>MP3</td>
+            <td>Wav</td>
+            <td>Ogg</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Internet Explorer 9+</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">NO</td>
+            <td valign="top">NO</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>FireFox</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Chrome</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Safari</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">NO</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Opera</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+          </tr>
+        </table>
+        <p>Mogelijk dat de nieuwere versies van IE, FireFox en  Chrome inmiddels wel andere van bovenstaande formaten ondersteunen. Dit kun je  testen op de site <a href="../../index-2.htm" target="_blank">http://www.html5test.com</a></p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 1: testen</td>
+          </tr>
+          <tr>
+            <td>Zorg dat je de nieuwste versies van de drie  bovenstaande browsers hebt ge&iuml;nstalleerd. 
+              <ul>
+                <li>Open alle drie de webbrowsers en ga naar de    website  <a href="../../index-2.htm" target="_blank">http://www.html5test.com</a></li>
+                <li>Scroll naar beneden totdat je bij het audio    gedeelte bent. Controleer welke formaten door welke browser worden    ondersteund.</li>
+                <li>Zijn er verschillen met de bovenstaande tabel?</li>
+              </ul></td>
+          </tr>
+        </table>
+        <p><br>
+          Je ziet, mits er geen verschillen zijn met bovenstaande tabel, dat je het  geluidsbestand in minimaal twee formaten moet toevoegen aan je website, wil  deze werken. Het gangbare formaat is <strong>MP3</strong>.  Als je goed kijkt wordt door Opera MP3 niet ondersteund. Deze browser ondersteunt wel <strong>wav</strong> of <strong>ogg</strong>. </p>
+       <table class="opdracht table">
+          <tr>
+            <td>Opdracht 2: Downloaden</td>
+          </tr>
+          <tr>
+            <td>Zorg dat je een nummer hebt in MP3 formaat.
+              <ul>
+                <li>Zoek op Google naar een programma welke je MP3    om kan zetten naar een OGG formaat.</li>
+                <li>Zet je MP3 bestand om naar een OGG bestand en    sla beide bestanden op in dezelfde map als waar je de opdrachten opslaat.</li>
+              </ul></td>
+          </tr>
+        </table>
+        <br>
+        <table class="overzicht table">
+          <tr>
+            <td colspan="2">audio</td>
+          </tr>
+          <tr>
+            <td valign="top">Autoplay</td>
+            <td valign="top">Het bestand begint met afspelen, op het moment dat het    geladen is.</td>
+          </tr>
+          <tr>
+            <td valign="top">Controls</td>
+            <td valign="top">Geeft aan of de audio controls weergegeven moeten worden. Zoals pauze    en play.</td>
+          </tr>
+          <tr>
+            <td valign="top">loop</td>
+            <td valign="top">Moet het audio bestand herhaald worden na &eacute;&eacute;n keer afspelen?</td>
+          </tr>
+        </table>
+        <br>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 8-1</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld8-1.png"></td>
+          </tr>
+        </table>
+        <br>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 3: Audio</td>
+          </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.
+              <ul>
+                <li>Voeg een audio bestand toe aan je HTML zoals    je kunt zien in voorbeeld 8-1.</li>
+                <li>Zorg dat de naam van het bestand klopt en dat    deze in dezelfde map staat als waar je de opdracht gaat opslaan.</li>
+                <li>Test in de drie webbrowsers of over het    bestand automatisch wordt afgespeeld.</li>
+                <li>Hieronder zie/hoor je een demo</li>
+              </ul>
+              Sla het bestand op als <strong>Opdracht8-3.html</strong></td>
+          </tr>
+        </table>
+        <br>
+           <audio controls="">
+                <source src="files/toeter.mp3" type="audio/mp3">
+              </audio>
+          
+        <h2>Video</h2>
+        <p>Voor de <strong>&lt;video&gt;</strong> tag geldt exact hetzelfde als voor de &lt;audio&gt;. Alle webbrowsers  ondersteunen de tag maar niet elk video formaat. Een overzicht vindt je hier  onder.</p>
+        <table class="overzicht table">
+          <tr>
+            <td valign="top" style="width:20%;">
+              Webbrowser</td>
+            <td valign="top">MP4</td>
+            <td valign="top">WebM</td>
+            <td valign="top">Ogg</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Internet    Explorer 9+</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">NO</td>
+            <td valign="top">NO</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>FireFox</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Chrome</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Safari</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">NO</td>
+            <td valign="top">NO</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Opera</strong></td>
+            <td valign="top">YES (vanaf versie 25)</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+          </tr>
+        </table>
+        <p><strong>MP4</strong> = MPEG 4 bestanden met H264  video codec en AAC audio codec.<br>
+          <strong>WebM</strong> = WebM bestanden met VP8 video  codec en Vorbis audio codec.<br>
+          <strong>Ogg</strong> = Ogg bestanden met Theora video  codec en Vorbis audio codec.<br>
+          Net  zoals bij audio kan je het beste kiezen voor MP4 in combinatie met Ogg. Je hebt  dan alle browsers die je filmpje ondersteunen.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 4: Testen</td>
+          </tr>
+          <tr>
+            <td>Zorg dat je de nieuwste versies van de drie    bovenstaande browsers hebt ge&iuml;nstalleerd. 
+              <ul>
+                <li>Open alle drie webbrowsers en ga naar de    website, <a href="../../index-2.htm" target="_blank">http://www.html5test.com</a></li>
+                <li>Scroll naar beneden totdat je bij het video    gedeelte bent. Controleer welke formaten door welke browser worden    ondersteund.</li>
+                <li>Zijn er verschillen met de bovenstaande tabel?</li>
+              </ul></td>
+          </tr>
+        </table>
+        <br clear="all">
+        <p>Waar  MP3 bij audio heel logisch is, is MP4 dat wat minder bij video bestanden. Het  lastige is dat je bij video te maken hebt met verschillende soorten codecs. Een <strong>codec</strong> is software die toelaat data te <strong>co</strong>deren/<strong>dec</strong>oderen of  te <strong>co</strong>mprimeren/<strong>dec</strong>omprimeren.<br><br>
+          Er bestaan codecs om bijvoorbeeld geluid of beeld te coderen  in een handelbaar bestandsformaat met behoud van een zeker kwaliteitsniveau.  Codecs worden toegepast voor datacompressie van bestanden.<br><br>
+          Zoals gezegd is het van belang dat je naast het juiste  formaat video, ook de juiste formaat video en audio codec hebt, anders werkt je  filmpje niet. Op de website <a href="../../index-4.htm" target="_blank">http://video.online-convert.com/</a> kun je allerlei soorten formaten converteren naar de juiste MP4, WebM &amp; OGG  bestanden. Inclusief juiste codecs!</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 5: Downloaden</td>
+          </tr>
+          <tr>
+            <td><ul>
+              <li>Download een filmpje van YouTube. Let erop dat    het filmpje niet te lang duurt i.v.m. converteren.</li>
+              <li>Ga naar de website <a href="../../index-4.htm" target="_blank">http://video.online-convert.com/</a></li>
+              <li>Zet je filmpje om in de formaten MP4 en OGG. </li>
+              <li>Merk op dat je OGG bestand terug komt als OGV.    Dit is verder prima.</li>
+              <li>Sla de bestanden op in dezelfde map als waar    je, jou bestanden bewaart. </li>
+            </ul></td>
+          </tr>
+        </table>
+        <br>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 8-2</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld8-2.png"></td>
+          </tr>
+        </table>
+        <br>
+        <table class="overzicht table">
+          <tr>
+            <td colspan="2">video</td>
+          </tr>
+          <tr>
+            <td valign="top" style="width:20%;">Autoplay</td>
+            <td valign="top">Het bestand begint met afspelen, op het moment dat het    geladen is.</td>
+          </tr>
+          <tr>
+            <td valign="top">Controls</td>
+            <td valign="top">Geeft aan of de video controls weergegeven moeten worden. Zoals pauze    en play.</td>
+          </tr>
+          <tr>
+            <td valign="top">height</td>
+            <td valign="top">Stelt de hoogte van de video player in.</td>
+          </tr>
+          <tr>
+            <td valign="top">loop</td>
+            <td valign="top">Moet het video bestand herhaald worden na &eacute;&eacute;n keer afspelen?</td>
+          </tr>
+          <tr>
+            <td valign="top">poster</td>
+            <td valign="top">Hier kan een afbeelding worden opgegeven die wordt weergegeven zolang    de film aan het laden is.</td>
+          </tr>
+          <tr>
+            <td valign="top">width</td>
+            <td valign="top">Stelt de breedte in van de video player.</td>
+          </tr>
+        </table>
+        <br>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 6: Video</td>
+          
+          </tr>
+          <tr>
+            <td>Maak een nieuw HTML5 bestand.
+              <ul>
+                <li>Type de tekst van voorbeeld 8-2 over. </li>
+                <li>Voeg het video bestand in die je in opdracht 5    hebt geconverteerd. </li>
+                <li>Test in alle drie de webbrowsers of de video    werkt.</li>
+                <li>Hieronder zie je een demo</li>
+              </ul>
+              Sla het bestand op als <strong>Opdracht8-6.html</strong>.</td>
+          </tr>
+        </table>
+       <br>
+       <video width="420" controls="">
+          	<source src="files/What is HTML5.mp4" type="video/mp4">
+          </video>
+          <h2>Youtube</h2>
+          <p>Ondanks dat het nu vrij gemakkelijk is geworden om video bestanden af te spelen is Youtube of een andere streamingsdienst ook zeer goed te gebruiken. Het voordeel is namelijk dat je niet zelf het video bestand hoeft te hosten of om hoeft te zetten naar het juiste formaat. Dit doet Youtube voor jou. Je kan via Youtube heel gemakkelijk een filmpje insluiten (embed). Eerst moet je zelf je filmpje uploaden, daarna kan je deze insluiten. Uiteraard kan je ook filmpjes van derden insluiten echter loop je dan altijd de kans dat deze worden verwijderd en dus je filmpje niet meer werkt.<br><br>
+          Het insluiten gaat door middel van een<strong> &lt;iframe&gt;</strong>. In dat iframe wordt de content van Youtube geladen. Als je op de Youtube pagina bent staat onder het filmpje deze knoppen <img src="img/hfst8-1.png" style="border:solid 1px black">. Als je daar op <strong>Delen</strong> drukt komt er een extra scherm. Daar klik je op <strong>Insluiten</strong>. Daar kan je allerlei instellingen doen. Als je dat gedaan hebt, kopieer je de link en plak je deze in je pagina.
+          </p>
+          <table class="opdracht table">
+          <tr>
+            <td>Opdracht 7: Youtube toevoegen</td>
+        
+          </tr>
+          <tr>
+            <td>Maak een nieuw HTML5 bestand.
+              <ul>
+                <li>Ga naar <a href="../../index-5.htm" target="_blank">Youtube</a> en zoek daar een filmpje. </li>
+                <li>Klik bij je filmpje op <strong>Delen</strong> en daarna op <strong>Insluiten.</strong></li>
+                <li>Laat alle instellingen zo staan. Kopieer de link en plak deze in je eigen webpagina.</li>
+                <li>Sla het bestand op als <strong>Opdracht8-7.html</strong> en test het in je webbrowsers. Waarschijnlijk werkt dit <strong>niet</strong>. Dit komt omdat je het lokaal test en niet via een webbrowser.</li>
+                <li>Pas de geplakte youtube link aan zodat het lokaal ook werkt. Bij de <strong>src=""</strong> staat nu //. Daar moet <strong>http:</strong> voor!</li>
+                <li>Hieronder zie je een demo</li>
+              </ul>
+              </td>
+          </tr>
+        </table>
+        <br>
+        <iframe width="560" height="315" src="../../embed/V8_wEZD160g.html" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

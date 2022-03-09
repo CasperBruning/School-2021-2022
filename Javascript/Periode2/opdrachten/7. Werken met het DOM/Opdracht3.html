@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input id="input" type="text">
+<button id="send">Add</button>
+<button id="remove">Remove</button>
+<h1 id="resultDiv"></h1>
+
+<script>
+    let index=1;
+    document.querySelector('#send').addEventListener('click',
+        (index) => {
+
+            const newElement = document.createElement(`div`);
+            newElement.id = `div` + index++;
+
+            const node = document.querySelector(`#input`).value
+            const newNode = document.createTextNode(node);
+
+            newElement.appendChild(newNode)
+
+            document.querySelector(`#resultDiv`).appendChild(newElement)
+
+            // document.querySelector('#div' + index).innerHTML = document.querySelector('#input').value
+        });
+
+    document.querySelector(`#remove`).addEventListener(`click`,
+        (index) => {
+            const divResult = document.querySelector(`#resultdiv`);
+            const alinea = divResult.querySelector('p:last-child');
+
+            divResult.removeChild(alinea)
+
+        })
+
+</script>
+</body>
+</html>

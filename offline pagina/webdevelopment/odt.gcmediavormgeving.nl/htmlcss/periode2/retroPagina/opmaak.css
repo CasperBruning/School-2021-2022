@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:gray;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+}
+
+#container {
+	margin:0 auto;
+	width:1024px;
+	height:768px;
+}
+#links {
+	width:497px;
+	height: 768px;
+	background-image: url("images/Linker poster.png");
+	float:left;
+}
+#links h1 {
+	color:#bd8d45;
+	float:right;
+	margin:0;
+	text-transform: uppercase;
+	font-size:50px;
+	font-weight:normal;
+}
+#rechts {
+	width: 527px;
+	height: 768px;
+	background-image: url("images/Rechter kant.png");
+	float:left;
+}
+#rechts h1 {
+	color:#59262b; 
+	margin:0;
+	text-transform: uppercase;
+	font-size:50px;
+	font-weight:normal;
+}
+#linksboven {
+	width:357px;
+	height:220px;
+	float:left;
+}
+#linksboven p {
+	font-size:11px;
+	margin:0 10px 0 70px;
+}
+#rechtsboven {
+	width:170px;
+	height:220px;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	float:left;
+}
+#rechtsonder {
+	width:155px;
+	height:548px;
+	float:left;
+	padding: 0 0 0 15px
+}
+#rechtsonder p {
+	margin:0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#rechtsonder ul {
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	font-size:12px;
+}
+#rechtsonder a {
+	color:black;
+	text-decoration: none;
+}
+#rechtsonder a:hover {
+	text-decoration: underline;
+}
+#linksonder {
+	width:287px;
+	padding: 0 0 0 70px;
+	height:548px;
+	float:left;
+}
+#linksonder p {
+	margin:88px 0 0 0;
+	font-size:12px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#linksonder a {
+	color:black;
+}
+#retro1 {
+	border-radius: 18px;
+	width:120px;
+	height:120px;
+	float:left;
+	margin:0 15px 15px 0;
+	background-image: url(images/knop1.png);
+}
+#retro2 {
+	border-radius: 18px;
+	width:120px;
+	height:120px;
+	float:left;
+	margin:0 15px 15px 0;
+	background-image: url(images/knop2.png);
+}
+#retro3 {
+	border-radius: 18px;
+	width:120px;
+	height:120px;
+	float:left;
+	margin:0 15px 15px 0;
+	background-image: url(images/knop3.png);
+}
+#retro4 {
+	border-radius: 18px;
+	width:120px;
+	height:120px;
+	float:left;
+	margin:0 15px 15px 0;
+	background-image: url(images/knop4.png);
+}
+#retro5 {
+	border-radius: 18px;
+	width:120px;
+	height:120px;
+	float:left;
+	margin:0 15px 15px 0;
+	background-image: url(images/knop5.png);
+}
+#retro6 {
+	border-radius: 18px;
+	width:120px;
+	height:120px;
+	float:left;
+	margin:0 15px 15px 0;
+	background-image: url(images/knop6.png);
+}
+#retro7 {
+	border-radius: 18px;
+	width:120px;
+	height:120px;
+	float:left;
+	margin:0 15px 15px 0;
+	background-image: url(images/knop7.png);
+}
+#retro8 {
+	border-radius: 18px;
+	width:120px;
+	height:120px;
+	float:left;
+	margin:0 15px 15px 0;
+	background-image: url(images/knop8.png);
+}

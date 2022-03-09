@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input id="input" type="text">
+<button>Send</button>
+<h1 id="resultDiv"></h1>
+
+<script>
+    let index = 1
+
+    document.querySelector('button').addEventListener('click',
+        (index) => {
+
+            const newElement = document.createElement(`div`);
+            newElement.id = `div` + index++;
+
+            const node = document.querySelector(`#input`).value
+            const newNode = document.createTextNode(node);
+
+            newElement.appendChild(newNode)
+
+            document.querySelector(`#resultDiv`).appendChild(newElement)
+
+            // document.querySelector('#div' + index).innerHTML = document.querySelector('#input').value
+        });
+
+</script>
+</body>
+</html>

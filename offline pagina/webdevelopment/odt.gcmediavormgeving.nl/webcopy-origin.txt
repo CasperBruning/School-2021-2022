@@ -1,0 +1,980 @@
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/index.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\index.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/img/bg.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\img\bg.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/files/jquery.mobile-1.4.4.css
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\files\jquery.mobile-1.4.4.css
+Content Type: text/css
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/index.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\index.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/index.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\index.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/index.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\index.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/files/jquery-1.11.0.js
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\files\jquery-1.11.0.js
+Content Type: application/javascript
+
+Uri: http://odt.gcmediavormgeving.nl/files/jquery.mobile-1.4.4.js
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\files\jquery.mobile-1.4.4.js
+Content Type: application/javascript
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/introductie.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\introductie.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/head.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\head.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/body.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\body.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/structuur.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\structuur.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/afbeeldingverwijzing.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\afbeeldingverwijzing.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/tabellen1.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\tabellen1.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/tabellen2.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\tabellen2.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/audiovideo.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\audiovideo.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/forms.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\forms.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/cssIntro.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\cssIntro.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/cssOpmaak.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\cssOpmaak.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/marginPadding.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\marginPadding.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/tabelopmaak.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\tabelopmaak.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/menuMaken.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\menuMaken.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/class.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\class.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/html.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\html.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/introductie.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\introductie.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/positioneren.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\positioneren.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/positioneren-geavanceerd.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\positioneren-geavanceerd.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/completeSite1.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\completeSite1.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/completeSite2.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\completeSite2.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retro.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retro.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/goodtutorials.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\goodtutorials.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/html.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\html.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/css3.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\css3.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/css3transform.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\css3transform.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/css3transition.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\css3transition.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/css3animations.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\css3animations.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/javascript.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\javascript.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/mediaQueries.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\mediaQueries.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/css3-animations-image.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\css3-animations-image.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/extrea.css
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\extrea.css
+Content Type: text/css
+
+Uri: https://code.visualstudio.com/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\index.htm
+Content Type: text/html
+
+Uri: https://www.sublimetext.com/3
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\3.html
+Content Type: text/html
+
+Uri: https://notepad-plus-plus.org/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\index-1.htm
+Content Type: text/html
+
+Uri: http://html5test.com/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\index-2.htm
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/img/p1h1a.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\img\p1h1a.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h1v1.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h1v1.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h1o1.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h1o1.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h2o2.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h2o2.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h3o1.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h3o1.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h3o2.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h3o2.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h3li.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h3li.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h3o4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h3o4.png
+Content Type: image/png
+
+Uri: http://www.rekenmachineonline.com/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\index-3.htm
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h4v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h4v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h4v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h4v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/uitzicht.JPG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\uitzicht.JPG
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h5o2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h5o2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h5o3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h5o3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h5o4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h5o4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h6v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h6v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h6v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h6v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h6o2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h6o2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h6v3.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h6v3.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h6o3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h6o3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/rooster.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\rooster.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h7v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h7v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h7v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h7v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h7v3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h7v3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/ie9-logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\ie9-logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/Google_Chrome_logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\Google_Chrome_logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/firefox-logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\firefox-logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/safari-logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\safari-logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/Opera_Logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\Opera_Logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/voorbeeld8-1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\voorbeeld8-1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/files/toeter.mp3
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\files\toeter.mp3
+Content Type: audio/mpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/voorbeeld8-2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\voorbeeld8-2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/files/What is HTML5.mp4
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\files\What is HTML5.mp4
+Content Type: video/mp4
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/hfst8-1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\hfst8-1.png
+Content Type: image/png
+
+Uri: http://html5test.com/compare/browser/ie-11/chrome-39/firefox-32/safari-8.0/opera-24.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\compare\browser\ie-11\chrome-39\firefox-32\safari-8.0\opera-24.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/voorbeeld9-1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\voorbeeld9-1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/voorbeeld9-2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\voorbeeld9-2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h10-1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h10-1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h10-2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h10-2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h10-3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h10-3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h10-4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h10-4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h10-5.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h10-5.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h11v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h11v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h11v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h11v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h11v3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h11v3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h12v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h12v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h12v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h12v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h12o4.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h12o4.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h12o5.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h12o5.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h12v3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h12v3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h13v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h13v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h13o2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h13o2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/rooster-klein.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\rooster-klein.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h1304.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h1304.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/arrow.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\arrow.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h14o1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h14o1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h14o2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h14o2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h14o3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h14o3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h14o4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h14o4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h14v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h14v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h14o5.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h14o5.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h14o6.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h14o6.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h14o7.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h14o7.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h15v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h15v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h15v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h15v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h15o1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h15o1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h15o2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h15o2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h15o3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h15o3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h15o4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h15o4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode1/img/h15o5.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode1\img\h15o5.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h1v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h1v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h1v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h1v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h1v3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h1v3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h1v4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h1v4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h1v5.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h1v5.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/files/puzzel.rar
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\files\puzzel.rar
+Content Type: application/x-rar-compressed
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h17v1.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h17v1.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h2v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h2v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/bg.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\bg.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h3v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h3v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h3v2.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h3v2.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h3v3.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h3v3.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/completeSite/index.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\completeSite\index.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/files/images.rar
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\files\images.rar
+Content Type: application/x-rar-compressed
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h4v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h4v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h4v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h4v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h4v3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h4v3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h4v4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h4v4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h4v5.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h4v5.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h4v6.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h4v6.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h5v1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h5v1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h5v2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h5v2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h5v3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h5v3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h5v4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h5v4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h5v5.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h5v5.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h5v6.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h5v6.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/h5v7.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\h5v7.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/index.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\index.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/imagesRetro.rar
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\imagesRetro.rar
+Content Type: application/x-rar-compressed
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/voorbeelld.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\voorbeelld.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/goodTutorials/index.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\goodTutorials\index.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/goodTutorials/imagesGoodTutorials.rar
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\goodTutorials\imagesGoodTutorials.rar
+Content Type: application/x-rar-compressed
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/img/goodtutcapture.PNG
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\img\goodtutcapture.PNG
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/index.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\index.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images.rar
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images.rar
+Content Type: application/x-rar-compressed
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/toets.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\toets.png
+Content Type: image/png
+
+Uri: http://ttf2woff.com/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\index-7.htm
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/ie9-logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\ie9-logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/Google_Chrome_logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\Google_Chrome_logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/firefox-logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\firefox-logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/safari-logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\safari-logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/Opera_Logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\Opera_Logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld3-1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld3-1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld3-2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld3-2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld3-3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld3-3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld3-4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld3-4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/div-syntax.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\div-syntax.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld3-5.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld3-5.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld3-6.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld3-6.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld3-7.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld3-7.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld3-8.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld3-8.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld3-9.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld3-9.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld3-10.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld3-10.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld4-1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld4-1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld4-2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld4-2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld4-3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld4-3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld4-4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld4-4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld4-5.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld4-5.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld4-6.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld4-6.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld4-7.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld4-7.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld5-1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld5-1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld5-2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld5-2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld6-1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld6-1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld6-2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld6-2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld6-3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld6-3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld6-4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld6-4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld6-5.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld6-5.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld6-6.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld6-6.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld9-1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld9-1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld9-2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld9-2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld9-3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld9-3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld9-4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld9-4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld9-5.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld9-5.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/opdracht9-3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\opdracht9-3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/opdracht9-31.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\opdracht9-31.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/opdracht9-4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\opdracht9-4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/hfst9-1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\hfst9-1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/hfst9-2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\hfst9-2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld9-7.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld9-7.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/hfst9-3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\hfst9-3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/files/What is HTML5.mp4
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\files\What is HTML5.mp4
+Content Type: video/mp4
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/responsive.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\responsive.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/media1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\media1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld10-2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld10-2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/media-viewport.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\media-viewport.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode3/img/voorbeeld10-4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode3\img\voorbeeld10-4.png
+Content Type: image/png
+
+Uri: https://netbeans.apache.org/download/index.html
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\download\index.html
+Content Type: text/html
+
+Uri: https://video.online-convert.com/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\index-4.htm
+Content Type: text/html
+
+Uri: https://www.youtube.com/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\index-5.htm
+Content Type: text/html
+
+Uri: https://www.youtube.com/embed/V8_wEZD160g
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\embed\V8_wEZD160g.html
+Content Type: text/html
+
+Uri: https://nl.lipsum.com/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\index-6.htm
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/completeSite/style.css
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\completeSite\style.css
+Content Type: text/css
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/completeSite/image.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\completeSite\image.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/completeSite/h2.gif
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\completeSite\h2.gif
+Content Type: image/gif
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/opmaak.css
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\opmaak.css
+Content Type: text/css
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/goodTutorials/style.css
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\goodTutorials\style.css
+Content Type: text/css
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/goodTutorials/images/retro.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\goodTutorials\images\retro.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/goodTutorials/images/phone.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\goodTutorials\images\phone.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/goodTutorials/images/portfolio.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\goodTutorials\images\portfolio.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/goodTutorials/images/restaurant.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\goodTutorials\images\restaurant.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/goodTutorials/images/colorful.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\goodTutorials\images\colorful.jpg
+Content Type: image/jpeg
+
+Uri: https://www.colorzilla.com/gradient-editor/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\gradient-editor\index.htm
+Content Type: text/html
+
+Uri: https://www.w3schools.com/cssref/css3_pr_text-shadow.asp
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\cssref\css3_pr_text-shadow.asp.html
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/style.css
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\style.css
+Content Type: text/css
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images/sheldon.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images\sheldon.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images/howard.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images\howard.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images/leonard.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images\leonard.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images/penny.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images\penny.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images/raj.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images\raj.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images/amy.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images\amy.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images/bernadette.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images\bernadette.jpg
+Content Type: image/jpeg
+
+Uri: https://www.dafont.com/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\index-8.htm
+Content Type: text/html
+
+Uri: https://mediaqueri.es/
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\index-9.htm
+Content Type: text/html
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/completeSite/bg.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\completeSite\bg.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/completeSite/menu.jpg
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\completeSite\menu.jpg
+Content Type: image/jpeg
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/completeSite/li.gif
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\completeSite\li.gif
+Content Type: image/gif
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/Linker poster.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\Linker poster.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/Rechter kant.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\Rechter kant.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/logo.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\logo.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/knop1.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\knop1.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/knop2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\knop2.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/knop3.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\knop3.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/knop4.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\knop4.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/knop5.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\knop5.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/knop6.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\knop6.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/knop7.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\knop7.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/retroPagina/images/knop8.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\retroPagina\images\knop8.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images/menu_links.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images\menu_links.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images/menu_rechts.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images\menu_rechts.png
+Content Type: image/png
+
+Uri: http://odt.gcmediavormgeving.nl/htmlcss/periode2/oefentoets/images/header2.png
+File Name: C:\Downloaded Web Sites\odt.gcmediavormgeving.nl\htmlcss\periode2\oefentoets\images\header2.png
+Content Type: image/png
+

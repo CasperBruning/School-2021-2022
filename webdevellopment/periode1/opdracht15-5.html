@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opdracht15-5</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 6px solid #f60;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        tr{
+            border-color: white 1px;
+        }
+        .menu{
+            background-color: #609;
+            color:red;
+        }
+        .midden{
+            background-color: #f60;
+            color: white;
+        }
+        .overig{
+            background-color: #609;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td class="overig" colspan="4">BOVEN</td>
+        </tr>
+        <tr>
+            <td class="menu">menu 1</td>
+            <td class="overig" rowspan="4">LINKSMIDDEN</td>
+            <td class="midden" rowspan="4">MIDDEN</td>
+            <td class="overig" rowspan="2">RECHTSMIDDENBOVEN</td>
+
+        </tr>
+        <tr>
+            <td class="menu">menu 3</td>
+        </tr>
+        <tr>
+            <td class="menu">menu 3</td>
+            <td class="overig" rowspan="2">RECHTSMIDDENBENEDEN</td>
+        </tr>
+        <tr>
+            <td class="menu">menu 4</td>
+        </tr>
+        <tr>
+            <td class="overig" colspan="4">BENEDEN</td>
+        </tr>
+
+    </table>
+</body>
+</html>

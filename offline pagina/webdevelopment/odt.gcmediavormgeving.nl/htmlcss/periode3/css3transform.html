@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - CSS3 transform</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+   
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML5 & CSS3 - CSS3 transform</h1>
+        </div>
+      <div class="ui-content" role="main">
+        <p>Met CSS3 is het nu ook mogelijk om divisies en objecten te  draaien. Dit kan in 2D en 3D. Voor dergelijke veranderingen moet soms de prefix van  de browser worden aangesproken. Elke browser heeft een andere manier om deze  aan te spreken, behalve Chrome, Safari en inmiddels Opera, die gebruiken dezelfde. Het lastige  hiervan is dat je dus meerdere malen dezelfde regel code moet programmeren,  voor elke (verouderde) webbrowser. </p>
+        <div id="div1">rotate<br>#57E3D6</div>
+        <div id="div2">scale. 1,5 keer groter dan origineel.<br>#3F6</div>
+        <div id="div3">skew<br>#FF9</div>
+        <div id="div4">rotateY<br>#F33</div>
+        <h2 style="clear:left;padding-top:30px;">Transform</h2>
+        <table class="info table">
+          <tbody>
+           <tr>
+              <th>Property</th>
+              <th title="Internet Explorer"><img src="img/ie9-logo.png"></th>
+              <th title="Chrome"><img src="img/Google_Chrome_logo.png"></th>
+              <th title="Firefox"><img src="img/firefox-logo.png"></th>
+              <th title="Safari"><img src="img/safari-logo.png"></th>
+              <th title="Opera"><img src="img/Opera_Logo.png"></th>
+          </tr>
+            <tr>
+              <td>transform</td>
+              <td>10.0<br>
+                9.0 -ms-</td>
+              <td>36.0<br>
+                4.0 -webkit-</td>
+              <td>16.0<br>
+                3.5 -moz-</td>
+              <td>3.2 -webkit-</td>
+              <td>23.0<br>
+                15.0 -webkit-<br>
+                12.1<br>
+                10.5 -o-</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Internet Explorer maakt gebruik van de prefix <strong>-ms-</strong>. FireFox van<strong> -moz-</strong>. Chrome en Safari van <strong>-webkit-</strong> en Opera van <strong>-o-</strong>. Je ziet dus in het overzicht hierboven dat voor IE8 transform niet werkt, IE9 alleen met prefix en vanaf IE10 de prefix niet meer nodig is. Een voorbeeld van  het gebruik hiervan, bij de optie transform, zie je in voorbeeld 4-1.</p>
+        <table class="overzicht table">
+          <tr>
+            <td colspan="2">transform</td>
+          </tr>
+          <tr>
+            <td>Rotate</td>
+            <td>Het    draaien van divisies.</td>
+          </tr>
+          <tr>
+            <td>Translate</td>
+            <td>Het    verplaatsen van de divisie t.o.v. de originele plaats. Niet logisch om te    doen omdat je dan met positionering in de war kan komen.</p></td>
+          </tr>
+          <tr>
+            <td >Scale</td>
+            <td>Het    vergroten van divisies.</td>
+          </tr>
+          <tr>
+            <td>Skew</td>
+            <td>Het    draaien van zowel de x als de y-as.</td>
+          </tr>
+          <tr>
+            <td>Matrix</td>
+            <td>Het    combineren van alle bovenstaand. (geavanceerd)</td>
+          </tr>
+        </table>
+        <br>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 4-1</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld4-1.png"></td>
+          </tr>
+        </table>
+        <p>
+          Je ziet dus dat je eerst gewoon de CSS optie (<strong>transform</strong>) benoemd en daarna per verschillende browser dezelfde  optie met de juiste toevoeging moet toevoegen. Een hoop extra werk wat helaas  niet anders op te lossen is. Echter worden de browsers steeds nieuwer en hoeven steeds minder prefixen worden gebruikt. Je kan er al programmeur zelf voor kiezen welke browsers je wel en niet ondersteund. In de rest van dit lesmateriaal gaan we steeds uit van geen prefix en de -webkit-. Dit om een hoop programmeer werkt te besparen.<br>
+          Transform werkt met <strong>deg</strong> (degrees, graden). Dus niet met pixels. </p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 1: rotate</td>
+          </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.
+              <ul>
+                <li>Maak in de CSS een divisie aan genaamd <strong>#transform</strong></li>
+                <li>Geef de divisie een <strong>lichtgroene</strong> achtergrond kleur.</li>
+                <li>De <strong>breedte</strong> van de divisie is <strong>100px</strong>.</li>
+                <li>tekst is <strong>gecentreerd</strong>.</li>
+                <li>Voeg de divisie nu toe aan de HTML. Zorg dat    de volgende tekst erin staat: CSS3 &lt;br&gt; transform</li>
+                <li>Voeg een <strong>transform:    rotate</strong> toe van <strong>20 graden</strong>.</li>
+                <li>Zorg dat dit voor elke webbrowser hetzelfde    is.</li>
+              </ul>
+              <p>Sla het bestand op als <strong>Opdracht4-1.html. </strong>Test het in verschillende webbrowsers. Je pagina    moet er dan steeds uitzien zoals in voorbeeld4-2.</p></td>
+          </tr>
+        </table>
+        <br>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 4-2</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld4-2.png"></td>
+          </tr>
+        </table>
+        <br>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 2: namaken</td>
+          </tr>
+          <tr>
+            <td width="614" valign="top"><p>Maak een nieuwe HTML5 pagina aan.</p>
+              <ul>
+                <li>Kijk goed naar voorbeeld 4-3. </li>
+                <li>Probeer deze zo goed mogelijk na te maken.</li>
+              </ul>
+              <p>Sla het bestand op als <strong>Opdracht4-2.html. </strong>Test het in verschillende webbrowsers.</p></td>
+          </tr>
+        </table>
+        <br>
+      <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 4-3</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld4-3.png"></td>
+          </tr>
+        </table>
+        <p>Naast de <strong>rotate</strong> functie kent transform ook nog de functie <strong>skew</strong>.  Met skew kan je een divisie of object over zowel de x als de y-as laten  draaien. Ook skew werkt met <strong>degrees</strong>.  Bij skew moet je dus twee waardes invullen. De eerste geldt voor de x-as. De  tweede voor de y-as. Dit zie je in voorbeeld 4-4.</p>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 4-4</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld4-4.png"></td>
+          </tr>
+        </table>
+        <br>
+        <table class="table opdracht">
+          <tr>
+            <td>Opdracht 3: skew</td>
+          </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.
+              <ul>
+                <li>Maak in de CSS een divisie aan genaamd <strong>#skew</strong></li>
+                <li>Geef de divisie een <strong>rode</strong> achtergrond kleur.</li>
+                <li>De <strong>breedte</strong> van de divisie is <strong>100px</strong>. De <strong>hoogte</strong> is <strong>75px</strong>.</li>
+                <li>Voeg de divisie nu toe aan de HTML. Zorg dat    de volgende tekst erin staat: De skew functie.</li>
+                <li>Voeg een <strong>transform:skew</strong> toe van <strong>15 graden </strong>voor de <strong>x-as</strong> en <strong>20 graden</strong> voor de <strong>y-as</strong>.</li>
+                <li>Zorg dat dit voor elke webbrowser hetzelfde    is.</li>
+              </ul>
+              <p>Sla het bestand op als <strong>Opdracht4-3.html. </strong>Test het in verschillende webbrowsers. Je    pagina moet er dan steeds uitzien zoals in voorbeeld4-5.</p></td>
+          </tr>
+        </table>
+        <br>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 4-5</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld4-5.png"></td>
+          </tr>
+        </table>
+        <br>
+        <table class="table opdracht">
+          <tr>
+            <td>Opdracht 4: namaken</td>
+          </tr>
+          </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.
+              <ul>
+                <li>Kijk goed naar voorbeeld 4-6. </li>
+                <li>Probeer deze pagina zo goed mogelijk na te    maken. </li>
+              </ul>
+              <p>Sla het bestand op als <strong>Opdracht4-4.html. </strong>Test het in verschillende webbrowsers. Je    pagina moet er dan steeds uitzien zoals in voorbeeld4-6.</p></td>
+          </tr>
+        </table>
+        <br>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 4-6</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld4-6.png"></td>
+          </tr>
+        </table>
+<h2>3d transform      </h2>
+<table class="info table">
+  <tbody>
+    <tr>
+          <th>Property</th>
+          <th title="Internet Explorer"><img src="img/ie9-logo.png"></th>
+          <th title="Chrome"><img src="img/Google_Chrome_logo.png"></th>
+          <th title="Firefox"><img src="img/firefox-logo.png"></th>
+          <th title="Safari"><img src="img/safari-logo.png"></th>
+          <th title="Opera"><img src="img/Opera_Logo.png"></th>
+      </tr>
+    <tr>
+      <td>transform</td>
+      <td>10.0</td>
+      <td>36.0<br>
+        12.0 -webkit-</td>
+      <td>16.0<br>
+        10.0 -moz-</td>
+      <td>4.0 -webkit-</td>
+      <td>23.0<br>
+        15.0 -webkit-</td>
+    </tr>
+  </tbody>
+</table>
+<p>Zoals je hierboven ziet wordt 3D transform pas ondersteund vanaf Internet Explorer 10. Je hebt hier geen prefix voor nodig, enkel de <strong>-webkit-</strong> voor safari. Er zijn twee mogelijkheden om 3D te draaien. Over de x-as of over de y-as</p>
+<table  class="overzicht table">
+      <tr>
+          <td colspan="2">Transform 3D</td>
+        </tr>
+        <tr>
+          <td>RotateX()</td>
+          <td>Het    draaien over de x-as. Deze draai lijkt verticaal </td>
+        </tr>
+        <tr>
+          <td>RotateY()</td>
+          <td>Het    draaien over de y-as. Deze draai lijkt horizontaal.</td>
+        </tr>
+      </table>
+      <p>De syntax is hetzelfde als de eerder behandelde transform.  Ook nu werk je weer met <strong>degrees</strong> en  niet met pixels. </p>
+      <table class="table let-op">
+        <tr>
+          <td >Let    op:</td>
+        </tr>
+        <tr>
+          <td>Als je 90 of 270 graden draait zal de divisie onzichtbaar zijn! </td>
+        </tr>
+      </table>
+      <br>
+      <table  class="table opdracht">
+        <tr>
+          <td>Opdracht 5: rotateX</td>
+        </tr>
+        <tr>
+          <td>Maak een nieuwe HTML5 pagina aan.</p>
+            <ul>
+              <li>Maak in de CSS een divisie aan genaamd <strong>#drieD</strong></li>
+              <li>Geef de divisie een <strong>rode</strong> achtergrond kleur.</li>
+              <li>De <strong>breedte</strong> van de divisie is <strong>100px</strong>. De <strong>hoogte</strong> is <strong>100px</strong>.</li>
+              <li>Voeg de divisie nu toe aan de HTML. Zorg dat    de volgende tekst erin staat: 3D draaiing.</li>
+              <li>Voeg een <strong>transform:rotateX</strong> toe van <strong>50graden</strong>.</li>
+              <li>Zorg dat het in elke ondersteunende webbrowser    hetzelfde is.</li>
+            </ul>
+            <p>Sla het bestand op als <strong>Opdracht4-5.html. </strong>Test het in verschillende webbrowsers. Je    pagina moet er dan steeds uitzien zoals in voorbeeld4-7.</p></td>
+        </tr>
+      </table>
+      <br>
+      <table class="normal voorbeeld">
+        <tr>
+          <td>Voorbeeld 4-7</td>
+        </tr>
+        <tr>
+          <td><img src="img/voorbeeld4-7.png"></td>
+        </tr>
+      </table>
+      <br>
+      <table class="opdracht table">
+        <tr>
+          <td>Opdracht 6: namaken</td>
+        </tr>
+        <tr>
+          <td>Maak een nieuwe HTML5 pagina aan.
+            <ul>
+              <li>Kijk goed naar de vier divisies helemaal bovenaan deze pagina. Maak deze zo goed mogelijk na.</li>
+              <li>Elk divisie is steeds 100px by 100px.</li>
+              <li>Margin-left:100px, margin-top:30px.</li>
+              <li>Border-radius:15px, grijs 2px.</li>
+              <li>De kleurcode en welke transform staat in de    divisie vermeld.</li>
+            </ul>
+            <p>Sla het bestand op als <strong>Opdracht4-6.html. </strong>Test het in verschillende webbrowsers. </p></td>
+        </tr>
+     </table>
+     <br>
+     
+      
+      </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

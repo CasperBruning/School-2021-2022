@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th{
+    background-color: #09f;
+    padding: 0 5px 0 5px;
+}
+td{
+    background-color: #0cf;
+    padding: 0 5px 0 5px;
+}
+table{
+    border-collapse: collapse;
+    border:solid black 2px
+}

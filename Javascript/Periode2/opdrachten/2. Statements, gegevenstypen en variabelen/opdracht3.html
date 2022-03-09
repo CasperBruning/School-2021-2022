@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="inputtekst"></h1>
+<h1 id="pos"></h1>
+<script>
+    const input = prompt("Geef een string in en de positie van de eerste spatie word teruggegeven");
+    const spaties = input.indexOf(" ") + 1;
+    document.querySelector(`#inputtekst`).innerHTML = `Uw tekst: ${input}`;
+    document.querySelector(`#pos`).innerHTML = `De eerste spatie staat op postitie:  ${spaties}`;
+</script>
+</body>
+</html>

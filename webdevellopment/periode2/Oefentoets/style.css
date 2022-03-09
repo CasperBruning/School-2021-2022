@@ -1,0 +1,118 @@
+body{
+    background-color: #D7D7D7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    /*background-color: darkgrey;*/
+}
+.left {
+    width: 200px;
+    height: 600px;
+    background-image: url("images/menu_links.png");
+    float: left;
+}
+.imageleft{
+    margin: 3px;
+    border: 1px solid white;
+    float: left;
+}
+.centerpiece{
+    width: 600px;
+    height: 600px;
+    float: left;
+    background-color: #999;
+}
+.header{
+    height: 120px;
+    width: 600px;
+    background-image: url("images/header2.png");
+    float: left;
+}
+.title{
+    color: #56b1f6;
+    text-align: center;
+}
+.content{
+    width: 600px;
+    height: auto;
+    float: left;
+
+
+}
+.paragraf{
+    font-size: 16px;
+    float: left;
+    margin: 5px;
+}
+.paragrafBold{
+    font-weight: bold;
+}
+.right{
+    width: 200px;
+    height: 600px;
+    background-image: url("images/menu_rechts.png");
+    float: left;
+}
+.tablediv{
+    float: left;
+    width: 600px;
+}
+.contenttable{
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 590px;
+    margin: 5px;
+
+}
+.contenttr{
+    border: 2px solid white;
+}
+.contentth{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+.ulRight{
+    padding: 0;
+    margin: 0;
+    margin-top: 250px;
+    list-style: none;
+    float: left;
+
+}
+.LiRight{
+    border: 2px solid white;
+    margin: 0px 0px 10px 25px;
+    width: 150px;
+    text-align: center;
+    background-color: #033255;
+    color: white;
+    text-decoration: none;
+
+}
+.LiRight:hover{
+    background-color: #56b1f6;
+
+}
+.aright{
+    text-decoration: none;
+    color: white;
+
+}
+.aright:hover{
+    background-color: #56b1f6;
+
+}
+.footer{
+    height: 30px;
+    background-color: #56b1f6;
+    float: left;
+    width: 1000px;
+}
+.footerh6{
+    text-align: center;
+    margin-top: 9px;
+    font-size: 12px;
+}

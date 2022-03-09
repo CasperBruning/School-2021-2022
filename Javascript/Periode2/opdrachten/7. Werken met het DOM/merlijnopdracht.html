@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boodschappenlijstje</title>
+</head>
+<body>
+<h1>Boodschappenlijst</h1>
+<p>Wat moeten we kopen?</p>
+
+
+<table>
+    <tr>
+        <td><input type="text"></td>
+        <td><button>Toevoegen</button></td>
+    </tr>
+</table>
+<tr>
+    <ul></ul>
+</tr>
+
+<script>
+
+    document.querySelector('button').addEventListener('click', function(index)
+    {
+        const newLi = document.createElement('li');
+
+        const input = document.querySelector('input').value;
+        const newInput = document.createTextNode(input);
+
+        newLi.appendChild(newInput);
+
+
+        const newReturn = document.querySelector('ul').appendChild(newLi);
+
+        newLi.addEventListener('click', function (){
+            this.parentElement.removeChild(this);
+        });
+
+    });
+</script>
+</body>
+</html>

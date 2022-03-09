@@ -1,0 +1,179 @@
+body{
+    background-color: grey;
+    font-family: "Segoe", "Trebuchet MS";
+}
+#container{
+    height: 768px;
+    width: 1024px;
+    margin: auto;
+}
+#leftside{
+    height: 768px;
+    width: 497px;
+    background-image: url("images/Linker poster.png");
+    float: left;
+}
+    #leftsidetitle{
+        text-align: right;
+        color: #bd8d45;
+        font-weight: normal;
+        font-size: 40px;
+        margin: 0;
+        font-family: "Helvetica";
+    }
+#rightside{
+    height: 768px;
+    width: 527px;
+    background-image: url("images/Rechter kant.png");
+    float: left;
+}
+    #rightsidetitle{
+        text-align: left;
+        color: #59262b;
+        font-weight: normal;
+        font-size: 40px;
+        margin: 0;
+        font-family: "Helvetica";
+        width: 357px;
+    }
+    #topdiv{
+        width: 357px;
+        height: 220px;
+        float: left;
+    }
+        #content{
+            height: 163px;
+            margin-bottom: 0;
+            margin-left: 70px;
+            font-size: 11px;
+            float: left;
+        }
+    #logo{
+        width: 170px;
+        height: 220px;
+        background-image: url("images/logo.png");
+        float: left;
+        background-repeat: no-repeat;
+    }
+    #main{
+        width: 357px;
+        height: 721px;
+        float: left;
+    }
+    #contentbold{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    #img1{
+        float: left;
+        margin-left:70px ;
+        background-image: url("images/knop1.png");
+        background-repeat:no-repeat ;
+        height: 120px;
+        width: 120px;
+        margin-bottom: 15px;
+    }
+    #img5{
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        background-image: url("images/knop5.png");
+        background-repeat:no-repeat ;
+        height: 120px;
+        width: 120px;
+    }
+    #img2{
+        float: left;
+        margin-left:70px ;
+        background-image: url("images/knop2.png");
+        background-repeat:no-repeat ;
+        height: 120px;
+        width: 120px;
+        margin-bottom: 15px;
+    }
+    #img6{
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        background-image: url("images/knop6.png");
+        background-repeat:no-repeat ;
+        height: 120px;
+        width: 120px;
+    }
+    #img3{
+        float: left;
+        margin-left:70px ;
+        background-image: url("images/knop3.png");
+        background-repeat:no-repeat ;
+        height: 120px;
+        width: 120px;
+        margin-bottom: 15px;
+    }
+    #img7{
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        background-image: url("images/knop7.png");
+        background-repeat:no-repeat ;
+        height: 120px;
+        width: 120px;
+    }
+    #img4{
+        float: left;
+        margin-left:70px ;
+        background-image: url("images/knop4.png");
+        background-repeat:no-repeat ;
+        height: 120px;
+        width: 120px;
+        margin-bottom: 15px;
+    }
+    #img8{
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        background-image: url("images/knop8.png");
+        background-repeat:no-repeat ;
+        height: 120px;
+        width: 120px;
+    }
+    .imgtext{
+        padding-top: 89px;
+        margin: 0;
+        text-align: center;
+        font-size: 13px;
+    }
+        .imgbuttena{
+            text-decoration: none;
+            color: black;
+        }
+#sidebar{
+    height: 548px;
+    width: 170px;
+    float: right;
+}
+    .ul1{
+        list-style-type: none;
+        margin: 0;
+    }
+    .ul2{
+        list-style-type: none;
+        margin: 0;
+        margin-top: 30px;
+    }
+        .lititle{
+            font-weight: bold;
+
+        }
+        .l1{
+            margin: -3px;
+            margin-left: 1px;
+        }
+        .ali1{
+            text-decoration: none;
+            font-size: 11px;
+            color: black;
+            margin: 0;
+        }
+            .ali1:hover {
+                text-decoration: underline;
+            }

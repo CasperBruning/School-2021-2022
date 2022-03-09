@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Class</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+   
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width"/>
+
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - Class</h1>
+        </div>
+        <div class="ui-content" role="main">
+		<h2>Class</h2>
+<p>Zoals we inmiddels weten kan je alle HTML elementen noemen en dus opmaken in CSS. Daarnaast is het ook mogelijk om zelf een Class aan te maken. Deze Class kan je dan koppelen aan elk willekeurig HTML element. Dit element krijgt dan de opmaak opgegeven zoals in de CSS.</p>
+<p>Je moet er twee dingen voor doen. E&eacute;n is de Class aanmaken in je CSS. Dit doe je door een punt (.) voor de naam te zetten en daarna een zelf gekozen naam. Hieronder zie je een voorbeeld.</p>
+<table class="table voorbeeld" style="max-width:180px;">
+        	<tr><td>Voorbeeld 1</td></tr>
+            <tr><td>
+            <img src="img/h15v1.png">
+            </td></tr>
+            </table> 
+<p>Hier is dus de Class <strong>vetgedrukt</strong> aangemaakt. Je weet dat dit een Class is door de punt voor de naam. Je kunt Classes en gewone CSS door elkaar gebruiken.</p>
+<p>De Class doet nu nog niets. Dit komt omdat de Class nog wel moet worden gekoppeld aan een HTML element. Het voordeel van een Class is dat we dus zelf kunnen bepalen waar we deze aan koppelen. Hieronder zie je een voorbeeld hoe dat moet.</p>
+<table class="table voorbeeld" style="max-width:366px;">
+        	<tr><td>Voorbeeld 2</td></tr>
+            <tr><td>
+            <img src="img/h15v2.png">
+            </td></tr>
+            </table> 
+            <p>Je hebt dus een HTML element, in dit geval de &lt;p&gt;. Daarachter typ je class=&rdquo;&rdquo;. Tussen de dubbele quote type je de naam die je bedacht hebt voor je class. Je laat dan dus de punt weg.</p>
+            <table class="table opdracht">
+        	<tr><td colspan="2">Opdracht 1: Namaken</td></tr>
+            <tr><td>
+           <p>Open een nieuw HTML bestand.</p>
+<ul>
+<li>Maak voorbeeld 1 en 2 <strong>in &eacute;&eacute;n</strong> bestand na.</li>
+<li>Voorbeeld 1 is in de &lt;head&gt; getypt. Dus een <strong>intern stylesheet</strong>.</li>
+<li>Je pagina moet er uitzien zoals hiernaast.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht15-1.html.</strong></p>
+            </td><td width="30%">
+            <img src="img/h15o1.png">
+            </td></tr>
+            </table>
+            <p>Waar een Class ook prima voor gebruikt kan worden is het verduidelijken van tabellen. Als je namelijk hele grote en lange tabellen hebt, is het makkelijk om alle &ldquo;even&rdquo;-rijen een andere kleur te geven dan de &ldquo;oneven&rdquo;-rijen. Dit kon voorheen niet omdat alle rijen met &lt;tr&gt; beginnen en je dus geen onderscheidt tussen even en oneven kan maken.</p>
+            <table class="table opdracht">
+        	<tr><td colspan="2">Opdracht 2: Tabel</td></tr>
+            <tr><td>
+          <p>Open het bestand <strong>opdracht13-1.html</strong> en <strong>Opmaak13-1.css</strong></p>
+<ul>
+<li>Maak in de CSS een class aan die heet &ldquo;<strong>even</strong>&rdquo;.</li>
+<li>Zet de achtergrond kleur op een donkerblauwe kleur.</li>
+<li>Maak ook een class aan die &ldquo;<strong>oneven</strong>&rdquo; heet.</li>
+<li>Zet daarin de achtergrond kleur op lichtblauw.</li>
+<li>Haal bij de <strong>td</strong> en <strong>tr</strong>, in je CSS, de <strong>achtergrondkleur</strong> <strong>weg</strong>.</li>
+<li>Ga vervolgens naar je HTML pagina en koppel daar aan de <strong>&lt;tr&gt; de juiste class</strong>. Je begint met de oneven class.</li>
+<li>Je pagina moet er uitzien zoals hiernaast.</li>
+</ul>
+<p>Sla de bestanden op als <strong>opdracht15-2.html</strong> en <strong>opmaak15-2.css</strong></p>
+            </td><td width="30%">
+            <img src="img/h15o2.png">
+            </td></tr>
+            </table>
+            <p>Nu weten we dus hoe we een Class kunnen maken en dat we hierdoor zelf kunnen bepalen welk onderdeel we deze opmaak geven. Alleen wat nou als je bijvoorbeeld &eacute;&eacute;n woord of een deel van een zin wilt opmaken? We kunnen namelijk deze Class alleen maar aan een HTML element koppelen. Om dit voor elkaar te krijgen is het HTML element <strong>&lt;span&gt;</strong> bedacht. &lt;span&gt; is een HTML element zonder standaard opmaak.</p>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 3: Tekst</td></tr>
+            <tr><td>
+          <p>Open het bestand <strong>opdracht12-2.html</strong>.</p>
+<ul>
+<li>Maak een class aan die heet &ldquo;<strong>wit</strong>&rdquo;. En zorg dat de tekstkleur wit wordt.</li>
+<li>Maak ook een class aan die &ldquo;<strong>zwart</strong>&rdquo; heet en zorg dat de tekstkleur zwart wordt.</li>
+<li>Koppel vervolgens, door de <strong>&lt;span&gt;</strong> op de juiste plaats toe te voegen, de classes aan de &lt;span&gt;.</li>
+<li>Je pagina moet er uitzien zoals hieronder.</li>
+</ul>
+<p>Sla de bestanden op als <strong>opdracht15-3.html</strong>.</p>
+            </td></tr><tr><td>
+            <img src="img/h15o3.png">
+            </td></tr>
+            </table>
+            <br>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 4: Tekst</td></tr>
+            <tr><td>
+          <p>Open het bestand <strong>opdracht11-1.html</strong>.</p>
+<ul>
+<li>Maak de pagina hieronder zo goed mogelijk na.</li>
+<li>Gebruik de juiste classes.</li>
+</ul>
+<p>Sla de bestanden op als <strong>opdracht15-4.html</strong>.</p>
+            </td></tr><tr><td>
+            <img src="img/h15o4.png">
+            </td></tr>
+            </table>
+            <br>
+             <table class="table opdracht">
+        	<tr><td colspan="2">Opdracht 5: Tabel</td></tr>
+            <tr><td width="50%">
+         <p>Open het bestand <strong>opdracht7-3.html</strong>. Gebruik classes (waar dat nodig is) om deze tabel na te maken.</p>
+<ul>
+<li>Paarse achtergrondkleur: #609</li>
+<li>Oranje kleur is #F60;</li>
+<li>Tabel buitenrand is oranje en 6px dik</li>
+<li>Randen in de tabel zijn wit en 1px dik</li>
+<li>Lettertype is Segoe / Trebuchet MS en in het midden uitgelijnd</li>
+</ul>
+<p>Sla de bestanden op als <strong>opdracht15-5.html</strong>.</p>
+            </td><td>
+            <img src="img/h15o5.PNG">
+            </td></tr>
+            </table>
+         </div>
+        <div data-role="footer" data-position="fixed" >
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

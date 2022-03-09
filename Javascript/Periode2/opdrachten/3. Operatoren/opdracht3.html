@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a = 10 + 15; // komt 25 uit
+  console.log(a);
+    let a = '10' + '15'; // komt 1015 uit
+  console.log(a);
+    let a = (10 > 15); // komt false uit
+  console.log(a);
+    let a = (10 == 15); // komt false uit
+  console.log(a);
+    let a = (10 >= 15) ? 10 : 15; // komt false uit
+  console.log(a);
+    let a = (15 > 15) && (10 < 15) // komt false uit
+  console.log(a);
+    let a = 10 - "15"; // komt NaN uit
+  console.log(a);
+    let a = ((10 > 15) && (15 > 10)) ? 15: (10 < 15) // komt false uit
+  console.log(a);
+  let a = '10' === '15'; // komt false uit
+  console.log(a);
+  let a = '10' === '10'; // komt true uit
+  console.log(a);
+  let a = 'hello' > 'world'; // komt ? uit
+  console.log(a);
+
+
+</script>
+</body>
+</html>

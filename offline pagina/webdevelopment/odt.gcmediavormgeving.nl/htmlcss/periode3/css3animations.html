@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - CSS3 Bewegingen</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+   	<style type="text/css">
+	
+	</style>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML5 & CSS3 - CSS3 Bewegingen</h1>
+        </div>
+      <div class="ui-content" role="main">
+        <h2>Animations</h2>
+        <div id="vb61">CSS3</div>
+        <br>
+        <table class="table info">
+          <tbody>
+             <tr>
+              <th>Property</th>
+              <th title="Internet Explorer"><img src="img/ie9-logo.png"></th>
+              <th title="Chrome"><img src="img/Google_Chrome_logo.png"></th>
+              <th title="Firefox"><img src="img/firefox-logo.png"></th>
+              <th title="Safari"><img src="img/safari-logo.png"></th>
+              <th title="Opera"><img src="img/Opera_Logo.png"></th>
+          </tr>
+            <tr>
+              <td>@keyframes</td>
+              <td>10.0</td>
+              <td>4.0 -webkit-</td>
+              <td>16.0<br>
+                5.0 -moz-</td>
+              <td>4.0 -webkit-</td>
+              <td>15.0 -webkit-<br>
+                12.1<br>
+                12.0 -o-</td>
+            </tr>
+            <tr>
+              <td>animation</td>
+              <td>10.0</td>
+              <td>4.0 -webkit-</td>
+              <td>16.0<br>
+                5.0 -moz-</td>
+              <td>4.0 -webkit-</td>
+              <td>15.0 -webkit-<br>
+                12.1<br>
+                12.0 -o-</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Het is nu mogelijk om animaties te maken met CSS3. Deze  animaties kunnen de bekende Animated GIFS en Flash animaties vervangen. Het  grote voordeel hiervan is dat de animaties werken op bijvoorbeeld mobiele  apparaten. Er is dus geen extra plugin meer nodig om je volledige webpagina te  laten zien aan de gebruiker. Er zijn ook nadelen. <strong>Animations</strong> werkt op alle grote webbrowsers maar de -webkit- prefix is nogwel verplicht.  Daardoor is het programmeren van een simpele animatie vele malen meer werk dan  in bijvoorbeeld Flash. <br><br>
+        De <strong>@keyframes</strong> regel is nodig om de animatie werkend te krijgen. Net zoals in Flash, gebruik  je keyframes om de animatie te sturen. Bij elk keyframe bepaal je de eindpositie  van je geanimeerde object. De tussenliggende stappen worden dan automatisch  uitgerekend. Waar je in Flash met framenummers werkt, werkt @keyframes in <strong>percentages</strong>. Dat wil zeggen dat je  bijvoorbeeld aangeeft dat op 0% van de animatie de achtergrondkleur rood moet  zijn, op 25% blauw, op 50% geel, op 75% groen en op 100% weer rood. Afhankelijk  van hoe snel je de animatie hebt ingesteld, veranderd dan ook de  achtergrondkleur. Je kunt ook de woorden &ldquo;from&rdquo; en &ldquo;to&rdquo; gebruiken in plaats van  percentages. Deze staan dan gelijk aan de 0% en 100%. </p>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 6-1</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld6-1.png"></td>
+          </tr>
+        </table>
+        <br>
+        <table class="overzicht table">
+          <tr>
+            <td colspan="2">@keyframes</td>
+          </tr>
+          <tr>
+            <td>animationname</td>
+            <td>Verplicht.    Naam van de animatie, door je zelf te verzinnen.</td>
+          </tr>
+          <tr>
+            <td>keyframes-selector</td>
+            <td>Verplicht. Percentage van hoe lang de animatie duurt. <br>
+              invoerwaardes:<br>
+              0-100%<br>
+              from (zelfde als 0%)<br>
+              To (zelfde als 100%)<br>
+              <br>
+              Je kan zoveel keyframes-selectors in je animatie stoppen als jezelf wilt. </td>
+          </tr>
+          <tr>
+            <td>css code</td>
+            <td>Verplicht. Hier geef je de css code op, hoe je animatie op dat moment    eruit moet zien.</td>
+          </tr>
+        </table>
+        <p>
+          Om dit wat duidelijker te maken, zie je hieronder een voorbeeld waarbij de  achtergrond kleur van rood naar blauw veranderd. Omdat dit maar twee  handelingen zijn, wordt de from-to gebruikt. </p>
+          <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 6-2</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld6-2.png"></td>
+          </tr>
+        </table>
+        <p>Kijk goed naar voorbeeld6-2. Je ziet daar op regel 8 de prefix -webkit- toegevoegd worden. Let er op dat eerst de <strong>@</strong> komt, dan de <strong>prefix </strong>en dan pas <strong>keyframes</strong>.<br>
+        In de nieuwe versie van Dreamweaver gaat dit prima. In de wat oudere versies (5.5 en lager) wordt niet altijd de prefix voor de @keyframes herkend. Probeer je daar niet door te laten afleiden.        
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 1: overtypen</td>
+          </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.</p>
+              <ul>
+                <li>Voeg een stylesheet toe en type <strong>voorbeeld 6-2</strong> over.</li>
+                <li>Deze gaan we straks verder gebruiken</li>
+              </ul>
+              Sla het bestand op als <strong>Opdracht6-1.html. </strong></td>
+          </tr>
+        </table>
+        <p>Met de @keyframes worden de stappen bepaald en de  veranderingen. Daarnaast moet dit ook aan een divisie worden gekoppeld. Dit  doen we met de <strong>animation</strong>. De syntax zie je in voorbeeld 6-3.</p>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 6-3</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld6-3.png"></td>
+          </tr>
+        </table>
+        <br>
+        <table class="overzicht table">
+          <tr>
+            <td colspan="2">animation</td>
+          </tr>
+          <tr>
+            <td style="width:20%;">name</td>
+            <td><strong>Verplicht</strong>.    Naam van de animatie, door jezelf verzonnen bij de @keyframes regel</td>
+          </tr>
+          <tr>
+            <td>duration</td>
+            <td><strong>Verplicht.</strong> Duur van de    animatie</td>
+          </tr>
+          <tr>
+            <td>timing-function</td>
+            <td><strong>Optioneel</strong>. Wat voor manier    van bewegen heeft de animatie. Standaard is dit <strong>ease</strong>. Als je een gelijkmatig verloop wilt hebben, moet je voor <strong>linear</strong> kiezen.</td>
+          </tr>
+          <tr>
+            <td>delay</td>
+            <td><strong>Optioneel</strong>. De pauze totdat    de animatie moet beginnen.</td>
+          </tr>
+          <tr>
+            <td>iteration-count</td>
+            <td><strong>Optioneel</strong>. Hoe vaak achter    elkaar moet de animatie herhaald worden. Voer hier <strong>infinite</strong> in, voor een oneindige animatie.</td>
+          </tr>
+          <tr>
+            <td>direction</td>
+            <td><strong>Optioneel</strong>. Hier kan je er    voor kiezen om de animatie achterste voren af te spelen. Voeg het woord <strong>alternate</strong> toe om de animatie eerst normaal af te laten spelen en vanaf het eindpunt weer terug naar het beginpunt.</td>
+          </tr>
+        </table>
+        <br>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 6-4</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld6-4.png"></td>
+          </tr>
+        </table>
+        <p>
+          Je ziet hier dat bij de divisie alle eigenschappen van de divisie worden  opgegeven en dat bij animation de naam van de animatie staat, de tijd en dat  deze linear moet bewegen. De naam is myfirst. Deze naam kan je zelf kiezen,  maar in voorbeeld 6-2 hebben we bij de @keyframes de naam myfirst gebruikt. Dit  moeten we dan hier ook doen.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 2: toevoegen</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>Opdracht6-1.html</strong>.
+              <ul>
+                <li>Voeg aan de stylesheet de tekst van <strong>voorbeeld 6-4</strong> toe.</li>
+                <li>Vergeet niet de divisie ook in de html toe te    voegen.</li>
+              </ul>
+              Sla het bestand op als <strong>Opdracht6-2.html. </strong>test het in verschillende webbrowsers. </td>
+          </tr>
+        </table>
+        <p>
+          Je ziet dat de achtergrond in twee seconden veranderd van rood naar blauw. Aan  het einde springt de divisie weer naar rood en stopt. Als je wilt dat je  divisie de blauwe kleur blijft houden moet je geen animations maar een  transition (zoals in de vorige les behandeld) toepassen. Bij animaties is het  pas interessant wanneer deze oneindig afspelen.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 3: oneindig</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>Opdracht6-2.html</strong>.
+              <ul>
+                <li>Pas de animatie zo aan dat deze oneindig    blijft doorgaan. Kijk hierbij goed in het groene blok met informatie over de    animation.</li>
+                <li>Zorg er ook voor dat deze vanaf het eindpunt eerst terug gaat naar het beginpunt.
+              </ul>
+              Sla het bestand op als <strong>Opdracht6-3.html. </strong>test het in verschillende webbrowsers. </td>
+          </tr>
+        </table>
+<p>Naast de achtergrond kleur veranderen kun je de divisie ook  over het scherm laten bewegen. Hiervoor moet je bij de divisie de <strong>postion:relative;</strong> opgeven. Vervolgens  ga je bij de @keyframes door middel van de optie <strong>left:</strong> en <strong>top:</strong> de positie  van de divisie bepalen.
+<table class="voorbeeld normal">
+      <tr>
+            <td>Voorbeeld 6-5</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld6-5.png"></td>
+          </tr>
+        </table>
+<p>Kijk goed naar voorbeeld6-5. De beginpositie (from) is  left:0px; en top:0px;. Dat is afstand vanaf de linker- en bovenkant van het  scherm. De eindpositie (to) is left:100px; en top:100px;. Ook weer vanaf de  linker- en bovenkant van het scherm. 
+<table class="opdracht table">
+  <tr>
+    <td>Opdracht 4: namaken</td>
+  </tr>
+  <tr>
+    <td>Maak een nieuwe HTML5 pagina aan.</p>
+      <ul>
+        <li>Voeg een stylesheet toe en type daarin <strong>voorbeeld6-5</strong> over.</li>
+        <li>Vergeet niet om ook een divisie aan te maken    met daarin een <strong>breedte</strong>, <strong>hoogte</strong> en <strong>achtergrondkleur</strong>.</li>
+        <li>Om de divisie te laten bewegen moet ook de <strong>position:relative</strong> erin staan.</li>
+        <li>Zorg dat de animatie de <strong>juiste naam</strong> heeft, <strong>2    seconden</strong> duurt en een <strong>lineare</strong> beweging heeft.</li>
+        <li>Vergeet niet de divisie in de html toe te    voegen.</li>
+      </ul>
+      Sla het bestand op als <strong>Opdracht6-4.html. </strong>test het in verschillende webbrowsers. </td>
+  </tr>
+</table>
+<p>
+  We zijn nu steeds bezig geweest met een animatie die van de beginpositie (0%)  veranderd naar een eindpositie (100%). Om het echt een animatie te laten  lijken, gaan we een aantal tussenstappen toevoegen. Kijk goed naar voorbeeld6-6  hoe je dit doet.</p>
+<table class="voorbeeld normal">
+      <tr>
+            <td>Voorbeeld 6-6</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld6-6.png"></td>
+          </tr>
+        </table>
+      
+       	<br>
+<table class="opdracht table">
+  <tr>
+    <td>Opdracht 5: namaken</td>
+  </tr>
+  <tr>
+    <td>Maak een nieuwe HTML5 pagina aan.</p>
+      <ul>
+        <li>Kijk goed naar de animatie hieronder. Probeer deze zo    goed mogelijk na te maken.</li>
+        <li>Verzin een passende naam. De divisie is 100px    by 100px.</li>
+        <li>Tel hoelang de animatie duurt en wat er allemaal veranderd.</li>
+      </ul>
+      <p>Sla het bestand op als <strong>Opdracht6-5.html. </strong>test het in verschillende webbrowsers. </p></td>
+  </tr>
+</table>
+<br>
+<div id="opdr65"></div>
+       	<br><br><br><br><br><br><br><br><br><br><br>
+<table class="opdracht table">
+  <tr>
+    <td>Opdracht 6: namaken</td>
+  </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.</p>
+              <ul>
+                <li>Kijk goed naar de animatie welke je hier bovenaan de pagina ziet. Refresh de pagina om deze opnieuw af te spelen.</li>
+                <li>Je ziet de groene divisie die geanimeerd    wordt. </li>
+                <li>Probeer deze, zonder naar de broncode te    kijken, na te maken. </li>
+                <li>Je moet hierbij gebruik maken van de <strong>rotate</strong> zoals deze behandeld is in de    lessen over transform.</li>
+              </ul>
+              Sla het bestand op als <strong>Opdracht6-6.html. </strong>test het in verschillende webbrowsers. </td>
+          </tr>
+        </table>
+        
+      </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

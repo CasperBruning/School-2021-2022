@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="divresult"></div>
+<dov id="divresultTwee"></dov>
+
+<script>
+    const getal1 = prompt();
+    const getal2 = prompt();
+
+    print(getal1, getal2)
+
+    function print(getal1, getal2) {
+        let som = parseInt(getal1) + parseInt(getal2);
+        document.querySelector(`#divresult`).innerHTML = `${getal1} + ${getal2} = ${som} `;
+        const eigenschap = arguments.length;
+        document.querySelector(`#divresultTwee`).innerHTML = `${eigenschap}`;
+    }
+</script>
+</body>
+</html>

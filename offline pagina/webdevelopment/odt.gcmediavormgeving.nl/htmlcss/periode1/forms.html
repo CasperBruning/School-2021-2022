@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Forms</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css">
+    <link rel="stylesheet" href="../extrea.css" type="text/css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <section id="introductie" data-role="page">
+<div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML5 & CSS3 - Forms</h1>
+        </div>
+      <div class="ui-content" role="main">
+        <p>Formulieren zijn sterk verbeterd in HTML5. Er zijn vooral  een hoop nieuwe input types bij gekomen welke het invoeren van formulieren  makkelijker en duidelijker maken. Er is echter wel een groot nadeel. Nog lang  niet alle browsers ondersteunen alle onderdelen. Op het moment dat een browser  het precieze element niet ondersteund, wordt het input veld als een normaal  tekstveld beschouwd. </p>
+        <h2>Forms</h2>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 9-1</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld9-1.png"></td>
+          </tr>
+        </table>
+        <p>
+          Het voorbeeld hierboven is een voorbeeld van een standaard formulier. Met een  formulier kan de gebruiker gegevens invullen. Deze worden dan naar een  opgegeven pagina gestuurd. Dat versturen gaat via de webserver. Om dit te laten  werken moet je de bestanden dus testen op een webserver. Dat gaan we tijdens  deze les niet doen. Het gaat er hier enkel om welke nieuw type invoervelden er  zijn.</p>
+        <p>In het voorbeeld is de <strong>input type text</strong>. Dit levert een gewoon simpel tekstveld op waar de  gebruike	r iets kan invullen.<br>
+        </p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 1: testen</td>
+          </tr>
+          <tr>
+            <td width="614" valign="top">Open een nieuw HTML5 bestand
+              <ul>
+                <li>Type voorbeeld9-1 over.</li>
+                <li>Controleer in je webbrowser of er twee    testvelden staan met daaronder een knop.</li>
+                <li>De knop werkt wel, maar het doelbestand.php    bestaat niet. Dat is niet erg.</li>
+              </ul>
+              Sla het bestand op als <strong>opdracht9-1.html</strong></td>
+          </tr>
+        </table>
+        <p>
+          Zoals gezegd zijn er een hoop nieuwe elementen bijgekomen maar worden deze nog  lang niet door elke webbrowser ondersteund. Hieronder een overzicht.</p>
+        <table class="info table">
+          <tr>
+              <th width="15%">Property</th>
+              <th title="Internet Explorer"><img src="img/ie9-logo.png"></th>
+              <th title="Chrome"><img src="img/Google_Chrome_logo.png"></th>
+              <th title="Firefox"><img src="img/firefox-logo.png"></th>
+              <th title="Safari"><img src="img/safari-logo.png"></th>
+              <th title="Opera"><img src="img/Opera_Logo.png"></th>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Color</strong></td>
+            <td valign="top">NO</td>
+            <td valign="top">YES</td>
+            <td valign="top">NO</td>
+            <td valign="top">NO</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Date</strong></td>
+            <td valign="top">NO</td>
+            <td valign="top">YES</td>
+            <td valign="top">NO</td>
+            <td valign="top">NO</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Datetime-local</strong></td>
+            <td valign="top">NO</td>
+            <td valign="top">YES</td>
+            <td valign="top">NO</td>
+            <td valign="top">NO</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Email</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>File</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Number</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES </td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>Range</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+          </tr>
+          <tr>
+            <td valign="top"><strong>required</strong></td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">YES</td>
+            <td valign="top">NO</td>
+            <td valign="top">YES</td>
+          </tr>
+        </table>
+       <br>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 2: controleren</td>
+          </tr>
+          <tr>
+            <td width="614" valign="top">Open de site <a href="../../compare/browser/ie-11/chrome-39/firefox-32/safari-8.0/opera-24.html" target="_blank">http://www.html5test.com</a>.  Je ziet de vijf webbrowsers naast elkaar. Controleer of de laatste versies van alle webbrowsers ingesteld staan. Check daarna of de lijst hierboven nog klopt.</td>
+          </tr>
+        </table>
+        <h2>Color</h2>
+        <p>Input type color geeft de mogelijkheid om een kleur te  kiezen uit een aantal voorbeelden. </p>
+       <table class="opdracht table">
+          <tr>
+            <td>Opdracht 3: color</td>
+          </tr>
+          <tr>
+            <td>Open een nieuw HTML5 bestand
+              <ul>
+                <li>Kijk goed naar voorbeeld 9-1.</li>
+                <li>Zorg dat de volgende tekst wordt weergegeven: <strong>Kies uw favoriete kleur:</strong></li>
+                <li>Zorg voor een input type <strong>color</strong>. Name wordt favcolor</li>
+                <li>Test je bestand in <strong>Chrome</strong>. Test het daarna in een andere browser. Zie je het    verschil?</li>
+              </ul>
+              Sla het bestand op als <strong>opdracht9-3.html</strong></td>
+          </tr>
+</table>
+        <h2>Date</h2>
+        <p>Met de date krijg je een kalender te zien waar je vervolgens  netjes de datum kunt selecteren. Dit kan erg handig zijn als je een  bestelformulier maakt waarbij een datum moet worden opgegeven (denk aan een  reis). Je weet zeker dat de gebruiker het juiste datumformaat heeft ingevuld.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 4: date</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>opdracht9-3.html</strong>
+              <ul>
+                <li>Zorg dat de volgende tekst wordt weergegeven: <strong>Kies uw datum:</strong></li>
+                <li>Zorg voor een input type <strong>date</strong>. Name wordt date</li>
+                <li>Test je bestand in <strong>Chrome</strong>. Je ziet een keurige kalender. </li>
+                
+                <li>Test nu in een andere browser. Je ziet dat    deze niet werkt.</li>
+              </ul>
+              Sla het bestand op als <strong>opdracht9-4.html</strong></td>
+          </tr>
+        </table>
+        <h2>Datetime-local</h2>
+        <p>Met de datetime kan je zowel de datum als de tijd doorgeven.  Het nadeel hiervan is dat het in Safari heel omslachtig werkt. Je moet namelijk  per minuut doorklikken. In Opera werkt de functie perfect.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 5: datetime-local</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>opdracht9-4.html</strong>
+              <ul>
+                <li>Zorg dat de volgende tekst wordt weergegeven: <strong>Kies uw datum:</strong></li>
+                <li>Zorg voor een input type <strong>datetime-local</strong>. Name wordt datetime</li>
+                <li>Test je bestand in <strong>Chrome</strong>. Je ziet een keurige kalender. Met daar achter de tijd    mogelijkheid</li>
+                
+                <li>Test nu in een andere browser. Je ziet dat    deze niet werkt.</li>
+              </ul>
+              Sla het bestand op als <strong>opdracht9-5.html</strong></td>
+          </tr>
+        </table>
+        <h2>Email</h2>
+        <p>Email controleert of er in de ingevoerde waarde een @  vermeld staat. Zo niet, dan wordt er een standaard foutmelding terug gegeven. Het  nadeel is dat de foutmelding die gegeven wordt, niet aan te passen is. </p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 6: email</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>opdracht9-5.html</strong>
+              <ul>
+                <li>Zorg dat de volgende tekst wordt weergegeven: <strong>Een emailadres:</strong></li>
+                <li>Zorg voor een input type <strong>email</strong>. Name wordt email</li>
+                <li>Test je bestand in <strong>Firefox</strong>. Type wat tekst in het invoerveld en druk op de knop. Wat    is de foutmelding?</li>
+                <li>Test in de overige browsers wat daar de    foutmelding is.</li>
+              </ul>
+            <p>Sla het bestand op als <strong>opdracht9-6.html</strong></p></td>
+          </tr>
+        </table>
+        <h2>File</h2>
+        <p>Met file kan je een makkelijke manier van bestandupload toevoegen. Hierbij moet je wel rekening houden dat dit nog geen bestanden online zet. Je krijgt de standaard wizard te zien om een bestand te selecteren.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 7: File</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>opdracht9-6.html</strong>
+              <ul>
+                <li>Zorg dat de volgende tekst wordt weergegeven: <strong>File upload: </strong></li>
+                <li>Zorg voor een input type <strong>file</strong>. Name wordt file</li>
+               <li>Test je bestand in <strong>Alle browsers</strong>. Kijk goed naar de verschillende opmaak welke de browsers er zelf aangegeven hebben. Hier heb je geen invloed op.</li>
+                
+            </ul>Sla het bestand op als <strong>opdracht9-7.html</strong></td>
+          </tr>
+        </table>
+        
+        <h2>Number</h2>
+        <p>Met number kan je controleren of het een getal is binnen een  door jezelf opgegeven reeks. Hierbij moet je twee extra attributen toevoegen  aan &lt;input&gt;. Namelijk de min=&rdquo;1&rdquo; en max=&rdquo;10&rdquo;. De waardes kun je uiteraard  zelf bepalen.<br>
+          Nadeel is dat de foutafhandeling niet altijd correct is. Zo is het bij Safari  mogelijk om waardes buiten het bereik of tekst in te voeren. Opera heeft het  wel goed afgehandeld maar ook tekst kan worden ingevoerd.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 8: Number</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>opdracht9-7.html</strong>
+              <ul>
+                <li>Zorg dat de volgende tekst wordt weergegeven: <strong>Een getal (tussen 1 en 25):</strong></li>
+                <li>Zorg voor een input type <strong>number</strong>. Name wordt range</li>
+                <li>Voeg een <strong>min</strong> toe van 1, een <strong>max</strong> van 25</li>
+                <li>Test je bestand in <strong>Chrome</strong>. Probeer tekst of een getal buiten de reeks in te vullen.    Kijk goed naar de foutmelding.</li>
+                <li>Test nu je bestand in <strong>IE en FireFox</strong>. Kijk wat het verschil is met Chrome. </li>
+              </ul>Sla het bestand op als <strong>opdracht9-8.html</strong></td>
+          </tr>
+        </table>
+       
+        <h2>Range</h2>
+        <p>Een range lijkt op number met het verschil dat je bij een  range niet een tekstveld krijgt waarin je een getal typt of selecteert maar een  slider welke je instelt op een bepaald getal.<br>
+          Nadeel is dat de slider niet altijd duidelijk is.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 9: Range</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>opdracht9-8.html</strong>
+              <ul>
+                <li>Zorg dat de volgende tekst wordt weergegeven: <strong>Een getal (tussen 1 en 10):</strong></li>
+                <li>Zorg voor een input type <strong>range</strong>. Name wordt range</li>
+                <li>Voeg een <strong>min</strong> toe van 1, een <strong>max</strong> van 10</li>
+                 <li>Test je bestand in <strong>Chrome</strong>. Je ziet weer een slider maar niet duidelijk is welk getal    waar staat.</li>
+                <li>Test in de overige browsers hoe deze slider    eruit ziet.</li>
+              </ul>
+              Sla het bestand op als <strong>opdracht9-9.html</strong></td>
+          </tr>
+        </table>
+        <h2>required</h2>
+        <p>Required is niet een input type maar een attribuut die je  aan elke bovenstaande input type kan koppelen. De velden waar dit bij staat,  moeten verplicht ingevuld zijn, voordat het formulier verzonden kan worden. Het  enige wat je moet doen is het woord &ldquo;required&rdquo; aan de input regel  toevoegen. <br>
+        </p>
+        <table class="voorbeeld normal">
+          <tr>
+            <td>Voorbeeld 9-2</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld9-2.png"></td>
+          </tr>
+        </table>
+         <table class="opdracht table">
+          <tr>
+            <td>
+              Opdracht 10: required</td>
+          </tr>
+          <tr>
+            <td>Open het bestand <strong>opdracht9-1.html</strong>
+              <ul>
+                <li>Neem <strong>voorbeeld9-2</strong> over.</li>
+                <li>Zorg ervoor dat de drie velden <strong>verplicht</strong> zijn. </li>
+                <li>Sla het bestand op als <strong>opdracht9-10.html</strong></li>
+                <li>Open het bestand in je webbrowser en druk op    de verzenden knop. Je moet nu de melding krijgen dat je de velden eerst moet    invullen.</li>
+              </ul>
+              Sla het bestand op als <strong>opdracht9-10.html</strong></td>
+          </tr>
+        </table>
+        <form action="#" method="post">
+<table>
+        	<tr><td>
+            Username *</td><td><input type="text" name="user" required/=""></td></tr>
+            <tr><td>
+            Voornaam *</td><td><input type="text" name="vn" required/=""></td></tr>
+            <tr><td>
+            Tussenvoegsel</td><td><input type="text" name="ts"></td></tr>
+            <tr><td>
+            Achternaam *</td><td><input type="text" name="an" required/=""></td></tr>
+            <tr><td>
+            Email *</td><td><input type="email" name="email" required/=""></td></tr>
+            <tr><td>
+            Wachtwoord *</td><td><input type="password" name="pass" required/=""></td></tr>
+            <tr><td>
+            Bestand</td><td><input type="file" name="file"></td></tr>
+  <tr><td>
+            Kies uw kleur</td><td><input type="color" name="color"></td></tr>
+            <tr><td>
+            Datum</td><td><input type="date" name="date"></td></tr>
+            <tr><td>
+            Geef een cijfer (1 t/m 10)</td><td><input type="range" name="cijfer" min="1" max="10"></td></tr>
+            <tr><td>
+            </td><td><input type="submit" name="submit" value="Verzenden"></td></tr>
+            </table>
+            <p></p>
+            <table class="opdracht table">
+          <tr>
+            <td>
+              Opdracht 11: Namaken</td>
+          </tr>
+          <tr>
+            <td>Open een nieuw HTML5 bestand.              <ul>
+                <li>Maak bovenstaand formulier na.</li>
+                <li>De veldnamen met een * zijn <strong>verplicht</strong>. Zorg voor het juiste <strong>type</strong> velden.</li>
+                <li>Gebruik een <strong>tabel</strong> om alles netjes uit te lijnen. (Door het jQuery Mobile framework is de layout anders dan in de bekende webbrowsers. Hier hoef je geen rekening mee te houden.)</li>
+                <li>Test je bestand met de <strong>verschillende webbrowsers</strong>. Zie welke verschillen er zijn.</li>
+              </ul>
+             Sla het bestand op als <strong>opdracht9-11.html</strong></td>
+          </tr>
+</table>
+<p>&nbsp;</p>
+       
+      </form></div>
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

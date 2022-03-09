@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML & CSS - Introductie</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <link rel="stylesheet" href="../extrea.css" type="text/css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - Introductie</h1>
+        </div>
+        <div class="ui-content" role="main">
+        <h2>Positioneren</h2>
+<p>Waar we vorige periode nog steeds bezig waren met het maken van losse opdrachten, gaan we nu verder met het ontwikkelen van een website. Elke website heeft een soort van basis. De structuur van de website wordt hiermee bepaald. Bij het ontwerpen in Photoshop of een ander grafisch programma houdt je hier al rekening mee. </p>
+<p>Je mag er standaard vanuit gaan dat een website een breedte heeft van 1000px. Hoogte is natuurlijk afhankelijk van de hoeveelheid content er op je website te vinden is. Hieronder staat een voorbeeld staat de structuur van een basis website.</p>
+     <table class="table voorbeeld" style="max-width: 606px">
+        	<tr><td>Voorbeeld 1</td></tr>
+            <tr><td>
+            <img src="img/h1v1.png">
+            </td></tr>
+            </table> 
+     
+			<p>Dit zou je basis kunnen zijn. Uiteraard ben je vrij om je site zo in te delen als je zelf wilt. Het lijkt een beetje op een grote tabel. Als je zou willen kun je de structuur van je website ook indelen met een tabel, dit wordt echter afgeraden. Het positioneren van je website op de pagina gaat namelijk makkelijker als je met <span class="redText">divisies</span> werkt dan een tabel.</p>
+			<h2>Divisies</h2>
+			<p>De laatste les van vorige periode hebben we gewerkt met classes. Deze maakte je in de CSS aan door een punt voor de naam van het attribuut te plaatsen. Een ID (welke je koppelt aan een divisie) maak je aan door voor het attribuut, in de CSS, een hekje (<span class="redText">#</span>) te zetten. In de CSS geef je vervolgens het formaat van je divisie aan. </p>
+			<p>Het verschil tussen een class en een ID is niet zoveel. Het grote verschil is dat een class <span class="redText">meerdere malen</span> op de site kan worden toegevoegd. Een ID komt maar <span class="redText">&eacute;&eacute;n keer</span> voor op je website. Echter zullen de meeste browsers ook meerdere dezelfde ID's gewoon weergeven. Als vuistregel houden we aan dat we een class gebruiken voor de opmaak van de tekst. En een ID voor het benoemen van de divisies. Dit geeft het meeste overzicht in je CSS. Een voorbeeld van een ID  staat hieronder.</p>
+          <table class="table voorbeeld" style="max-width: 239px">
+        	<tr><td>Voorbeeld 2</td></tr>
+            <tr><td>
+            <img src="img/h1v2.png">
+            </td></tr>
+            </table> 
+			<p>Je verzint dus zelf een naam in de CSS. Daarin geef je aan hoe breed en hoog je divisie is. Eventueel, om te testen of je divisie werkt en de kijken waar die zich bevindt, geef je de divisie een achtergrondkleur. Vervolgens plaats je tussen het &lt;body&gt; element <span class="redText">&lt;div id=&rdquo;naam_van_id&rdquo;&gt;&lt;/div&gt;</span></p><p>Je ziet in voorbeeld 1 dat helemaal bovenaan de pagina <span class="redText">container</span> staat. Dit doen we met opzet. Binnen deze container gaan we namelijk al onze divisies plaatsen. Dit doen we zodat we straks de website mooi uit kunnen lijnen. We hebben deze in voorbeeld2 ook meteen een hoogte gegeven. Je weet nu natuurlijk nog niet wat de hoogte van de complete website gaat zijn, maar om er mee te testen is dit het makkelijkste.</p>
+        <table class="table opdracht">
+        	<tr><td>Opdracht 1: container maken</td></tr>
+            <tr><td>
+           <p>Open een nieuw HTML 5 bestand.</p>
+<ul>
+<li>Maak een intern stylesheet.</li>
+<li>Maak daarin een container van <strong>1000px breed</strong>.</li>
+<li>Maak de container <strong>800px hoog</strong>.</li>
+<li>Geef je container als achtergrondkleur <strong>#3F6</strong>.</li>
+<li>Vergeet niet om je divisie toe te voegen <strong>in de html</strong>.</li>
+</ul>
+<p>Sla het bestand op als Opdracht16-1.html.</p>
+            </td></tr>
+            </table>
+			<p>Zoals gezegd geldt deze container als basis. Hier <span class="redText">binnen</span> gaan we de overige divisies plaatsen. Je werkt altijd van linksboven, naar rechtsonder. Dat wil zeggen dat als we naar voorbeeld 1 kijken. We eerste de container aanmaken, daarbinnen de header, menu, content en sluitbalk. Ook in die volgorde. Een voorbeeld hiervan staat op de volgende pagina.</p>
+            <table class="table voorbeeld" style="max-width: 222px">
+        	<tr><td>Voorbeeld 3</td></tr>
+            <tr><td>
+            <img src="img/h1v3.png">
+            </td></tr>
+            </table> 
+            <br>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 2: header maken</td></tr>
+            <tr><td>
+          <p>Open bestand <strong>opdracht16-1.html</strong></p>
+<ul>
+<li>Voeg aan de stylesheet de divisie <strong>#header</strong> toe.</li>
+<li>Maak deze net zo breed als de container en <strong>150px</strong> hoog.</li>
+<li>Geef deze een <strong>gele</strong> achtergrondkleur.</li>
+<li>Voeg nu, in de html, <strong>binnen</strong> de divisie van de container, de header divisie toe.</li>
+<li>Test je bestand in je de design in dreamweaver en controleer of je gele divisie over die van de container is geplaatst. Dit zie je doordat er stippellijntjes om de divisies staan.</li>
+</ul>
+<p>Sla het bestand op als <strong>opdracht16-2.html</strong>.</p>
+            </td></tr>
+            </table>
+			<p>Om het overzichtelijk te houden is het aan te raden om een stukje in te springen in de html. Zie hiervoor het voorbeeld 3. De volgende divisie die we gaan maken is het menu.</p>
+        	<table class="table opdracht">
+        	<tr><td>Opdracht 3: header maken</td></tr>
+            <tr><td>
+          <p>Open bestand <strong>opdracht16-2.html</strong></p>
+<ul>
+<li>Voeg aan de stylesheet de divisie <strong>#menu</strong> toe.</li>
+<li>Maak deze <strong>150px</strong> breed en <strong>600px</strong> hoog.</li>
+<li>Geef deze een <strong>blauwe</strong> achtergrondkleur.</li>
+<li>Voeg nu, in de html, <strong>binnen</strong> de divisie van de container, de menu divisie toe.</li>
+<li>Test je bestand in je webbrowser. </li>
+</ul>
+<p>Sla het bestand op als <strong>opdracht16-3.html</strong>.</p>
+            </td></tr>
+            </table>
+			<p>Je ziet dat je menu binnen de container is geplaatst en dat je onderaan de pagina nog een stukje over hebt. Dit klopt want de pagina is 800px hoog, min de header van 150px en het menu van 600px houden we nog 50px over. Deze gebruiken we straks voor de sluitbalk. Eerst gaan de content plaatsen.</p>
+        <table class="table opdracht">
+        	<tr><td>Opdracht 4a: content maken</td></tr>
+            <tr><td>
+          <p>Open bestand <strong>opdracht16-3.html</strong></p>
+<ul>
+<li>Voeg aan de stylesheet de divisie <strong>content</strong> toe.</li>
+<li>Maak deze <strong>net zo hoog als het menu</strong> en geef deze <strong>de nog resterende breedte</strong> die over is.</li>
+<li>Geef deze een <strong>rode</strong> achtergrondkleur.</li>
+<li>Voeg nu, in de html, <strong>binnen</strong> de divisie van de container, de content divisie toe.</li>
+<li>Test je bestand in je webbrowser. </li>
+</ul>
+<p>Sla het bestand op als <strong>opdracht16-4.html</strong>.</p>
+            </td></tr>
+            </table>
+			<p>Je ziet dat het 1 grote chaos is geworden. Waar straks steeds de divisies op de juiste plaats kwamen te staan, is dat nu niet meer het geval. We willen namelijk dat content <span class="redText">naast</span> menu komt te staan. De browser weet dit echter niet en plaatst, tenzij wij anders opgeven, elke divisie netjes onder elkaar. Nu gaan we dus echt positioneren.</p><p>We moeten de browser vertellen dat twee divisies (menu en content) naast elkaar horen. Dit doen we met <span class="redText">float</span>. Aan float kun je 2 waardes koppelen, <span class="redText">left</span> of <span class="redText">right</span>. Wat float doet is kijken naar de beschikbare ruimte en dan elk element die de waarde <span class="redText">float:left;</span> heeft, zo ver mogelijk naar links positioneren. In het geval van <span class="redText">float:right;</span> wordt alles naar rechts gepositioneerd. </p><p>In ons geval past de content divisie nog precies naast menu. Dus het is nu de bedoeling dat je in de css bij zowel de divisie menu als content de float:left; toevoegt. </p>
+        <table class="table opdracht">
+        	<tr><td>Opdracht 4b: content maken</td></tr>
+            <tr><td>
+          <p>Open bestand <strong>opdracht16-4.html</strong></p>
+<ul>
+<li>Voeg bij de divisie van <strong>menu</strong> en <strong>content</strong> een float left toe.</li>
+<li>Test je bestand in je webbrowser. Je ziet dat menu en content nu naast elkaar staan.</li>
+</ul>
+<p>Sla het bestand op als <strong>opdracht16-4.html</strong>.</p>
+            </td></tr>
+            </table>
+			<p>Als de content divisie van hierboven breder zou maken, dan zal deze alsnog onder menu worden geplaatst. Het moet allemaal namelijk precies passen. Mocht je divisie dus nog steeds niet naast menu verschijnen, dan heb je kans dat je de totale breedte (1000px van containter) hebt overschreden. </p>
+        <table class="table opdracht">
+        	<tr><td>Opdracht 5: sluitbalk maken</td></tr>
+            <tr><td>
+          <p>Open bestand <strong>opdracht16-4.html</strong></p>
+<ul>
+<li>Voeg aan de stylesheet de divisie <strong>sluitbalk</strong> toe.</li>
+<li>Geef deze <strong>de nog resterende breedte en hoogte</strong> die over is.</li>
+<li>Geef deze een <strong>zwarte</strong> achtergrondkleur.</li>
+<li>Voeg nu, in de html, <strong>binnen</strong> de divisie van de container, de sluitbalk divisie toe.</li>
+<li>Test je bestand in je webbrowser.</li>
+<li>Mogelijk verschijnt je sluitbalk niet. Voeg dan ook bij deze een <strong>float:left</strong> toe. </li>
+</ul>
+<p>Sla het bestand op als <strong>opdracht16-5.html</strong>.</p>
+            </td></tr>
+            </table>
+			<p>Je bent website moet er dan uitzien zoals het voorbeeld hier onder.</p>
+        <img src="img/h1v4.png" style="border:solid 1px black;">
+			<p>Om positioneren en float goed te begrijpen moet je veel oefenen met het maken van divisies. Daarom gaan we nog een keer een voorbeeldstramien maken maar nu niet stap voor stap maar alle gegevens in &eacute;&eacute;n opdracht. Kijk goed waar de float wel of niet aan toegevoegd moet worden.</p>
+        <table class="table voorbeeld" style="max-width: 607px">
+        	<tr><td>Voorbeeld 4</td></tr>
+            <tr><td>
+            <img src="img/h1v5.png">
+            </td></tr>
+            </table>
+            <br>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 6: complete opdracht</td></tr>
+            <tr><td>
+         <p>Probeer voorbeeld 4 zo goed mogelijk na te maken. De tekst is er met photoshop in gezet, het gaat dus puur om de vlakken. De kleuren mag je zelf kiezen.</p>
+<p>Open een nieuw HTML 5 bestand.</p>
+<ul>
+<li>Maak een <strong>intern stylesheet</strong>.</li>
+<li>Maak als eerste een <strong>container</strong>. De breedte is <strong>1000px</strong>. Hoogte op <strong>automatisch</strong></li>
+<li><strong>Header</strong> is <strong>150px</strong> hoog en de breedte is dezelfde als de container.</li>
+<li><strong>Menu</strong> is <strong>75px&nbsp;</strong>hoog en de breedte is dezelfde als de container.</li>
+<li>De <strong>drie content</strong> vakken zijn <strong>even groot</strong>. De hoogte is <strong>250px</strong></li>
+<li><strong>mainContent</strong> is <strong>300px&nbsp;</strong>hoog en de breedte is dezelfde als de container.</li>
+<li><strong>Sluitbalk</strong> <strong>50px</strong> hoog en de breedte is dezelfde als de container.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht16-6.html.</strong></p>
+            </td></tr>
+            </table>
+         </div>
+        <div data-role="footer" data-position="fixed" >
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

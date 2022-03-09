@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EindtoetsPeriode2/EindtoetsPeriode2console.iml" filepath="$PROJECT_DIR$/EindtoetsPeriode2/EindtoetsPeriode2console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/Mod10_2/Mod10_2.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/Mod10_2/Mod10_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/Mod24_2/Mod24_2.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/Mod24_2/Mod24_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod21/ModX_OefenToets22/ModX_OefenToets22.iml" filepath="$PROJECT_DIR$/Periode 2/Mod21/ModX_OefenToets22/ModX_OefenToets22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OefentoetsPeriode2console/OefentoetsPeriode2.iml" filepath="$PROJECT_DIR$/OefentoetsPeriode2console/OefentoetsPeriode2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Opdrachten.iml" filepath="$PROJECT_DIR$/.idea/Opdrachten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Toetsen/Toets1/Toets1.iml" filepath="$PROJECT_DIR$/Periode 1/Toetsen/Toets1/Toets1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod22/Voorbeeld/Voorbeeld.iml" filepath="$PROJECT_DIR$/Periode 2/Mod22/Voorbeeld/Voorbeeld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/afronden/afronden.iml" filepath="$PROJECT_DIR$/afronden/afronden.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod21/codeOmvormenNaarMethode/codeOmvormenNaarMethode.iml" filepath="$PROJECT_DIR$/Periode 2/Mod21/codeOmvormenNaarMethode/codeOmvormenNaarMethode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/gezamelijkeopdracht/gezamelijkeopdracht.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/gezamelijkeopdracht/gezamelijkeopdracht.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/mdo24_4/mdo24_4.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/mdo24_4/mdo24_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_1/mod10_1.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_1/mod10_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_10/mod10_10.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_10/mod10_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_3/mod10_3.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_3/mod10_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_4/mod10_4.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_4/mod10_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_5/mod10_5.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_5/mod10_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_6/mod10_6.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_6/mod10_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_7/mod10_7.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_7/mod10_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_8/mod10_8.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_8/mod10_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_9/mod10_9.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10_9/mod10_9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_1/mod10h_1.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_1/mod10h_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_2/mod10h_2.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_2/mod10h_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_3/mod10h_3.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_3/mod10h_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_4/mod10h_4.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_4/mod10h_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_5/mod10h_5.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_5/mod10h_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_6/mod10h_6.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_6/mod10h_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_7/mod10h_7.iml" filepath="$PROJECT_DIR$/Periode 1/Mod10 - String Objecten/mod10h_7/mod10h_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod21/mod21.1/mod21.1.iml" filepath="$PROJECT_DIR$/Periode 2/Mod21/mod21.1/mod21.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod21/mod21_2/mod21_2.iml" filepath="$PROJECT_DIR$/Periode 2/Mod21/mod21_2/mod21_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod21/mod21_3/mod21_3.iml" filepath="$PROJECT_DIR$/Periode 2/Mod21/mod21_3/mod21_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod21/mod21_4/mod21_4.iml" filepath="$PROJECT_DIR$/Periode 2/Mod21/mod21_4/mod21_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod21/mod21_5/mod21_5.iml" filepath="$PROJECT_DIR$/Periode 2/Mod21/mod21_5/mod21_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod21/mod21_6/mod21_6.iml" filepath="$PROJECT_DIR$/Periode 2/Mod21/mod21_6/mod21_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod22/mod22_1/mod22_1.iml" filepath="$PROJECT_DIR$/Periode 2/Mod22/mod22_1/mod22_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod22/mod22_2/mod22_2.iml" filepath="$PROJECT_DIR$/Periode 2/Mod22/mod22_2/mod22_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod22/mod22_3/mod22_3.iml" filepath="$PROJECT_DIR$/Periode 2/Mod22/mod22_3/mod22_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod22/mod22_4/mod22_4.iml" filepath="$PROJECT_DIR$/Periode 2/Mod22/mod22_4/mod22_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod22/mod22_5/mod22_5.iml" filepath="$PROJECT_DIR$/Periode 2/Mod22/mod22_5/mod22_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod22/mod22_6/mod22_6.iml" filepath="$PROJECT_DIR$/Periode 2/Mod22/mod22_6/mod22_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod22/mod22_7/mod22_7.iml" filepath="$PROJECT_DIR$/Periode 2/Mod22/mod22_7/mod22_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod23/mod23_1/mod23_1.iml" filepath="$PROJECT_DIR$/Periode 2/Mod23/mod23_1/mod23_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod23/mod23_2/mod23_2.iml" filepath="$PROJECT_DIR$/Periode 2/Mod23/mod23_2/mod23_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod23/mod23_3/mod23_3.iml" filepath="$PROJECT_DIR$/Periode 2/Mod23/mod23_3/mod23_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod23/mod23_4/mod23_4.iml" filepath="$PROJECT_DIR$/Periode 2/Mod23/mod23_4/mod23_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod23/mod23_5/mod23_5.iml" filepath="$PROJECT_DIR$/Periode 2/Mod23/mod23_5/mod23_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod23/mod23_6/mod23_6.iml" filepath="$PROJECT_DIR$/Periode 2/Mod23/mod23_6/mod23_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod23/mod23_7/mod23_7.iml" filepath="$PROJECT_DIR$/Periode 2/Mod23/mod23_7/mod23_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod23/mod23_8/mod23_8.iml" filepath="$PROJECT_DIR$/Periode 2/Mod23/mod23_8/mod23_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/mod24_10/mod24_10.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/mod24_10/mod24_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/mod24_3/mod24_3.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/mod24_3/mod24_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/mod24_5/mod24_5.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/mod24_5/mod24_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/mod24_6/mod24_6.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/mod24_6/mod24_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/mod24_7/mod24_7.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/mod24_7/mod24_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/mod24_8/mod24_8.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/mod24_8/mod24_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/mod24_9/mod24_9.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/mod24_9/mod24_9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod24/mod24_umlopdracht/mod24_umlopdracht.iml" filepath="$PROJECT_DIR$/Periode 2/Mod24/mod24_umlopdracht/mod24_umlopdracht.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod25/mod25_1/mod25_1.iml" filepath="$PROJECT_DIR$/Periode 2/Mod25/mod25_1/mod25_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod25/mod25_2/mod25_2.iml" filepath="$PROJECT_DIR$/Periode 2/Mod25/mod25_2/mod25_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod25/mod25_3/mod25_3.iml" filepath="$PROJECT_DIR$/Periode 2/Mod25/mod25_3/mod25_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 2/Mod25/mod25_4/mod25_4.iml" filepath="$PROJECT_DIR$/Periode 2/Mod25/mod25_4/mod25_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/mod6_demooutput/mod6/mod6.iml" filepath="$PROJECT_DIR$/Periode 1/mod6_demooutput/mod6/mod6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_1/mod8_1.iml" filepath="$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_1/mod8_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_2/mod8_2.iml" filepath="$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_2/mod8_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_3/mod8_3.iml" filepath="$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_3/mod8_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_4/mod8_4.iml" filepath="$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_4/mod8_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_5/mod8_5.iml" filepath="$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_5/mod8_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_6/mod8_6.iml" filepath="$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_6/mod8_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_7/mod8_7.iml" filepath="$PROJECT_DIR$/Periode 1/Mod8 - Switch Opdrachten/mod8_7/mod8_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_1/mod9H_1.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_1/mod9H_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_10/mod9H_10.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_10/mod9H_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_11/mod9H_11.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_11/mod9H_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_12/mod9H_12.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_12/mod9H_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_2/mod9H_2.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_2/mod9H_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_3/mod9H_3.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_3/mod9H_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_4/mod9H_4.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_4/mod9H_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_5/mod9H_5.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_5/mod9H_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_6/mod9H_6.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_6/mod9H_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_7/mod9H_7.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_7/mod9H_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_8/mod9H_8.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_8/mod9H_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_9/mod9H_9.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9H_9/mod9H_9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_1/mod9_1.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_1/mod9_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_2/mod9_2.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_2/mod9_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_3/mod9_3.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_3/mod9_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_4/mod9_4.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_4/mod9_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_5/mod9_6.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_5/mod9_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_7/mod9_7.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_7/mod9_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_8/mod9_8.iml" filepath="$PROJECT_DIR$/Periode 1/Mod9 - Voortdurend Herhalen/mod9_8/mod9_8.iml" />
+    </modules>
+  </component>
+</project>

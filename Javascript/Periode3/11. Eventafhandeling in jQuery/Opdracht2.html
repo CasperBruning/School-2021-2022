@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../Jquery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(() =>{
+            $(`div`).on(`mousemove`, (event)=>{
+                $(`#een`).text(`de X positie is ${event.clientX}`)
+                $(`#twee`).text(`de Y positie is ${event.clientY}`)
+
+            })
+        })
+    </script>
+    <style>
+        div{
+            height: 400px;
+            width: 400px;
+            background-color: grey;Opd
+        }
+    </style>
+</head>
+<body>
+
+<div></div>
+<p id="een"></p>
+<p id="twee"></p>
+
+</body>
+</html>

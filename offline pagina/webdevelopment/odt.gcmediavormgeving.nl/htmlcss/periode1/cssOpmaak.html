@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - CSS Opmaak</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <link rel="stylesheet" href="../extrea.css" type="text/css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width"/>
+
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - CSS Opmaak</h1>
+        </div>
+        <div class="ui-content" role="main">
+		<h2>Opmaak</h2>
+        <p>Het verschil tussen intern en extern kennen we nu. We gaan nu kijken naar de verschillende CSS codes. Er zijn, net zoals in HTML, ontzettend veel verschillende CSS codes met allemaal een eigen werking. Deze kan je niet allemaal uit het hoofd kennen dus gaan we de belangrijkste bekijken.  </p>
+        <table class="table overzicht">
+<tbody>
+<tr>
+<td>
+CSS 
+</td>
+<td>
+Betekennis
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">font-family</span>
+</td>
+<td>
+Lettertype.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">font-size</span>
+</td>
+<td>
+Grootte lettertype in pixels
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">font-style</span>
+</td>
+<td>
+Italic (<em>scheef</em>)
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">font-weight</span>
+</td>
+<td>
+Bold (<strong>vergedrukt)</strong>
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">text-decoration</span>
+</td>
+<td>
+Lijn <span style="text-decoration: underline;">onder</span>, <span style="text-decoration: overline;">boven</span> of <span style="text-decoration: line-through;">door</span> de tekst.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">color</span>
+</td>
+<td>
+Tekst kleur
+</td>
+</tr>
+</tbody>
+</table>
+<p>Je ziet dat de benaming van opmaak van tekst niet altijd even logisch is ingedeeld. Omdat je dit niet allemaal uit je hoofd hoeft te kennen kun je het beste de code hinting van Dreamweaver zoveel mogelijk gebruiken (<span class="redText">ctrl</span> + <span class="redText">spatiebalk</span>). Deze is namelijk zo ontwikkeld dat alleen de CSS code die bij een bepaalde HTML tag horen, weergeeft. <br>
+Daarnaast is het ook lastig om te zien wat voor waardes ingevuld moeten worden bij verschillende CSS codes. Ook daarvoor is de code hinting handig. Gebruik deze dus!
+</p>
+<table class="table voorbeeld" style="max-width:340px;">
+<tbody>
+<tr>
+<td>
+Voorbeeld 1 
+</td>
+</tr>
+<tr>
+<td>
+<img src="img/h11v1.png">
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="table opdracht">
+        	<tr><td>Opdracht 1: CSS code</td></tr>
+            <tr><td>
+           <p>Open in je editor het bestand van <strong>Opdracht3-1.html</strong></p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht11-1.html</strong></li>
+<li>Pas de titel aan naar <strong>Opdracht 11-1</strong></li>
+<li>Maak <strong>in</strong> de head een styleblok aan met <strong>&lt;style&gt;</strong>.</li>
+<li>Type de CSS code van voorbeeld 1 over.</li>
+<li>Als de tekst in Arial staat met een grote van 12pixels, de H1 onderstreept is en de H2 een groene kleur heeft, dan is het goed.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht11-1.html</strong>.</p>
+            </td></tr>
+            </table>
+            <p>We gaan nu verder kijken naar het overerven gedeelte. Standaard wordt alle tekst met het lettertype Times New Roman getoond. Dit is niet fout maar mooi is het niet. Times New Roman is namelijk een schreef-lettertype en deze gebruiken we bijna niet op een webpagina. Schreefloze lettertypes lezen vaak fijner. Dit zijn onder andere Verdana, Arial of Tahoma. Als we alle tekst op de pagina in Verdana willen hebben kunnen we natuurlijk elke HTML tag in de CSS noemen maar dat is niet logisch. Wat we wel kunnen doen is aan de <span class="redText">&lt;body&gt;</span> tag een CSS code met daarin <span class="redText">font-family: Verdana;</span> koppelen. <span class="redText">&lt;body&gt;</span> is namelijk ook een HTML tag en dus kan die worden genoemd in de CSS. Maar wat gebeurt er als we vervolgens aan een <span class="redText">&lt;h1&gt;</span> tag, die binnen de <span class="redText">&lt;body&gt;</span> staat, <span class="redText">font-family:Arial;</span> koppelen? In dat geval geldt de waarde van de HTML tag welke het &ldquo;dichtste&rdquo; bij staat. Alle tekst op de webpagina wordt dan in Verdana getoond. Alle &lt;h1&gt; tekst in Arial. Dit is overerven. Je moet dus goed opletten of je geen dubbele CSS codes in je CSS hebt. Als dit moedwillig is, is dat uiteraard niet erg.</p>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 2: CSS code</td></tr>
+            <tr><td>
+          <p>Open in je editor het bestand van <strong>Opdracht11-1.html</strong></p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht11-2.html</strong></li>
+<li>Pas de titel aan naar <strong>Opdracht 11-2.</strong></li>
+<li>Breid de CSS code uit door aan het <strong>&lt;body&gt;</strong> element het Verdana lettertype te koppelen.</li>
+<li>Geef de <strong>&lt;h1&gt;</strong> een rode kleur.</li>
+<li>Zorg dat de <strong>&lt;h2&gt;</strong> een streep <strong>boven</strong> de tekst heeft.</li>
+<li>Je bestand moet er uitzien zoals voorbeeld 2.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht11-2.html</strong>. </p>
+            </td></tr>
+            </table>
+            <br>
+            <table class="table voorbeeld" style="max-width:550px;">
+<tbody>
+<tr>
+<td>
+Voorbeeld 2 
+</td>
+</tr>
+<tr>
+<td>
+<img src="img/h11v2.png">
+</td>
+</tr>
+</tbody>
+</table>
+<h2>Achtergrond</h2>
+<p>Met de <span class="redText">&lt;body&gt;</span> tag kan je nog veel meer in CSS. Zo kun je een plaatje als achtergrond instellen, een kleur kiezen en de tekst kleur veranderen.</p>
+<table class="table overzicht">
+<tbody>
+<tr>
+<td>
+CSS code
+</td>
+<td>
+Werking
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">background-color</span>
+</td>
+<td>
+Kleur van de webpagina
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">background-image</span>
+</td>
+<td>
+Afbeelding op de achtergrond van je webpagina
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">background-repeat</span>
+</td>
+<td>
+Moet de afbeelding maar 1x of meerdere malen voorkomen
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">background-attachment</span>
+</td>
+<td>
+Moet de afbeelding mee scrollen of blijven staan.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">color</span>
+</td>
+<td>
+Tekst kleur
+</td>
+</tr>
+</tbody>
+</table>
+<p>Waarbij je op moet passen bij het plaatsen van een afbeelding op de achtergrond is dat een afbeelding vaak veel verschillende kleuren bevat. De kleur van de tekst mag niet in het plaatje voorkomen. Anders is de tekst namelijk onleesbaar. </p>
+<table class="table opdracht">
+        	<tr><td>Opdracht 3: Achtergrond</td></tr>
+            <tr><td>
+         <p>Open in je editor het bestand van <strong>Opdracht3-2.html</strong></p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht11-3.html</strong></li>
+<li>Pas de titel aan naar <strong>Opdracht 11-3.</strong></li>
+<li>Maak een <strong>extern</strong> stylesheet aan en noem deze <strong>opmaak11-3.css</strong></li>
+<li>Koppel het stylesheet aan je HTML pagina zoals je in het vorige hoofdstuk hebt geleerd.&nbsp;</li>
+<li>Voeg aan het stylesheet het&nbsp;<strong>body</strong> element toe en&nbsp;gebruik uitzicht.jpg als <strong>background-image</strong>. Zet ook de tekst kleur op <strong>rood</strong>.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht11-3.html </strong>en<strong> opmaak11-3.css</strong>.</p>
+            </td></tr>
+            </table>
+            <p>Je ziet dat het er niet echt mooi uitziet. Je plaatje wordt heel vaak herhaald. Dit kun voorkomen door de <strong>background-repeat</strong> op <strong>no-repeat</strong> te zetten. </p>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 4: Achtergrond</td></tr>
+            <tr><td>
+        <p>Open in je editor het bestand van <strong>Opdracht11-3.html </strong>en<strong> opmaak11-3.css</strong></p>
+<ul>
+<li>Voeg aan het externe stylesheet bij de code toe zodat de achtergrond niet herhaald wordt.</li>
+<li>Voeg ook een gele achtergrond kleur toe.</li>
+<li>Sla beide bestanden op.</li>
+<li>Test je bestand in je browser. Deze moet er uitzien als in voorbeeld 3.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht11-3.html </strong>en<strong> opmaak11-3.css</strong>. </p>
+            </td></tr>
+            </table>
+            <br>
+             <table class="table voorbeeld" style="max-width:620px;">
+<tbody>
+<tr>
+<td>
+Voorbeeld 3 
+</td>
+</tr>
+<tr>
+<td>
+<img src="img/h11v3.png">
+</td>
+</tr>
+</tbody>
+</table>
+         </div>
+        <div data-role="footer" data-position="fixed" >
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

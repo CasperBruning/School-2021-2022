@@ -1,0 +1,197 @@
+body {
+    background-image: url("images/bg.png");
+    background-repeat: repeat-x;
+    background-color: #dee3d8;
+    font-family: Georgia;
+}
+
+#container {
+    height: auto;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 135px;
+    width: 960px;
+    margin-top: -10px;
+}
+
+#bedrijfsnaam {
+    width: auto;
+    height: 70px;
+    font-size: 46px;
+    color: white;
+    padding: 8px 0px 0px 20px;
+}
+
+#menu {
+    width: 960px;
+    height: 50px;
+    padding: 0;
+    background-image: url("images/menu.jpg");
+    margin-top: -15px;
+}
+
+.limenu {
+    float: left;
+    margin: 15px 0px 0px 50px;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Trebuchet MS";
+}
+
+.amenu {
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+.amenu:hover {
+    color: darkgreen;
+}
+
+#content {
+    height: auto;
+    width: 960px;
+    background-color: white;
+    margin-top: 2px;
+}
+
+#afbeelding {
+    padding: 20px 20px 20px 20px;
+}
+
+#sidebar {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+#imgsection {
+    margin-left: 20px;
+    margin-right: 10px;
+    float: left;
+}
+
+.voorbeeldtitelsection {
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-right: 60px;
+    float: left;
+
+
+}
+
+.sectionul {
+    list-style-image: url("images/li.gif");
+    list-style-position: inside;
+    margin-left: -11px;
+    float: none;
+}
+
+.sidebarli {
+    padding-top: 5px;
+}
+
+.sidebarlink {
+    color: #4CA196;
+    float: none;
+    text-decoration: none;
+}
+
+.sidebarlink:hover {
+    text-decoration: underline;
+}
+
+#imgsection2 {
+    margin-left: 20px;
+    margin-right: 10px;
+    float: left;
+
+}
+
+.voorbeeldtitel {
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 0px;
+    float: left;
+    margin-right: 60px;
+}
+
+#sidebarvoorbeeldfictiontext {
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+#main {
+    width: 660px;
+    height: auto;
+    float: left;
+    background-color: white;
+}
+
+#titlemain {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+#auteurmain {
+    font-weight: normal;
+    color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+.aauteurmain {
+    color: #4CA196;
+}
+
+#inhoudmain {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.readmorebutton {
+    width: 50px;
+    padding: 3px;
+    font-size: 10px;
+    border: 1px solid;
+    border-color: #4CA196;
+    background-color: #a2dbd4;
+    text-align: center;
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
+.areadmorebutton {
+    text-decoration: none;
+    color: #4CA196;
+}
+
+#footer {
+    height: 20px;
+    width: 960px;
+    clear: left;
+    background-color: darkgreen;
+}
+
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}

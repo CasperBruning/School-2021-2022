@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #ccc;
+	font-family: verdana;
+	font-size: 12px;
+}
+#container {
+	width:1024px;
+	height:786px;
+	background-color: #eee;
+	margin:0 auto;
+}
+header {
+	width:1004px;
+	height:327px;
+	background-color:#f7c422;
+	padding:0 10px;
+}
+#title {
+	width:100%;
+	height:76px;
+	font-size:50px;
+	font-family: trebuchet MS;
+	margin: 0 10px;
+	padding:0 60px;
+	color:#004577;
+}
+nav {
+	width:1004px;
+	height:28px;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #dddddd 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#dddddd 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #eeeeee 0%,#dddddd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+
+}
+nav ul, #fiveTitles ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+nav ul li {
+	margin:0;
+	float:left;
+	padding:6px;
+	color:#004577;
+}
+nav ul li:last-child {
+	color:#6f6f6f;
+	float:right;
+}
+#titlebalk {
+	width:996px;
+	height:27px;
+	background: #cfdbe6;
+	margin:10px 0 0 0;
+	color:#004577;
+	font-size:22px;
+	padding:4px;
+	text-shadow: 1px 1px white;
+}
+#headerContent {
+	width:1004px;
+	height:auto;
+	background:#eee;
+	color:#6f6f6f;
+}
+td {
+	width:300px;
+	padding:3px;
+}
+#fiveTitles {
+	width:1004px;
+	height:23px;
+	background: #cfdbe6;
+}
+#fiveTitles li {
+	float:left;
+	font-size:9px;
+	padding:4px;
+}
+#fiveTitles li:nth-child(1) {
+	margin: 0 0 0 14px;
+}
+#fiveTitles li:nth-child(2) {
+	margin: 0 0 0 25px;
+}
+#fiveTitles li:nth-child(3) {
+	margin: 0 0 0 30px;
+}
+#fiveTitles li:nth-child(4) {
+	margin: 0 0 0 28px;
+}
+#fiveTitles li:nth-child(5) {
+	margin: 0 0 0 24px;
+}
+#fiveTitles li a {
+	text-decoration: none;
+	color:#004577;
+}
+section {
+	width:1024px;
+	height:351px;
+	padding:10px;
+}
+section img {
+	margin: 0 5px 0 0;
+}
+#divider {
+	width:100%;
+	height:10px;
+	background-color:#f7c422;
+}
+footer {
+	width:100%;
+	height:78px;
+	color:#cfdbe6;
+	background:#004577;
+}
+footer #links {
+	color:white;
+	width:200px;
+	height:38px;
+	padding:22px 0 22px 50px;
+	font-weight: normal;
+	font-size:20px;
+	float:left;
+	text-shadow: -1px -1px black;
+}
+footer #rechts {
+	width:774px;
+	height:78px;
+	float:left;
+}
+#rechts p {
+	color: #cfdbe6
+}
+#rechts a {
+	color:white;
+}

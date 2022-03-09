@@ -1,0 +1,132 @@
+/*====================
+Inline-block classes
+====================*/
+
+nav ul,
+.container-inline-blocks{
+    display: block;
+    word-spacing: -5px;
+    margin: 0;
+}
+
+nav ul li,
+.inline-block{
+    display: inline-block;
+    word-spacing: normal;
+    vertical-align: top;
+}
+
+
+/*======================
+Algemene instellingen
+======================*/
+body{
+    margin: 0;
+    min-height: 100vh; /*Geven aan de leerlingen*/
+    background-color: #18394C;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+a{
+    color: #B8B6B4;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/*=============================
+Afmetingen (structuur)elementen
+=============================*/
+#container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+#container-video{
+    width: 600px; /*Is niet noodzakelijk, wel duidelijk*/
+}
+
+#container-samenvatting{
+    width: 340px;
+}
+
+main{
+    margin: 50px 0;
+}
+
+footer .inline-block{
+    width: 33.33%; /*Of 313px*/
+}
+
+
+/*========================
+Opmaak elementen
+==========================*/
+header{
+    background-color: #000000;
+    height: 100px; /*Is niet noodzakelijk, wel duidelijk*/
+}
+
+header #logo{
+    float: left;
+    width: auto;
+    height: 50px;
+    margin: 25px 0;
+}
+
+header #hoofdmenu{
+    text-align: right;
+    line-height: 100px; /*Of ze moeten goed de margin-top en bottom berekenen*/
+}
+
+header #hoofdmenu a{
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+main h1{
+    font-size: 34px;
+}
+
+main video{
+    width:  550px;
+    height: 400px;
+    margin-right: 50px;
+    background-color: #000000;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+}
+
+main th{
+    color: #556772;
+}
+
+main td{
+    color: #67c1f5;
+}
+
+footer{
+    border-top: solid 1px #FFFFFF;
+}
+
+footer #footer-links{
+    text-align: left;
+}
+
+footer #footer-midden{
+    text-align: center;
+}
+
+footer #footer-rechts{
+    text-align: right;
+}

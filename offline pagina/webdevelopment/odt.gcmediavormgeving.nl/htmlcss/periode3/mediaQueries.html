@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Media Queries</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML5 & CSS3 - Media Queries</h1>
+        </div>
+      <div class="ui-content" role="main">
+        <h2>Responsive webdesign</h2>
+ 		<p>Responsive webdesign is een benadering van webdesign waarbij de web developer streeft naar een optimale webervaring voor een breed scala aan apparaten (van desktop computerschermen tot mobiele telefoons). Het ontwerp van een responsive website schaalt mee met de afmetingen van een scherm, zonder in te leveren op leesbaarheid van tekst of bruikbaarheid van de gebruikersinterface.</p>
+		<p><img src="img/responsive.png" style="max-width:30%;padding-right:20px;" align="left">Een  voorbeeld van hoe verschillende elementen van een webpagina zich aanpassen aan  de schermgrootte van verschillende apparaten zoals het beeldscherm van een  desktopcomputer, een tablet en een smartphone.<br>
+          <br>
+Op <a href="../../index-9.htm">http://mediaqueri.es/</a> worden wekelijk  nieuwe sites geplaatst welke volgens deze site een goed mobiel dus responsive  design hebben. Je ziet dus ook gelijk dat een designer tegenwoordig meerdere  designs maakt voor &eacute;&eacute;n website.
+<table class="opdracht table">
+          <tr>
+            <td>Opdracht 1: controleren</td>
+          </tr>
+          <tr>
+            <td valign="top">Ga naar <a href="../../index-9.htm">http://mediaqueri.es/</a> en klik op 1 van de nieuwste sites. Verklein je browser en zie wat er met de site gebeurd. Het verkleinen van je browser doe je rechtsboven in naar het afsluiten van je browser.</td>
+          </tr>
+        </table>
+        <h2>Media Queries</h2>
+        <table class="table info">
+          <tbody>
+             <tr>
+              <th>Rule</th>
+              <th title="Internet Explorer"><img src="img/ie9-logo.png"></th>
+              <th title="Chrome"><img src="img/Google_Chrome_logo.png"></th>
+              <th title="Firefox"><img src="img/firefox-logo.png"></th>
+              <th title="Safari"><img src="img/safari-logo.png"></th>
+              <th title="Opera"><img src="img/Opera_Logo.png"></th>
+          </tr>
+            <tr>
+              <td>@media</td>
+              <td>9</td>
+              <td>21</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>9</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Om dat voor elkaar te krijgen gebruiken we media queries. In  het kort komt het er op neer dat een query bestaat uit een bepaald media type  en een aantal voorwaarden om zodoende specifiek bepaalde opmaak te kunnen  toepassen. Dit wordt bijvoorbeeld gebruikt voor het maken van een responsive  website waarbij ongedacht de afmetingen van een apparaat een website altijd  goed getoond kan worden. Het gaat dan om voorwaardes die waar of niet waar  zijn.<br><br>
+          Op deze manier kun je dan een website aanpassen op basis  van de breedte of hoogte van het venster, bijvoorbeeld handig als je een  website optimaliseert voor mobiele telefoons en tablets. Je plaatst dan in het  CSS bestand een voorwaarde waarmee je bijvoorbeeld aangeeft dat bepaalde opmaak  toegepast moet worden als een venster kleiner is dan 600px maar groter dan  200px. Anders zal de opmaak niet worden toegepast.<br><br>
+        Na <strong>@media</strong> gebruik je <strong>screen</strong>. Je kan hier nog  veel meer mediatypes gebruiken maar wij gaan in deze cursus uit van screen. Dit  is namelijk het standaardscherm.</p>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 10-1</td>
+          </tr>
+          <tr>
+            <td><img src="img/media1.png"></td>
+          </tr>
+        </table>
+      
+        <p>In het voorbeeld hierboven wordt de media querie toegepast die kijkt naar de breedte van het scherm. Als het scherm breder is dan 600px dan wordt de achtergrond blauw. Is het scherm minder breed dan 600px dan wordt de achtergrond rood.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 2: overtypen</td>
+          </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.
+              <ul>
+                <li>Voeg een stylesheet toe en type <strong>voorbeeld 10-1</strong> over.</li>
+                <li>Sla het bestand op en test deze in je webbrowser. Verklein je browser en zie wat er met de achtergrond kleur gebeurd.</li>
+              </ul>
+              Sla het bestand op als <strong>Opdracht10-2.html. </strong></td>
+          </tr>
+        </table>
+        <p>Het toevoegen van media queries kan op twee manieren. Net zoals je gewend bent met gewoon css. Intern of extern. Wat je hierboven hebt gedaan is intern. Je maakt een standaard stylesheet aan en daarin ga je de media queries toevoegen. Een andere manier is om het extern aan te roepen. Op die manier maak je dus een stylesheet voor mobile, tablet en normaal. Dit is ook het meest overzichtelijk. Hieronder zie je een overzicht van drie extern aangeroepen css bestanden.</p>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 10-2</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld10-2.png"></td>
+          </tr>
+        </table>
+        <br>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 3: Extern css</td>
+          </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.
+              <ul>
+                <li>Voeg de drie regels van <strong>voorbeeld 10-2</strong> toe aan de <strong>head</strong> sectie van je pagina.</li>
+                <li>Maak vervolgens ook drie nieuwe css bestanden aan en noem deze <strong>mobile.css</strong>, <strong>tablet.css</strong> en <strong>normal.css</strong>.</li>
+                <li>Zet in elk CSS bestand dat de body een achtergrondkleur heeft. Geef in elk bestand een andere kleur op.</li>
+                <li>Test je html bestand nu in je browser. Verklein deze en zie wat er gebeurd. De achtergrond moet van kleur veranderen. Zo niet, heb je waarschijnlijk een type fout gemaakt.
+              </li></ul>
+              Sla het bestand op als <strong>Opdracht10-3.html. </strong></td>
+          </tr>
+        </table>
+        <p>De afstanden (breakpoints) zijn verschillend per apparaat. Deze zijn niet ergens vast gesteld. Het beste is om te kijken waar de breakpoints van jouw website liggen. Dit is namelijk voor elke site verschillend.</p>
+        <h2>Viewport</h2>
+        <p>Het is aan te raden om aan elke pagina die je  maakt de regel van voorbeeld10-3 toe te voegen aan de <strong>&lt;head&gt;</strong> sectie van je pagina. Mobile telefoons hebben namelijk  een viewport van ongeveer 320px. Echter zijn de technieken tegenwoordig zo  goed dat ze wel meer dan 1000 pixels bevatten. Om dit nou op te lossen voeg je  de viewport regel toe zodat je zeker weet dat een mobile gebruiker ook jouw  mobile site te zien krijgt.<br>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 10-3</td>
+          </tr>
+          <tr>
+            <td><img src="img/media-viewport.png"></td>
+          </tr>
+        </table>
+        
+        <h2>max-width VS width</h2>
+        <p>Voorheen gebruikte we altijd width om een  breedte aan een divisie of afbeelding te koppelen. Vanaf nu gebruiken we  max-width. Het verschil lijkt klein maar is vrij groot. Op het moment dat je  iets een vaste breedte geeft (width) zal deze ook altijd deze grote aanhouden.  Dit kan natuurlijk niet bij een responsive webdesign. Daarom gebruiken we max-width.  Stel we geven een divisie een max-width van 600px. Dat betekend dat de divisie <strong>nooit groter</strong> wordt dan 600px, maar  mocht het zo zijn dat de beschikbare ruimte minder is dan 600px dan past de  divisie zich aan. Dus deze kan dan bijvoorbeeld ook 400px zijn. Voor  afbeeldingen geldt exact hetzelfde. Die worden door de max-width ook  schaalbaar.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 4: max-width</td>
+          </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.
+              <ul>
+                <li>Voeg een stylesheet toe en maak een divisie aan.</li>
+                <li>Geef deze divisie een <strong>height: 200px</strong>, <strong>max-width: 600px</strong>, <strong>background: red</strong>.</li>
+                <li>Voeg ook de viewport regel van voorbeeld 10-3 toe aan de HTML.</li>
+                <li>Test je html bestand nu in je browser. Verklein deze en zie wat er gebeurd. De divisie schaalt mee met de browser, tot een maximum van 600px. </li>
+              </ul>
+              Sla het bestand op als <strong>Opdracht10-4.html. </strong></td>
+          </tr>
+        </table>
+        <p>Als je dus zorgt dat bv je container een max-width heeft ipv een gewone width, dan schaalt die automatisch mee. De overige divisies kan je ook wel max-width geven maar dan worden ze zo breed als de content die erin staat. Pas daar dus voor op.</p>
+        <h2>Procent % vs EM vs Pixels</h2>
+        <p>Om het probleem van hierboven op te lossen gebruik je nu procenten. Kijk goed naar het voorbeeld hieronder.</p>
+        <table class="normal voorbeeld">
+          <tr>
+            <td>Voorbeeld 10-4</td>
+          </tr>
+          <tr>
+            <td><img src="img/voorbeeld10-4.png"></td>
+          </tr>
+        </table>
+        <p>Je ziet een linker en rechter divisie met een breedte van 25% en een midden divisie van 50%. Let op dat je de hoogte nog wel in px blijft weergeven. Anders zie je de divisie namelijk niet als er geen content in staat. </p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 5: percentage</td>
+          </tr>
+          <tr>
+            <td>Maak een nieuwe HTML5 pagina aan.
+              <ul>
+                <li>Probeer voorbeeld10-4 zo goed mogelijk na te maken.</li>
+                <li><strong>#Container</strong> is <strong>max-width:1000px, height: 500px</strong>.</li>
+                <li><strong>#left</strong> en <strong>#rechts</strong> zijn 500px hoog en voeg een <strong>width</strong> van <strong>25%</strong> toe. Licht blauwe achtergrond.</li>
+                <li><strong>#midden</strong>is ook 500px hoog en voeg een <strong>width</strong> van <strong>50%</strong> toe. Salmon achtergrond.</li>
+                <li>Zorg dat alle divisies naast elkaar gepositioneerd worden.</li>
+                <li>Test het bestand in je webbrowser. Als je de browser verkleint schalen de divisies keurig naast elkaar mee maar worden nooit groter dan 1000px</li>
+              </ul>
+              Sla het bestand op als <strong>Opdracht10-5.html. </strong></td>
+          </tr>
+        </table>
+        <p>Om alles helemaal schaalbaar te maken  gebruiken we nu <strong>em</strong> ipv pixels. <strong>1 em = 16px</strong>. Als je dus een padding  wilt van 10px neem je nu 10 / 16 = 0.625em. Dit kan verwarrend werken als je  een breedte hebt van een aantal procenten. Helemaal als je de divisies hebt  gemaakt zoals in opdracht 4. Waar gebruik je em dan wel voor? Voor <strong>font-size</strong>. Omdat em dus schaalbaar is,  kan je heel gemakkelijk zeggen dat een lettertype bijvoorbeeld 2em is. Aan je  mobile.css voeg je dan een font-size van 120% toe en je lettertype wordt  automatisch groter.</p>
+        <table class="opdracht table">
+          <tr>
+            <td>Opdracht 6: EM</td>
+          </tr>
+          <tr>
+            <td>Open <strong>opdracht10-3.html</strong>.
+              <ul>
+                <li>Voeg aan de HTML een paragraaf toe met wat tekst.</li>
+                <li>Ga naar <strong>normal.css</strong> en voeg een <strong>p</strong> toe met <strong>font-size: 2em</strong>.</li>
+                <li>Voeg aan <strong>tablet.css</strong> een font-size van <strong>3em</strong> toe. Bij <strong>mobile.css</strong> een font-size van <strong>4em</strong>.</li>
+                <li>Test het bestand in je webbrowser. Als je de browser verkleint zie je dat ook het lettertype groter wordt.</li>
+              </ul>
+              Sla het bestand op als <strong>Opdracht10-6.html. </strong></td>
+          </tr>
+        </table>
+       	 <p>We hebben nu een aantal nieuwe aspecten gezien van wat we wel en niet moeten gebruiken op mobile sites. Nu gaan we een bestaande site omzetten naar een responsive lay-out. Let er bij op dat dit niet moeilijk is maar wel voor elke website verschillend. Per site zal je per onderdeel moeten gaan bepalen hoe deze het beste weer gegeven kan worden op een mobile device. Klik hier voor de tutorial.</p>
+       </div>
+        <div data-role="footer" data-position="fixed">
+          <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

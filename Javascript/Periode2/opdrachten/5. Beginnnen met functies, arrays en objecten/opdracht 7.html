@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="arraylength"></div>
+<div id="een"></div>
+<div id="twee"></div>
+<div id="drie"></div>
+<div id="vier"></div>
+<div id="vijf"></div>
+
+
+<script>
+    let familieleden = ['Melanie', 'Jack', 'Jessica', 'Volker'];
+    let familieledenlength = familieleden.length
+    document.querySelector(`#een`).innerHTML = familieleden[0]
+    document.querySelector(`#twee`).innerHTML = familieleden[2]
+    document.querySelector(`#arraylength`).innerHTML = familieleden.length
+    familieleden.sort;
+    document.querySelector(`#drie`).innerHTML = familieleden
+    familieleden.push(prompt("voer een naam in"))
+    document.querySelector(`#vier`).innerHTML = familieleden
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../Jquery/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(() => {
+        $('img').on('mouseenter', ()=>{
+          $('p').css('display', 'block')
+        })
+      })
+    </script>
+  <style>
+    p{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<img id="afbeelding" src="https://dierenzorggids.nl/wp-content/uploads/sites/6/2019/05/Poster-Image-Op-vakantie-zonder-je-hond-of-kat.jpg" alt="Kat">
+<p id="imgUrl">https://dierenzorggids.nl/wp-content/uploads/sites/6/2019/05/Poster-Image-Op-vakantie-zonder-je-hond-of-kat.jpg</p>
+
+</body>
+</html>

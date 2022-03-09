@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - CSS Intro</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+    <link rel="stylesheet" href="../extrea.css" type="text/css">
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width"/>
+
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - CSS Intro</h1>
+        </div>
+        <div class="ui-content" role="main">
+		<h2>Inleiding</h2>
+        <p>Zoals in de eerste les verteld gebeurd de opmaak van je webpagina met CSS. Dit staat voor Cascading Style Sheets. Letterlijk vertaald betekend cascading, stapsgewijze. Wat wijst op het kunnen overerven van opmaak. Style staat voor opmaak en sheets omdat het een extern bestand kan zijn. </p>
+<p>
+Je hebt verschillende manieren om CSS aan je webpagina te koppelen. Hier komen we later nog uitgebreid op terug.</p>
+<table class="table overzicht">
+<tbody>
+<tr>
+<td>
+CSS 
+</td>
+<td>
+Betekennis
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">inline</span>
+</td>
+<td>
+Je typt de CSS code in de HTML tag
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">intern</span>
+</td>
+<td>
+Je CSS code staat in de HEAD sectie van je pagina.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">extern</span>
+</td>
+<td>
+Je CSS code staat in een apart css-bestand. In de HEAD sectie koppel je dit bestand aan je webpagina.
+</td>
+</tr>
+</tbody>
+</table>
+     <p>De manier van CSS typen is anders dan in HTML. Waar we in HTML gewent zijn om te werken met Tags is dat nu niet meer zo. De opbouw van een CSS regel is als volgt:</p>
+
+<p>Als eerste noem je de html tag welke je van opmaak wilt voorzien. Stel dat we op onze webpagina een <span class="redText">&lt;h1&gt;</span> hebben gebruikt. Deze is standaard zwart van kleur. Nu willen we dat dit een rode kleur krijgt. Het eerste wat we dan doen is <span class="redText">h1</span> typen. Dus zonder de <span class="redText">&lt;</span> en <span class="redText">&gt;</span>. Vervolgens type je een <span class="redText">{ </span>Accolade openen. Daarna type je de CSS-code om de kleur aan te passen. Dit is <span class="redText">color:. </span>Achter elke CSS-code volgt een dubbele punt! Vervolgens type je de waarde die bij de eigenschap hoort. We willen de &lt;h1&gt; kleur veranderen naar rood. We kunnen de kleurcode gebruiken of gewoon <span class="redText">red; </span>typen. Vergeet niet de punt-komma. Aan het einde van <span style="text-decoration: underline;">elke </span>&nbsp;CSS regel typ je een punt-komma. Zodra je klaar bent met het opmaken van het <span class="redText">h1</span> element dien je alleen nog een accolade sluiten te typen <span class="redText">}</span>.</p>
+<img src="img/h10-1.png" border="1" width="220px">   
+<img src="img/h10-2.png" border="1" width="400px">  <br>
+<img src="img/h10-3.png" border="1"> 
+<p>De opbouw zoals hierboven geldt voor <span class="redText">interne</span> en <span class="redText">externe</span> stylesheets. Inline heeft een iets andere opbouw. Hier gaan we nu dus ook nog niet naar kijken. </p>
+<table class="table let-op">
+        	<tr><td>Let op:</td></tr>
+            <tr><td>In CSS code staat <strong>nooit</strong> een hoofdletter!</td></tr>
+        </table> 
+        <h2>Intern</h2>
+        <p>Als je een <span class="redText">interne</span> stylesheet gebruikt dan doe je dit <strong>binnen</strong> de <span class="redText">&lt;head&gt;</span> sectie. Kijk goed naar onderstaande afbeelding.
+<br>
+<img src="img/h10-4.png" border="1"><br>
+Je ziet dat na de <span class="redText">&lt;/title&gt;</span> tag een <span class="redText">&lt;style&gt;</span> tag wordt geopend. Hiermee geef je aan dat er CSS code getypt gaat worden. Je browser weet nu dat deze tekst anders gelezen moet worden. Een eigenschap van &lt;style&gt; is <span class="redText">type</span>. De waarde van type is altijd <span class="redText">text/css</span>. Omdat &lt;style&gt; HTML code is moet deze uiteraard ook weer afgesloten worden. Binnen de &lt;style&gt; tags komt dan alle CSS code.</p>
+ <table class="table opdracht">
+        	<tr><td>Opdracht 1: Intern CSS</td></tr>
+            <tr><td>
+            <p>Open in je editor het bestand <strong>Opdracht3-1.html.</strong></p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht10-1.html</strong></li>
+<li>Verander de <strong>&lt;title&gt;</strong> naar <strong>Opdracht 10-1</strong>.</li>
+<li>Type de CSS van de afbeelding hierboven over zodat de <strong>&lt;h1&gt;</strong> van die pagina rood wordt.</li>
+<li>Test in je browser of het werkt.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht10-1.html</strong>.</p>
+            </td></tr>
+            </table>
+            <h2>Extern</h2>
+            <p>Zoals gezegd is de opbouw van CSS code in een extern stylesheet hetzelfde. De aanroep van het bestand is alleen anders. In dit geval maak je namelijk een apart bestand met al je CSS code er in. Dit bestand sla je ook op als een <span class="redText">.css</span> bestand.</p>
+
+<p>Je kunt in Dreamweaver een leeg CSS bestand openen. Dit doe je op dezelfde manier als een HTML pagina alleen klik je dan op CSS. Je hebt hier geen last van doctype e.d. Als het goed is zijn je eerste 2 regels de volgende:</p>
+<p>@charset "utf-8";<br>/* CSS Document */</p>
+<p>Je muis cursor staat vervolgens op de vierde regel. Staan deze twee regels er niet, voeg ze dan toe door middel van knippen en plakken.</p>
+<table class="table opdracht">
+        	<tr><td>Opdracht 2: Extern CSS</td></tr>
+            <tr><td>
+           <p>Je hebt zojuist een leeg CSS bestand geopend. Zo niet, doe dit dan als nog.</p>
+<ul>
+<li>Sla het bestand op als <strong>opmaak6-2.css</strong>. Let er goed op dat je dit bestand in <strong>dezelfde</strong> map opslaat als waar je alle opdrachten hebt opgeslagen.</li>
+<li>Type nu, net zoals in de vorige opdracht, de CSS code over alleen verander het woord <strong>red</strong> nu in <strong>blue</strong>. Omdat dit een CSS bestand is kan je de <strong>&lt;style&gt;</strong> tags nu weg laten.</li>
+</ul>
+<p>Sla het bestand op als <strong>opmaak6-2.css</strong>. </p>
+            </td></tr>
+            </table>
+            <p>We hebben nu dezelfde CSS code als in de vorige opdracht. We moeten nu alleen dit bestand koppelen aan een HTML pagina. Hiervoor moet je &eacute;&eacute;n specifieke regel toevoegen in de <span class="redText">&lt;head&gt;</span> sectie. De regel staat hieronder afgebeeld.</p>
+            <img src="img/h10-5.png" width="100%" border="1">
+            <p>Deze link voeg je toe <strong>binnen </strong>de <span class="redText">&lt;head&gt;</span> sectie. Het liefst <strong>na </strong>de <span class="redText">&lt;/title&gt;. </span>De HTML tag is <span class="redText">&lt;link&gt;</span>. Link heeft <strong>drie </strong>belangrijke eigenschappen. De eerste is <span class="redText">rel</span> wat staat voor relation. Hier geef je altijd aan <span class="redText">stylesheet</span>, omdat we een CSS bestand koppelen. Bij <span class="redText">type</span> vul je altijd <span class="redText">text/css</span> in. Dit is hetzelfde als bij intern. <span class="redText">href</span> heeft te maken met de <strong>locatie van je CSS bestand.</strong> Omdat je deze opslaat in dezelfde&nbsp; map als je HTML bestand, kun je hier enkel de naam van het bestand invullen. Je ziet dat <span class="redText">&lt;link&gt;</span>&nbsp;niet wordt afgesloten, dit hoeft ook niet.</p>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 3: Extern CSS</td></tr>
+            <tr><td>
+           <p>Open in je editor het bestand <strong>Opdracht3-1.html.</strong></p>
+<ul>
+<li>Sla het bestand op als <strong>Opdracht10-3.html</strong></li>
+<li>Verander de <strong>&lt;title&gt;</strong> naar <strong>Opdracht 10-3</strong>.</li>
+<li>Voeg de <strong>&lt;link&gt;</strong> van hierboven toe binnen de <strong>&lt;head&gt;</strong></li>
+<li>Test in je browser of het werkt. De tekst tussen de &lt;h1&gt; tag moet blauw zijn.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht10-3.html</strong>. </p>
+            </td></tr>
+            </table>
+         </div>
+        <div data-role="footer" data-position="fixed" >
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

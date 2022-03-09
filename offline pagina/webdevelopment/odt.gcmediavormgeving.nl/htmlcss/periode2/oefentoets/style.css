@@ -1,0 +1,119 @@
+body {
+	background-color:#D7D7D7;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#container {
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+}
+#links {
+	width:200px;
+	height:600px;
+	background:url(images/menu_links.png);
+	float:left;
+}
+#links img {
+	float:left;
+	border:solid white 1px;
+	margin:3px;
+}
+#midden {
+	width:600px;
+	height:600px;
+	float:left;
+}
+#rechts {
+	width:200px;
+	height:600px;
+	background:url(images/menu_rechts.png);
+	float:left;	
+}
+
+#rechts ul {
+	margin:260px 0 0 0;
+	padding:0 0 0 0px;
+	list-style-type:none;
+
+
+}
+#rechts li {
+	border:solid white 2px;
+	width:150px;
+	margin:10px 0px 0px 25px;
+	text-align:center;	
+	background-color:#033255;
+	
+}
+#rechts li:hover {
+	background-color:#56b1f6;	
+}
+#rechts a {
+	color:white;
+	text-decoration: none;
+}
+#rechts {
+
+}
+#sluit {
+	width:1000px;
+	height:30px;
+	background-color:#56b1f6;
+	float:left;
+	text-align:center;
+	font-size:12px;
+}
+#head {
+	width:600px;
+	height:120px;
+	background:url(images/header2.png);	
+	
+}
+#head h1{
+	color:#56b1f6;
+	margin:0;
+	text-align: center;
+}
+#content {
+	width:600px;
+	height:480px;
+	background-color:#999;	
+}
+p {
+	margin:0;
+	padding:5px;
+}
+
+.vetgedrukt {
+	font-weight:bold;	
+}
+table {
+	border-collapse:collapse;
+	margin:5px;
+	width:590px;
+}	
+td,th {
+	border:solid white 2px;	
+}
+
+.backgroundColor {
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

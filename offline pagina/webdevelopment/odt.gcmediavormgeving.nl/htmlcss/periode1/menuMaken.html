@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Menu maken</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+   
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width"/>
+
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - Menu maken</h1>
+        </div>
+        <div class="ui-content" role="main">
+		<h2>Geavanceerde opmaak</h2>
+		<p>We hebben eerder geleerd dat je met de <strong>&lt;ul&gt;</strong> en <strong>&lt;li&gt;</strong> een ongeordende lijst kan maken. Deze lijst ziet er standaard niet heel mooi uit. Met deze lijst kun je ook heel gemakkelijk een menu structuur cre&euml;ren. Hieronder wat voorbeelden.</p>
+        <table class="table overzicht">
+        <tbody>
+        <tr>
+        <td width="20%">
+        CSS Code 
+        </td>
+        <td>
+        Werking
+        </td>
+        </tr>
+        <tr>
+<td>
+<span class="redText">list-style-type</span>
+</td>
+<td>
+Hier kan je het standaard rondje veranderen in een vierkant(=square), allerlei cijfers/letters of zelfs geen symbool.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">list-style-image</span>
+</td>
+<td>
+Hiermee kan je het symbool in een door jezelf gemaakt plaatje veranderen.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">list-style-position</span>
+</td>
+<td>
+De symbolen komen ter hoogte van de tekst te staan of ervoor. &nbsp;Doordat er een standaard padding is, zie je hier niet veel van.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">list-style</span>
+</td>
+<td>
+Alle bovenstaande kan je hierbij instellen.
+</td>
+</tr>
+</tbody>
+</table>
+<p>Omdat je bij een ongeordende lijst te maken hebt met een &lt;ul&gt; en &lt;li&gt; moet je goed opletten aan welk element je de CSS koppelt. Bovenstaande geldt voor de <strong>&lt;ul&gt;.</strong></p>
+<table class="table opdracht">
+        	<tr><td colspan="2">Opdracht 1: Namaken</td></tr>
+            <tr><td width="50%">
+          <p>Maak de afbeelding hier rechts, na.</p>
+<ul>
+<li>Maak gebruik van een <strong>intern</strong> stylesheet</li>
+<li>Het lettertype is <strong>Verdana</strong>.</li>
+<li>Achtergrond kleur is <strong>#FC0</strong></li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht14-1.html.</strong></p>
+            </td>
+            <td>
+            <img src="img/h14o1.png">
+            </td>
+            </tr>
+            </table>
+            <p>Je ziet dat de tekst is ingesprongen. Dit doet de <strong>&lt;ul&gt;</strong> automatisch. Dit kun je uiteraard ook manipuleren. Door middel van padding bepaal je de afstand binnen het element. Standaard staat het op 40px.</p>
+            <table class="table opdracht">
+        	<tr><td colspan="2">Opdracht 2: Namaken</td></tr>
+            <tr><td width="50%">
+          <p>Open bestand <strong>Opdracht14-1.html</strong>.</p>
+<ul><li>Voeg een padding aan de CSS toe zodat je lijst er net zoals hiernaast uitziet.</li></ul>
+<p>Sla het bestand op.</p>
+            </td>
+            <td>
+            <img src="img/h14o2.png">
+            </td>
+            </tr>
+            </table>
+            
+            <p>Het lijkt nu nog niet een echt menu. Hiervoor moeten we wat instellingen aanpassen bij de <strong>&lt;li&gt;</strong>. Hier kun je namelijk de achtergrond kleur aanpassen en een rand toevoegen.</p>
+            <table class="table opdracht">
+        	<tr><td colspan="2">Opdracht 3: Menu</td></tr>
+            <tr><td width="50%">
+         <p>Open bestand <strong>Opdracht14-1.html</strong>.</p>
+<ul>
+<li>Voeg bij de <strong>ul</strong> toe dat er <strong>geen</strong> symbool gebruikt moet worden.</li>
+<li>Zet ook de <strong>padding</strong> op 0px.</li>
+<li>Voeg de <strong>li</strong> toe aan je CSS en zet daar de achtergrondkleur <strong>#0FC</strong>.</li>
+<li>Voeg ook een <strong>zwarte</strong>, <strong>on doorbroken lijn van 1px</strong></li>
+<li>Sla het bestand op.</li>
+<li>Je pagina moet er net zoals hiernaast uitzien.</li>
+</ul>
+<p>Sla het bestand op.</p>
+            </td>
+            <td>
+            <img src="img/h14o3.png">
+            </td>
+            </tr>
+            </table>
+            <p>Je ziet dat er van je originele lijst niet heel veel overblijft qua opmaak. Het begint zelfs op een tabel te lijken. Waarom zou je niet een tabel gebruiken dan? In dit geval had het gekund maar normaal kan het wel voorkomen dat je een symbool voor je menu-items wilt. Dan is een &lt;ul&gt; met &lt;li&gt; het makkelijkste.</p>
+<p>Je menu staat nu nog over de hele pagina. Dat willen we niet. We kunnen namelijk ook weer een breedte opgeven. Dit gebeurd met dezelfde code als waarmee je een plaatje een breedte geeft. Ook kunnen we de menu-items iets van elkaar af laten staan. Dit kan je met de <strong>margin</strong> doen.</p>
+<table class="table opdracht">
+        	<tr><td colspan="2">Opdracht 4: Namaken</td></tr>
+            <tr><td width="50%">
+         <p>Open bestand <strong>Opdracht14-1.html</strong>.</p>
+<ul>
+<li>Voeg een margin in van 3px.</li>
+<li>Voeg een linker padding van 3px toe.</li>
+<li>Zorg ook dat de breedte aangepast wordt naar 150px.</li>
+<li>Je pagina moet er uitzien zoals hiernaast.</li>
+</ul>
+<p>Sla het bestand op.</p>
+            </td>
+            <td>
+            <img src="img/h14o4.png">
+            </td>
+            </tr>
+            </table>
+            <p>Een menu is er voor zodat je naar verschillende pagina&rsquo;s op je website kan gaan. Omdat voor elkaar te krijgen moet je een verwijzing maken. Een zo gehete hyperlink. Let er bij de <strong>&lt;li&gt;</strong> wel op dat je de tekst <span style="text-decoration: underline;">binnen</span> de &lt;li&gt; linkt!</p>
+<p>In <a href="afbeeldingverwijzing.html">hoofdstuk 5</a> hebben we een verwijzing gemaakt naar andere opdrachten. Als je niet meer weet hoe dit exact werkt, kun je daar nog eens naar kijken. Hieronder staat een voorbeeld van een verwijzing.</p>
+<img src="img/h14v1.png" style="border:solid 1px black;">
+<p>Je ziet dat bij de href een hash-tag (hekje) is ingevuld. Dit kun je doen om je link toch te laten werken zolang je nog niet weet wat het uiteindelijke doelbestand is. Je maakt nu een link naar zichzelf eigenlijk. </p>
+<table class="table let-op">
+<tr>
+<td>let op:</td></tr>
+<tr>
+<td>Het &lt;a&gt; element moet altijd <strong>binnen</strong> het &lt;li&gt; element staan.</td></tr></table>
+<br>
+<table class="table opdracht">
+        	<tr><td colspan="2">Opdracht 5: Namaken</td></tr>
+            <tr><td width="50%">
+         <p>Open bestand <strong>Opdracht14-1.html</strong>.</p>
+<ul>
+<li>Voeg de verwijzingen toe.</li>
+<li>Je pagina ziet er dan uit zoals hiernaast.</li>
+</ul>
+<p>Sla het bestand op.</p>
+            </td>
+            <td>
+            <img src="img/h14o5.png">
+            </td>
+            </tr>
+            </table>
+            <p>Net zoals de &lt;li&gt; heeft ook de <strong>&lt;a&gt;</strong> een standaard opmaak. Je ziet dat er een streep onder de letters verschijnt en dat de tekst blauw wordt. Dit is de standaard opmaak van een verwijzing. Er zijn verschillende statussen waar een link zich in kan bevinden. Hieronder een overzicht.</p>
+            <table class="table overzicht">
+        <tbody>
+        <tr>
+        <td width="20%">
+        CSS Code 
+        </td>
+        <td>
+        Werking
+        </td>
+        </tr>
+<tr>
+<td>
+<span class="redText">a:link</span>
+</td>
+<td>
+Een normale, (nog) niet bezochte link.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">a:visited</span>
+</td>
+<td>
+Een link die de bezoeker heeft aangeklikt.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">a:hover</span>
+</td>
+<td>
+Zodra de gebruiker over de link heen gaat met de muiscursor.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">a:active</span>
+</td>
+<td>
+Het moment dat de gebruiker op de link klikt maar de muisknop nog niet heeft losgelaten.
+</td>
+</tr>
+<tr>
+<td>
+<span class="redText">a</span>
+</td>
+<td>
+Hiermee overrule je alle statussen.
+</td>
+</tr>
+</tbody>
+</table>
+<p>Deze statussen voeg je dus allemaal toe aan je CSS. Daarbinnen kun je dus de standaard opmaak wijzigen. Als je dus te allen tijde een witte tekst wilt hebben voeg je bij de status a een color:#FFF; in. Wil je dit alleen bij een bezochte link, dan doe je dit bij a:visited. Deze statussen kun je ook toevoegen aan bijvoorbeeld de <strong>li</strong>.</p>
+<table class="table opdracht">
+        	<tr><td colspan="2">Opdracht 6: Namaken</td></tr>
+            <tr><td width="50%">
+         <p>Open bestand <strong>Opdracht14-1.html</strong>.</p>
+<ul>
+<li>De link heeft standaard <strong>geen</strong> streep en de tekst kleur is <strong>#333</strong></li>
+<li>Zodra je met je muis <strong>over</strong> een<strong> link</strong> heen gaat, komt er een <strong>streep onder</strong> te staan.</li>
+<li>Zodra je met je muis <strong>over</strong> een <strong>li</strong> heen gaat, veranderd de achtergrondkleur in <strong>#06C</strong></li>
+
+</ul>
+<p>Sla het bestand op.</p>
+            </td>
+            <td>
+            <img src="img/h14o6.png">
+            </td>
+            </tr>
+            </table>
+            <p>We zijn nu steeds bezig geweest met een menu dat onder elkaar stond. We kunnen de &lt;li&gt; ook naast elkaar op het scherm plaatsen. Dit kun je in de CSS doen. Je moet dan bij de <strong>li</strong> een <strong>float:left;</strong> toevoegen.</p>
+            <table class="table opdracht">
+            <tr><td>Opdracht 7: Namaken</td></tr>
+            <tr><td>
+         <p>Open een nieuw html bestand.</p>
+<ul>
+<li>Maak de onderstaande pagina zo goed mogelijk na.</li>
+<li>De achtergrond kleur is <strong>#FF9</strong>. Het lettertype is <strong>Lucida Sans</strong> unicode.</li>
+<li>De lijst heeft een margin en padding van 0px. Het symbool is <a href="img/arrow.png" target="_blank">dit</a> plaatje (kan wat afwijzen van het screenshot). Uiteraard mag je ook zelf een afbeelding kiezen.</li>
+<li>De link heeft een witte tekst kleur <strong>zonder</strong> streep</li>
+<li>Als met de muis over de link wordt bewogen, verschijnt er een streep.</li>
+<li>De li heeft zwarte on doorbroken rand van 1px. Is 100px breed. Heeft een linker padding van 3px. De rechter margin is 5px. De achtergrondkleur is #009.</li>
+<li>Zodra met de muis over de li wordt beweegt <strong>veranderd</strong> de achtergrondkleur in #06C.</li>
+</ul>
+<p>Sla het bestand op als <strong>Opdracht14-7.html.</strong></p>
+            </td></tr>
+            <tr>
+            <td>
+            <img src="img/h14o7.png">
+            </td>
+            </tr>
+            </table>
+    </div>
+        <div data-role="footer" data-position="fixed" >
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>

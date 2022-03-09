@@ -1,0 +1,103 @@
+SELECT birthdate, firstname, prefix, lastname, city FROM employee
+WHERE (city = 'Gaanderen' OR city = 'Doetinchem' OR city = 'Kilder') AND birthdate BETWEEN CAST('1960-1-1' AS DATE) AND CAST('1969-12-31' AS DATE)
+
+-----------------------------------------------------------------------------------------------------
+SELECT firstname, prefix, lastname, function FROM employee
+WHERE lastname
+LIKE '%Blikslager%'
+ORDER BY firstname AND lastname
+
+-----------------------------------------------------------------------------------------------------
+SELECT function, firstname, prefix AS '-', lastname, salary FROM employee
+WHERE (function = 'shop assistant' OR function = 'shop assistent' OR function = 'order picker') AND (salary BETWEEN '1900' AND '2000')
+ORDER BY salary DESC, lastname ASC
+
+-----------------------------------------------------------------------------------------------------
+SELECT gamename FROM games
+WHERE gamename LIKE '%Sonic%'
+
+-----------------------------------------------------------------------------------------------------
+SELECT CONCAT("€" , MIN(price)) as "Laagste prijs PS4 game" FROM games
+WHERE Platform = "PS4"
+;
+
+-----------------------------------------------------------------------------------------------------
+SELECT SUM(TotalQuantityOrdered) FROM orders
+WHERE status = "On Hold"
+;
+
+-----------------------------------------------------------------------------------------------------
+SELECT birthdate(YEAR)-current_timestamp(YEAR) FROM employee
+;
+WERKT NIET!!
+
+-----------------------------------------------------------------------------------------------------
+SELECT concat(firstname , lastname) birthdate, YEAR(current_timestamp)-YEAR(birthdate) FROM employee
+order by birthdate
+;
+
+-----------------------------------------------------------------------------------------------------
+SELECT COUNT(employeeid) FROM employee
+WHERE (YEAR(current_timestamp)-YEAR(birthdate) >= 30) AND (city = "Doetinchem")
+;
+
+-----------------------------------------------------------------------------------------------------
+SELECT COUNT(employeeid) FROM employee
+WHERE (function = "shop assistent") OR (function = "shop assistant") AND (YEAR(current_timestamp)-YEAR(birthdate) <= 45) AND (city = "Doetinchem")
+;
+
+-----------------------------------------------------------------------------------------------------
+joins:
+-----------------------------------------------------------------------------------------------------
+
+SELECT
+orders.orderNumber,
+concat(customers.FirstName," ", customers.LastName) as klant,
+concat(employee.firstname," ", employee.lastname) as medewerker,
+orders.shippedDate, orders.TotalQuantityOrdered
+
+FROM
+orders, customers, employee
+
+WHERE
+orders.customerNumber = customers.customerNumber
+AND
+orders.employeeid = employee.employeeid
+AND
+status = "In Process";
+
+
+
+
+
+SELECT
+    orders.orderNumber,
+    concat(customers.FirstName," ",customers.LastName) AS klant,
+    concat(employee.firstname," ",employee.lastname) AS medewerker,
+    shippedDate,
+    TotalQuantityOrdered,
+       orders.orderNumber,
+       games.gamename,
+       games.Platform,
+        orderdetails.quantityOrdered,
+       orderdetails.priceEach
+
+FROM
+     customers, employee, orders, orderdetails, games
+
+WHERE
+    orders.employeeid = employee.employeeid
+AND
+    orders.status = "In Process"
+AND
+    orders.employeeid = "120"
+AND
+    orders.customerNumber = customers.customerNumber
+AND
+    orders.orderNumber = orderdetails.orderNumber
+AND
+    orderdetails.gameid = games.gameid
+AND
+      orders.orderNumber = orderdetails.orderNumber
+
+

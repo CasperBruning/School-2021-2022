@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="divresult1"></div>
+<div class="divresult2"></div>
+<div class="divresult3"></div>
+
+<script>
+    //A
+    let ia = 8
+    while (ia > 0){
+        document.querySelector(`.divresult1`).innerHTML += ia + "<br>";
+        ia--
+    }
+
+    //B
+    let ib = 1
+    while (ib <= 99){
+        document.querySelector(`.divresult2`).innerHTML += ib + "<br>"
+        ib = ib * 2
+    }
+
+    //C
+    let nummer = 0
+    while (nummer <= 100){
+        nummer++
+        if (nummer === 78){
+            break;
+        }
+    }
+
+</script>
+</body>
+</html>

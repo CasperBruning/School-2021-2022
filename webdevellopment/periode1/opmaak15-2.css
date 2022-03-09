@@ -1,0 +1,19 @@
+body {
+    background-color: grey;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 0 3px 0 5px
+}
+
+table{
+    border-collapse: collapse;
+    border-color: white;
+}
+
+.even{
+    background-color: darkblue;
+}
+.oneven{
+    background-color: lightblue;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../Jquery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            $(`#button`).on(`click`, ()=>{
+                $(`div`).css(`background-color`, $(`#input`).val())
+
+            })
+            $(`#button1`).on(`click`, ()=>{
+                $(`body`).css(`background-color`, $(`#input1`).val())
+
+            })
+
+        })
+    </script>
+</head>
+<body>
+<form>
+    <input id="input" type="text">
+    <input id="button" type="button" value="Stel kleur in achter tekst">
+    <input id="input1" type="text">
+    <input id="button1" type="button" value="Stel achtergrondkleur in">
+</form>
+<div><h1>test</h1></div>
+</body>
+</html>

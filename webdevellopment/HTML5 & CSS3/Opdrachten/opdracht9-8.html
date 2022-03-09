@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+
+        function play() {
+            let myVideo = document.querySelector(`#video1`)
+            if (myVideo.paused) {
+                myVideo.play();
+            } else {
+                myVideo.pause();
+            }
+        }
+
+        function volume() {
+
+            // document.querySelector(`#video1`).volume = 0;
+            let myVideo = document.querySelector(`#video1`)
+            if (myVideo.volume == 0) {
+                myVideo.volume = 1;
+            } else {
+                myVideo.volume = 0;
+            }
+        }
+
+        function downSize() {
+            let myVideo = document.querySelector(`#video1`)
+            myVideo.height = 570;
+            myVideo.width = 1130;
+        }
+
+        function normalSize() {
+            let myVideo = document.querySelector(`#video1`)
+            myVideo.height = 720;
+            myVideo.width = 1280;
+        }
+
+        function upSize() {
+            let myVideo = document.querySelector(`#video1`)
+            myVideo.height = 970;
+            myVideo.width = 1430;
+        }
+
+    </script>
+</head>
+<body>
+<button type="button" onclick="play()">Play / Pause</button>
+<button type="button" onclick="volume()">Volume</button>
+<button type="button" onclick="downSize()">Klein</button>
+<button type="button" onclick="normalSize()">Normaal</button>
+<button type="button" onclick="upSize()">Groot</button>
+<video id="video1"
+       src="Video/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20(Official%20Music%20Video).webm"></video>
+</body>
+</html>

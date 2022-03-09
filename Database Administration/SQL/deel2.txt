@@ -1,0 +1,22 @@
+Opdracht 5
+
+Opdracht 6
+1: 
+SELECT studentvoornaam, studenttussenvoegsel, studentachternaam FROM student ORDER BY studentachternaam
+2:
+INSERT INTO `docent`(`docentid`, `docentvoornaam`, `docenttussenvoegsel`, `docentachternaam`) VALUES ('7','Frank','de','Boer')
+3:
+UPDATE `student` SET `klasid` = '2' WHERE `student`.`studentnr` = 9
+4:
+UPDATE `vakdocent` SET `docentid` = '2' WHERE `vakdocent`.`vakid` = 2 AND `vakdocent`.`docentid` = 3 AND `vakdocent`.`klasid` = 2
+5:
+Peter:
+DELETE FROM `student` WHERE `student`.`studentnr` = 2
+dit kan niet, hij kan het niet deleten omdat er een FK in opleidingen staat
+DELETE FROM `scores` WHERE `scores`.`scoreid` = 4
+Eerst deze dan deze:
+DELETE FROM `student` WHERE `student`.`studentnr` = 2
+
+Jan:
+DELETE FROM `student` WHERE `student`.`studentnr` = 4
+Deze werkt wel omdat jan nog geen scores heeft gehaald

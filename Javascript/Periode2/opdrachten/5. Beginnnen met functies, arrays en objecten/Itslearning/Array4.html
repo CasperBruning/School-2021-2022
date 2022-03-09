@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    let bier = ['grolsch', 'hertog jan', 'palm', 'brand', 'hoegaarden'];
+    let whiskey = ['glenlevit', 'dalmore', 'jura', 'jameson', 'makers'];
+
+    bier.forEach(function (i) {
+        // index = 0;
+        //
+        // let uppercaseBier = []
+        // uppercaseBier.push(bier[index].toUpperCase())
+        //
+        //
+        // index++
+        // console.log(uppercaseBier)
+
+
+
+
+        if (bier[i] % 3 == 0) {
+            let var1 = bier[i].toUpperCase()
+            bier.splice(i, 1, bier[i].toUpperCase())
+        }
+        console.log(bier)
+    })
+
+</script>
+</body>
+</html>

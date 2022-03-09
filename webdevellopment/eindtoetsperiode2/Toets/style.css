@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    text-align: justify;
+    background-image: url("images/background_cs.jpg");
+    font-family: arial;
+}
+.container{
+    width: 940px;
+    height: auto;
+    margin: auto;
+}
+.header{
+    float: left;
+    width: 940px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+.headerSteamLogo{
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.headerUL{
+    list-style: none;
+    float: right;
+    margin-top: 41px;
+}
+.headerLI{
+    float: left;
+    color: white;
+    margin-left: 40px;
+    size: 18px;
+}
+.headerLiA{
+    text-decoration: none;
+    color: white;
+}
+.headerLiA:hover{
+    text-decoration: underline;
+}
+.title{
+    color: white;
+    font-weight: bold;
+    float: left ;
+    size: 34px;
+    margin-bottom:0;
+}
+.titleP{
+    color: white;
+    font-weight: bold;
+    float: left ;
+    font-size: 34px;
+    margin-bottom:0;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    height: 400px;
+    float: left;
+    margin-bottom: 50px;
+}
+.contentTrailer{
+    width: 550px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    margin-top: 50px;
+}
+.contentRightSide{
+    width: 340px;
+    height: 400px;
+    float: left;
+}
+.poster{
+    margin-top: 50px;
+    width: 340px;
+}
+.infoParagraph{
+    color: white;
+}
+.infoTableTdLeft{
+    color: #556772;
+    font-weight: bold;
+}
+.infoTableTdRight{
+    color: #67c1f5;
+}
+.footer{
+    border-top: 1px solid white;
+    float: left;
+    width: 940px;
+    margin-top: 50px;
+}
+.footerTableTH{
+    color: white;
+    width: 313px;
+    float: left;
+    padding: 10px
+}
+.footerTableTH2{
+    color: white;
+    width: 313px;
+    text-align: center;
+    padding: 10px
+}
+.footerTableTH3{
+    color: white;
+    width: 313px;
+    float: right;
+    text-align: right;
+    padding: 10px
+}
+.footerTableTD{
+    color: white;
+    width: 313px;
+    float: left;
+    padding: 10px
+}
+.footerTableTD2{
+    color: white;
+    width: 313px;
+    text-align: center;
+    padding: 10px
+}
+.footerTableTD3{
+    color: white;
+    width: 313px;
+    float: right;
+    text-align: right;
+    padding: 10px
+}
+
+

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+}
+
+.titleDiv {
+    height: 160px;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+
+.title1 {
+    color: black;
+}
+
+.title2 {
+    color: #4e9525;
+}
+
+.menu {
+    height: 85px;
+    width: 100%;
+    background-color: #4e9525;
+}
+
+.menuUL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+}
+
+.menuLI {
+    float: left;
+    margin-right: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuLIA {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menuLIA:hover {
+    color: #fbd341;
+}
+
+.imgcontainer {
+    height: 700px;
+    max-width: 100%;
+    background-image: url("DesignLawnCare/header_image.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insideimgcontainer {
+margin: 200px 200px 200px 400px;
+    position: absolute;
+}
+
+.imgcontainerWelcome {
+    color: #fbd341;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imgcontainerH2{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 0px;
+    margin: 0;
+}
+
+.imgcontainerWork{
+    color: #f8f9fa;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.imgcontainerButton{
+    height: 47px;
+    width: 170px;
+    background-color: #4e9525;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.imgcontainerbuttonA:hover{
+    color: #fbd341;
+}
+
+.imgcontainerbuttonA{
+    text-decoration: none;
+    color: white;
+}
+
+.serviceContainer{
+    height: 646px;
+    width: 100%;
+    background-color: lightblue;
+}

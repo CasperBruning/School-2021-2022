@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 & CSS3 - Body</title>
+    <link rel="stylesheet" href="../../files/jquery.mobile-1.4.4.css" />
+   
+    <script src="../../files/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../files/jquery.mobile-1.4.4.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width"/>
+
+</head>
+<body>
+    <section id="introductie" data-role="page">
+        <div data-role="header" data-position="fixed">
+        	<a href="#" data-rel="back" data-icon="back" class="ui-btn-left">Terug</a>
+        	<h1>HTML & CSS - Body</h1>
+        </div>
+        <div class="ui-content" role="main">
+<h2>De body</h2>
+<p>Tussen <span class="redText">&lt;body&gt; </span>&amp;<span class="redText"> &lt;/body&gt;</span> plaats je alle tekst en afbeeldingen die op jouw webpagina zichtbaar zijn. Dit wordt ook wel de content genoemd. Met een tag geef je aan wat voor soort content het is. Hieronder zie je een overzicht van de meest voorkomende tags.</p>
+<table class="table overzicht">
+<tbody>
+<tr>
+<td>
+Tags:
+</td>
+<td>
+Werking:
+</td>
+</tr>
+<tr>
+<td>
+&lt;p&gt;&hellip;&lt;/p&gt;
+</td>
+<td>
+Dit is een paragraaf.
+</td>
+</tr>
+<tr>
+<td>
+&lt;h1&gt;&hellip;&lt;/h1&gt;<br>
+&lt;h2&gt;&hellip;&lt;/h2&gt;<br>
+&lt;h6&gt;&hellip;&lt;/h6&gt;
+</td>
+<td>
+Dit is een kop.<br>
+Hoe lager het getal, hoe groter de kop.<br>
+H1 is dus de grootste, H6 de kleinste.
+</td>
+</tr>
+<tr>
+<td>
+&lt;br&gt;
+</td>
+<td>
+De &lt;br&gt; tag moet je zien als de enter toets in html.
+</td>
+</tr>
+<tr>
+<td>
+&lt;hr&gt;
+</td>
+<td>
+Met &lt;hr&gt; horizontale lijn op je webpagina
+</td>
+</tr>
+<tr>
+<td>
+&lt;img&gt;
+</td>
+<td>
+Hiermee voeg je een afbeelding toe.
+</td>
+</tr>
+<tr>
+<td>
+&lt;a&gt;&hellip;&lt;/a&gt;
+</td>
+<td>
+Hiermee maak je een verwijzing / hyperlink.
+</td>
+</tr>
+<tr>
+<td>
+&lt;table&gt;&hellip;&lt;/table&gt;
+</td>
+<td>
+Dit is het begin van een tabel
+</td>
+</tr>
+<tr>
+<td>
+&lt;tr&gt;&hellip;&lt;/tr&gt;
+</td>
+<td>
+Dit is een tabelrij
+</td>
+</tr>
+<tr>
+<td>
+&lt;td&gt;&hellip;&lt;/td&gt;
+</td>
+<td>
+Dit is een cel <span style="text-decoration: underline;">in</span> een tabelrij
+</td>
+</tr>
+<tr>
+<td>
+&lt;!-- &hellip; --&gt;
+</td>
+<td>
+Dit is een commentaar regel. Deze zal je nooit op je webpagina terug zien. Enkel in je Dreamweaver.
+</td>
+</tr>
+<tr>
+<td>
+&lt;ul&gt;&hellip;&lt;/ul&gt;
+</td>
+<td>
+Ongeordende lijst
+</td>
+</tr>
+<tr>
+<td>
+&lt;ol&gt;&hellip;&lt;/ol&gt;
+</td>
+<td>
+Geordende lijst
+</td>
+</tr>
+<tr>
+<td>
+&lt;li&gt;&hellip;&lt;/li&gt;
+</td>
+<td>
+Optie <span style="text-decoration: underline;">in</span> een lijst.
+</td>
+</tr>
+<tr>
+<td>
+&lt;span&gt;&hellip;&lt;span&gt;
+</td>
+<td>
+Een tag zonder eigenschappen. Hier kun je een CSS classe aan koppelen.
+</td>
+</tr>
+</tbody>
+</table>
+<p>We gaan met deze tags is oefenen om te kijken wat ze nou precies doen.</p>
+<table class="table opdracht">
+        	<tr><td>Opdracht 1: Je eerstse script!</td></tr>
+            <tr><td>
+            <p>Open in Dreamweaver een nieuw leeg HTML bestand.</p>
+<ul>
+<li>Type het volgende script over:<br>
+<img src="img/h3o1.PNG"></li>
+<li>Sla het bestand op onder de naam <strong>Opdracht3-1.html</strong></li>
+<li>Open het bestand in je browser en controleer of alles er goed uit ziet.</li>
+</ul>
+            </td></tr>
+            </table>
+            <p>Als je opdracht3-1.html nu opent in je webbrowser (het bestand opzoeken op je harde schijf en dubbel klikken) zie je dat elke tag andere eigenschappen heeft. Het is belangrijk om deze eigenschappen te weten. Hieronder volgt een overzicht van de tags die in de vorige opdracht behandeld zijn en wat de eigenschappen hier van zijn.</p>
+          <table class="table overzicht">
+<tbody>
+<tr>
+<td>
+Tags:
+</td>
+<td>
+Eigenschap:
+</td>
+</tr>
+<tr>
+<td>
+&lt;p&gt;&hellip;&lt;/p&gt;
+</td>
+<td>
+Voegt een lege regel voor en na de tag toe.
+</td>
+</tr>
+<tr>
+<td>
+&lt;h1&gt;&hellip;&lt;/h1&gt;<br>
+&lt;h2&gt;&hellip;&lt;/h2&gt;<br>
+&lt;h6&gt;&hellip;&lt;/h6&gt;
+</td>
+<td>
+Voegt een lege regel voor en na de tag toe. Tekst is vetgedrukt en grootte 20.<br>
+Voegt een lege regel voor en na de tag toe. Tekst is vetgedrukt en grootte 18.<br>
+Voegt een lege regel voor en na de tag toe. Tekst is vetgedrukt en grootte 10
+</td>
+</tr>
+<tr>
+<td>
+&lt;br&gt;
+</td>
+<td>
+Enkel een enter.
+</td>
+</tr>
+<tr>
+<td>
+&lt;hr&gt;
+</td>
+<td>
+Zet op een <span style="text-decoration: underline;">nieuwe</span> regel pas de horizontale lijn.
+</td>
+</tr>
+<tr>
+<td>
+&lt;!-- &hellip; --&gt;
+</td>
+<td>
+De kleur in de code wordt grijs, in je webbrowser zie je hier niets van terug.
+</td>
+</tr>
+</tbody>
+</table>  <br>
+<table class="table opdracht">
+        	<tr><td>Opdracht 2: Code oefenen</td></tr>
+            <tr><td>
+            <p>Open in Dreamweaver een nieuw leeg HTML bestand.</p>
+<ul>
+<li>Probeer de webpagina die je hieronder ziet, zo goed mogelijk na te maken in HTML.<br>
+<img src="img/h3o2.PNG"></li>
+<li>Sla het bestand op onder de naam <strong>Opdracht3-2.html</strong></li>
+<li>Open het bestand in je browser en controleer of alles er goed uit ziet.</li>
+</ul>
+            </td></tr>
+            </table>
+            <br>
+  <table class="table voorbeeld">
+        	<tr><td>Voorbeeld 3-1</td></tr>
+            <tr><td>
+            <p>&lt;!doctype html&gt;<br />&lt;html&gt;<br />&lt;head&gt;<br />&lt;meta charset="utf-8"&gt;<br />&lt;title&gt;Opdracht 3-3&lt;/title&gt;<br />&lt;/head&gt;</p>
+<p>&lt;body&gt;</p>
+<p>&lt;!-- dit is een script met fouten --&gt;<br />&lt;/h1&gt;Dit is de titel van de pagina&lt;h1&gt;<br />&lt;hr&gt;<br />&lt;h2&gt;Dit is de tweede titel<br />&lt;/body&gt;<br />&lt;p&gt;Dit is een alinea of paragraaf!&lt;br&gt;&lt;/p&gt;<br />Dit is nog steeds dezelfde alinea.<br />&lt;/html&gt;</p>
+            </td></tr>
+            </table>  
+            <br>
+            <table class="table opdracht">
+        	<tr><td>Opdracht 3: Fouten zoeken</td></tr>
+            <tr><td>
+            <p>Open in je editor een nieuw, leeg HTML bestand.</p>
+<ul>
+<li>Kopieer heel voorbeeld3-1 en plak dit over je nieuwe bestand.</li>
+<li>In het voorbeeld zitten 5 fouten. Probeer ze te vinden en verbeter ze.</li>
+<li>Sla het bestand op onder de naam <strong>Opdracht3-3.html</strong></li>
+<li>Controleer&nbsp;in de webbrowser&nbsp;of je webpagina klopt.</li>
+</ul>
+            </td></tr>
+            </table>
+            <h2>Opsommingslijst</h2>
+            <p>In HTML kun je door gebruik te maken van twee tags een opsomminglijst cre&euml;ren. Als je een Ongeordende lijst wilt maken, gebruik je de tag <span class="redText">&lt;ul&gt;</span>. Dit staat voor Unordered list. Wil je een geordende lijst maken, dan gebruik je<span class="redText"> &lt;ol&gt;.</span> Wat staat voor een Ordered list. Je kunt de opsommingtekens op verschillende manieren weergeven. Je moet dan een zo gehete type opgeven.</p>
+<p>Als je dit gedaan hebt gebruik je de <span class="redText">&lt;li&gt;</span> tag om een optie toe te voegen.</p>  
+<table class="table overzicht">
+<tbody>
+<tr>
+<td width="30%">
+Tags:
+</td>
+<td>
+Eigenschap:
+</td>
+</tr>
+<tr>
+<td>
+&lt;ul&gt;&hellip;&lt;/ul&gt;
+</td>
+<td>
+Ongeordende lijst
+</td>
+</tr>
+<tr>
+<td>
+&lt;ol&gt;&hellip;&lt;/ol&gt;
+</td>
+<td>
+Gewone cijfers
+</td>
+</tr>
+<tr>
+<td>
+&lt;ol type=&rdquo;i&rdquo;&gt;&hellip;&lt;/ol&gt;
+</td>
+<td>
+Kleine Romeinse tekens
+</td>
+</tr>
+<tr>
+<td>
+&lt;ol type=&rdquo;I&rdquo;&gt;&hellip;&lt;/ol&gt;
+</td>
+<td>
+Grote Romeinse tekens.
+</td>
+</tr>
+<tr>
+<td>
+&lt;ol type=&rdquo;a&rdquo;&gt;&hellip;&lt;/ol&gt;
+</td>
+<td>
+Kleine letters
+</td>
+</tr>
+<tr>
+<td>
+&lt;ol type=&rdquo;A&rdquo;&gt;&hellip;&lt;/ol&gt;
+</td>
+<td>
+Hoofdletters
+</td>
+</tr>
+</tbody>
+</table>   
+<p>Een voorbeeld van een lijst zie je hieronder:</p>
+<img src="img/h3li.PNG" style="border:solid 1px black;">  <br><br>
+ <table class="table let-op">
+          <tr>
+            <td>Let op:</td>
+          </tr>
+          <tr>
+          <td>
+      Om je code overzichtelijk te houden is het aan te raden om voor elke <span class="redText">&lt;li&gt;</span> een tab toe te voegen.
+         </td></tr></table>
+         <br>
+         <table class="table opdracht">
+        	<tr><td>Opdracht 4: Opsommingslijst</td></tr>
+            <tr><td>
+            <p>Open in Dreamweaver een nieuw leeg HTML bestand.</p>
+<ul>
+<li>Maak de webpagina zoals hieronder na. <br>
+<img src="img/h3o4.png"></li>
+<li>Sla het bestand op onder de naam <strong>Opdracht3-4.html</strong></li>
+<li>Controleer in de webbrowser of je webpagina klopt.</li>
+</ul>
+            </td></tr>
+            </table>
+         </div>
+        <div data-role="footer" data-position="fixed" >
+            <h4>&copy; ODT - Graafschap College</h4>
+</div>
+    </section>
+</body>
+</html>
