@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-template-rows: 20% 20%;
+        }
+        *{
+            margin: 5px;
+        }
+        .test{
+            grid-row: span: 3;
+            background-color: grey;
+        }
+        .test2{
+            background-color: grey;
+        }
+        .test3{
+            background-color: grey;
+            grid-row-start: 2/3;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="test">test</div>
+    <div class="test2">test</div>
+    <div class="test3">test</div>
+
+
+</div>
+</body>
+</html>

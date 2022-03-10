@@ -1,1 +1,19 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+body{
+    background-color: lightgray;
+}
+
+.col-sm, .col-md-8 {
+    background-color: goldenrod;
+    margin: 5px;
+
+}
+
+col-sm-4{
+    background-color: goldenrod;
+    margin: 5px;
+}
+
+.col-sm-p{
+    font-weight: bold;
+    text-align: center;
+}
