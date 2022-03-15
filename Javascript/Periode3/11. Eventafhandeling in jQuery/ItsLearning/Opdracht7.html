@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../Jquery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            $(document).on("mousemove", (e)=>{
+                $(`.twee`).css("top", e.offsetY - 20)
+                $(`.twee`).css("left", e.offsetX - 20)
+            })
+        })
+    </script>
+    <style>
+        .een{
+            width: 700px;
+            height: 700px;
+            margin: auto;
+            background-color: #f1f1f1;
+        }
+        .twee{
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="twee"></div>
+</body>
+</html>

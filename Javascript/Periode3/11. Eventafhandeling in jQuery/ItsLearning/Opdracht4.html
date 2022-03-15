@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../Jquery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            $(document).on("mousemove", (event)=>{
+                $('#mouseX').html(`Muis X positie: ${event.offsetX}`)
+                $('#mouseY').html(`Muis Y positie: ${event.offsetY}`)
+            })
+        })
+    </script>
+</head>
+<body>
+<h2 id="mouseX"></h2>
+<h2 id="mouseY"></h2>
+</body>
+</html>

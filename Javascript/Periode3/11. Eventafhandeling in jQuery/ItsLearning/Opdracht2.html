@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../Jquery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            $(`button`).on("click", ()=>{
+                let str = $(`input`).val();
+                $(`h1`).html(`Uw Naam is: ${str}`)
+            })
+        })
+    </script>
+</head>
+<body>
+<input type="text">
+<button> Send </button>
+<br>
+<h1>Uw Naam is:</h1>
+</body>
+</html>
