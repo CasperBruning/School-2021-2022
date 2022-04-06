@@ -14,6 +14,7 @@
           <node kind="schema">
             <name qname="@" />
             <name qname="b" />
+            <name qname="computerDesignWebsitePHP" />
             <name qname="dataIntoDatabaseOpdracht" />
             <name qname="fietsenmaker" />
             <name qname="gc_festival" />
@@ -21,6 +22,7 @@
             <name qname="graafschapgames" />
             <name qname="orionvolleybal" />
             <name qname="SQLToets" />
+            <name qname="PHP_Periode3_Project" />
           </node>
         </introspection-scope>
       </schema-mapping>

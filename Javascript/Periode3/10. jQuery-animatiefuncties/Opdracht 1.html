@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../Jquery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function (){
+            $('#hide').on('click', function(){
+                $(`#text`).hide(1000);
+            })
+
+            $('#show').on('click', function(){
+                $(`#text`).show(1000);
+            })
+            console.log("ytexcruyvtuiopik[po")
+        })
+    </script>
+    <style>
+        #text{
+            background-color: lavender;
+            width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquam beatae commodi culpa cumque, doloremque dolorum ea earum eius est eveniet nulla perferendis porro praesentium quam quasi qui quod recusandae reiciendis sit ut velit! A dicta distinctio ea, eligendi facilis modi mollitia nostrum odit possimus quibusdam sunt ut veniam!</div>
+    <button id="show">show</button>
+    <button id="hide">hide</button>
+</body>
+</html>

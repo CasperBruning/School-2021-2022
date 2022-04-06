@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../Jquery/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function (){
+
+      $('.checkbox').on('click', function()
+      {
+        if($(this).is(':checked'))
+        {
+           $('#text').slideUp()
+        } else {
+          $('#text').slideDown()
+
+        }
+      })
+    })
+  </script>
+    <style>
+      #text{
+          background-color: lavender;
+          width: 300px;
+          height: auto;
+      }
+    </style>
+</head>
+<body>
+  <input class="checkbox" id="#radio" type="checkbox" name="een">
+  <label for="#radio">Algemene voorwaarden</label>
+
+<div id="text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, earum voluptatibus? Assumenda commodi delectus dolore dolores, error fugit hic magni mollitia nisi perspiciatis praesentium quae quibusdam quisquam reiciendis sint, sunt, voluptatibus? Beatae commodi cupiditate error expedita id illo inventore ipsam iusto modi natus nihil perferendis quisquam, similique unde velit voluptas!</div>
+</body>
+</html>

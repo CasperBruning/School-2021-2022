@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../Jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js%22%3E"></script>
+    <script>
+        $(document).ready(function(){
+            $(`div`).on("click", function (){
+              $(`div`).animate({
+                  left: "300px",
+                  top: "0px",
+                  backgroundColor: "red"
+              },1000, function (){
+                $('div').animate({
+                    left: "300px",
+                    top: "300px",
+                    backgroundColor: "yellow"
+                },1000, function (){
+                $('div').animate({
+                    left: "0px",
+                    top: "300px",
+                    backgroundColor: "green"
+                },1000, function (){
+                    $(`div`).animate({
+                        left: "0px",
+                        top: "0px",
+                        backgroundColor: "red"
+                    },1000)
+                })
+                })
+              })
+                })
+            })
+
+
+    </script>
+    <style>
+        div{
+            background: greenyellow;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

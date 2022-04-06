@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../Jquery/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function (){
+          $(`.image`).on("click", function (){
+              let source = $(this).attr('src')
+              $(`.bigImage`).slideUp(function (){
+                  $(`.bigImage`).attr('src', source)
+                  $(`.bigImage`).slideDown()
+              })
+          })
+
+      })
+    </script>
+    <style>
+        .opacity{
+            opacity: .40;
+        }
+        .div1{
+            background-color: lightgrey;
+            border: 4px solid black;
+            width: 100%;
+            height: 200px;
+        }
+        .image{
+            width: auto;
+            height: 100%;
+            float: left;
+        }
+        .bigImage{
+            width: 500px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="div1">
+    <img class="image" src="img/block.jpeg">
+    <img class="image" src="img/index.jpeg">
+    <img class="image" src="img/1.jpeg">
+    <img class="image" src="img/3.jpg">
+</div>
+<div class="div2">
+    <img class="bigImage" src="img/3.jpg">
+</div>
+</body>
+</html>

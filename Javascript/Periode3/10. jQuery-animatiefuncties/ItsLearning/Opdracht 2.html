@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../Jquery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(`button`).on('click', function (){
+                $('div').animate({
+                    left: "170px",
+                    opacity: "0.5",
+                    fontSize: "5em"
+                }, "slow", "swing")
+            })
+
+
+        })
+    </script>
+    <style>
+        div{
+            width: 250px;
+            height: 100px;
+            background: #545454;
+            color: white;
+            position: absolute;
+        }
+        button{
+            position: absolute;
+            top: 110px;
+        }
+    </style>
+</head>
+<body>
+<div>jQuery</div>
+<button>klik</button>
+</body>
+</html>
