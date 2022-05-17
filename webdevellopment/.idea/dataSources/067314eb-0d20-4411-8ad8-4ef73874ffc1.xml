@@ -1,137 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
-  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.32">
-    <root id="1">
-      <DefaultCasing>exact</DefaultCasing>
-      <DefaultEngine>InnoDB</DefaultEngine>
-      <Grants>|root||root|127.0.0.1|ALTER|G
-|root||root|::1|ALTER|G
-|root||root|localhost|ALTER|G
-|root||root|127.0.0.1|ALTER ROUTINE|G
-|root||root|::1|ALTER ROUTINE|G
-|root||root|localhost|ALTER ROUTINE|G
-|root||root|127.0.0.1|CREATE|G
-|root||root|::1|CREATE|G
-|root||root|localhost|CREATE|G
-|root||root|127.0.0.1|CREATE ROUTINE|G
-|root||root|::1|CREATE ROUTINE|G
-|root||root|localhost|CREATE ROUTINE|G
-|root||root|127.0.0.1|CREATE TABLESPACE|G
-|root||root|::1|CREATE TABLESPACE|G
-|root||root|localhost|CREATE TABLESPACE|G
-|root||root|127.0.0.1|CREATE TEMPORARY TABLES|G
-|root||root|::1|CREATE TEMPORARY TABLES|G
-|root||root|localhost|CREATE TEMPORARY TABLES|G
-|root||root|127.0.0.1|CREATE USER|G
-|root||root|::1|CREATE USER|G
-|root||root|localhost|CREATE USER|G
-|root||root|127.0.0.1|CREATE VIEW|G
-|root||root|::1|CREATE VIEW|G
-|root||root|localhost|CREATE VIEW|G
-|root||root|127.0.0.1|DELETE|G
-|root||root|::1|DELETE|G
-|root||root|localhost|DELETE|G
-|root||root|127.0.0.1|DELETE HISTORY|G
-|root||root|::1|DELETE HISTORY|G
-|root||root|localhost|DELETE HISTORY|G
-|root||root|127.0.0.1|DROP|G
-|root||root|::1|DROP|G
-|root||root|localhost|DROP|G
-|root||root|127.0.0.1|EVENT|G
-|root||root|::1|EVENT|G
-|root||root|localhost|EVENT|G
-|root||root|127.0.0.1|EXECUTE|G
-|root||root|::1|EXECUTE|G
-|root||root|localhost|EXECUTE|G
-|root||root|127.0.0.1|FILE|G
-|root||root|::1|FILE|G
-|root||root|localhost|FILE|G
-|root||root|127.0.0.1|INDEX|G
-|root||root|::1|INDEX|G
-|root||root|localhost|INDEX|G
-|root||root|127.0.0.1|INSERT|G
-|root||root|::1|INSERT|G
-|root||root|localhost|INSERT|G
-|root||root|127.0.0.1|LOCK TABLES|G
-|root||root|::1|LOCK TABLES|G
-|root||root|localhost|LOCK TABLES|G
-|root||root|127.0.0.1|PROCESS|G
-|root||root|::1|PROCESS|G
-|root||root|localhost|PROCESS|G
-|root||root|127.0.0.1|REFERENCES|G
-|root||root|::1|REFERENCES|G
-|root||root|localhost|REFERENCES|G
-|root||root|127.0.0.1|RELOAD|G
-|root||root|::1|RELOAD|G
-|root||root|localhost|RELOAD|G
-|root||root|127.0.0.1|REPLICATION CLIENT|G
-|root||root|::1|REPLICATION CLIENT|G
-|root||root|localhost|REPLICATION CLIENT|G
-|root||root|127.0.0.1|REPLICATION SLAVE|G
-|root||root|::1|REPLICATION SLAVE|G
-|root||root|localhost|REPLICATION SLAVE|G
-|root||root|127.0.0.1|SELECT|G
-|root||root|::1|SELECT|G
-|root||root|localhost|SELECT|G
-|root||root|127.0.0.1|SHOW DATABASES|G
-|root||root|::1|SHOW DATABASES|G
-|root||root|localhost|SHOW DATABASES|G
-|root||root|127.0.0.1|SHOW VIEW|G
-|root||root|::1|SHOW VIEW|G
-|root||root|localhost|SHOW VIEW|G
-|root||root|127.0.0.1|SHUTDOWN|G
-|root||root|::1|SHUTDOWN|G
-|root||root|localhost|SHUTDOWN|G
-|root||root|127.0.0.1|SUPER|G
-|root||root|::1|SUPER|G
-|root||root|localhost|SUPER|G
-|root||root|127.0.0.1|TRIGGER|G
-|root||root|::1|TRIGGER|G
-|root||root|localhost|TRIGGER|G
-|root||root|127.0.0.1|UPDATE|G
-|root||root|::1|UPDATE|G
-|root||root|localhost|UPDATE|G
-|root||root|127.0.0.1|grant option|G
-|root||root|::1|grant option|G
-|root||root|localhost|grant option|G
-phpmyadmin|schema||pma|localhost|DELETE|G
-phpmyadmin|schema||pma|localhost|INSERT|G
-phpmyadmin|schema||pma|localhost|SELECT|G
-phpmyadmin|schema||pma|localhost|UPDATE|G
-test|schema||&apos;&apos;||ALTER|G
-test|schema||&apos;&apos;||CREATE|G
-test|schema||&apos;&apos;||CREATE ROUTINE|G
-test|schema||&apos;&apos;||CREATE TEMPORARY TABLES|G
-test|schema||&apos;&apos;||CREATE VIEW|G
-test|schema||&apos;&apos;||DELETE|G
-test|schema||&apos;&apos;||DROP|G
-test|schema||&apos;&apos;||EVENT|G
-test|schema||&apos;&apos;||INDEX|G
-test|schema||&apos;&apos;||INSERT|G
-test|schema||&apos;&apos;||LOCK TABLES|G
-test|schema||&apos;&apos;||REFERENCES|G
-test|schema||&apos;&apos;||SELECT|G
-test|schema||&apos;&apos;||SHOW VIEW|G
-test|schema||&apos;&apos;||TRIGGER|G
-test|schema||&apos;&apos;||UPDATE|G
-test\\_%|schema||&apos;&apos;||ALTER|G
-test\\_%|schema||&apos;&apos;||CREATE|G
-test\\_%|schema||&apos;&apos;||CREATE ROUTINE|G
-test\\_%|schema||&apos;&apos;||CREATE TEMPORARY TABLES|G
-test\\_%|schema||&apos;&apos;||CREATE VIEW|G
-test\\_%|schema||&apos;&apos;||DELETE|G
-test\\_%|schema||&apos;&apos;||DROP|G
-test\\_%|schema||&apos;&apos;||EVENT|G
-test\\_%|schema||&apos;&apos;||INDEX|G
-test\\_%|schema||&apos;&apos;||INSERT|G
-test\\_%|schema||&apos;&apos;||LOCK TABLES|G
-test\\_%|schema||&apos;&apos;||REFERENCES|G
-test\\_%|schema||&apos;&apos;||SELECT|G
-test\\_%|schema||&apos;&apos;||SHOW VIEW|G
-test\\_%|schema||&apos;&apos;||TRIGGER|G
-test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
-      <ServerVersion>10.4.21</ServerVersion>
-    </root>
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.38">
+    <root id="1"/>
     <collation id="2" parent="1" name="big5_chinese_ci">
       <Charset>big5</Charset>
       <DefaultForCharset>1</DefaultForCharset>
@@ -1316,10 +1186,10 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
     <column id="373" parent="344" name="id">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(5)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="374" parent="344" name="merk">
       <DataType>varchar(255)|0s</DataType>
@@ -1582,10 +1452,10 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <Position>2</Position>
     </column>
     <column id="438" parent="354" name="id">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="439" parent="354" name="artistName">
       <DataType>varchar(100)|0s</DataType>
@@ -1601,10 +1471,10 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <Primary>1</Primary>
     </key>
     <column id="442" parent="355" name="id">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="443" parent="355" name="userID">
       <DataType>int(11)|0s</DataType>
@@ -1642,10 +1512,10 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <Primary>1</Primary>
     </key>
     <column id="451" parent="357" name="id">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="452" parent="357" name="firstName">
       <DataType>varchar(55)|0s</DataType>
@@ -1669,10 +1539,10 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <Primary>1</Primary>
     </key>
     <column id="457" parent="358" name="usernumber">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="458" parent="358" name="name">
       <DataType>varchar(256)|0s</DataType>
@@ -1696,10 +1566,10 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <UnderlyingIndexName>users_usernumber_uindex</UnderlyingIndexName>
     </key>
     <column id="463" parent="359" name="casenumber">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="464" parent="359" name="Naam">
       <DataType>varchar(256)|0s</DataType>
@@ -1719,10 +1589,10 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <Primary>1</Primary>
     </key>
     <column id="468" parent="360" name="coachnr">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(2)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="469" parent="360" name="lidnr">
       <DataType>int(3)|0s</DataType>
@@ -1735,10 +1605,10 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <Primary>1</Primary>
     </key>
     <column id="471" parent="361" name="lidnr">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(3)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="472" parent="361" name="lidvoornaam">
       <DataType>varchar(20)|0s</DataType>
@@ -1814,10 +1684,10 @@ lidnr</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="487" parent="363" name="teamnummer">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(2)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="488" parent="363" name="teamcode">
       <DataType>varchar(4)|0s</DataType>
@@ -1861,10 +1731,10 @@ lidnr</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="497" parent="364" name="trainernr">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(2)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="498" parent="364" name="lidnr">
       <DataType>int(3)|0s</DataType>
@@ -1877,10 +1747,10 @@ lidnr</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="500" parent="365" name="coachnr">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(2)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="501" parent="365" name="lidnr">
       <DataType>int(3)|0s</DataType>
@@ -1893,10 +1763,10 @@ lidnr</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="503" parent="366" name="lidnr">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(3)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="504" parent="366" name="lidvoornaam">
       <DataType>varchar(20)|0s</DataType>
@@ -1972,10 +1842,10 @@ lidnr</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="519" parent="368" name="teamnummer">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(2)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="520" parent="368" name="teamcode">
       <DataType>varchar(4)|0s</DataType>
@@ -2019,10 +1889,10 @@ lidnr</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="529" parent="369" name="trainernr">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(2)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="530" parent="369" name="lidnr">
       <DataType>int(3)|0s</DataType>
@@ -2035,10 +1905,10 @@ lidnr</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="532" parent="370" name="gebruikersID">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="533" parent="370" name="naam">
       <DataType>varchar(256)|0s</DataType>
@@ -2071,10 +1941,10 @@ lidnr</ColNames>
       <UnderlyingIndexName>gebruikers_gebruikersID_uindex</UnderlyingIndexName>
     </key>
     <column id="540" parent="371" name="orderID">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="541" parent="371" name="gebruikerID">
       <DataType>int(11)|0s</DataType>
@@ -2163,10 +2033,10 @@ lidnr</ColNames>
       <UnderlyingIndexName>order_orderID_uindex</UnderlyingIndexName>
     </key>
     <column id="562" parent="372" name="productID">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="563" parent="372" name="naam">
       <DataType>varchar(256)|0s</DataType>

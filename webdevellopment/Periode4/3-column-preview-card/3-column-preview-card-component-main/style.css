@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    color: hsl(0,0%,95%);
+    width: 231px;
+    height: 125px;
+    line-height: 25px;
+}
+h1{
+    font-family:'Big Shoulders Display';
+    color: #000;olor: white;
+    font-size: 40px;
+    color: #F2F2F2;
+}
+.btn{
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+}
+.sedan .btn {
+    color: hsl(31, 77%, 52%);
+}
+.suv .btn {
+    color: hsl(184, 100%, 22%);
+}
+.luxury .btn {
+    color: hsl(179, 100%, 13%);
+}
+/*transform: translateX(12px);*/
+
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    width: 327px;
+    height: 442px;
+
+}
+.suv{
+    background-color: hsl(184, 100%, 22%) ;
+    width: 327px;
+    height: 442px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 327px;
+    height: 442px;
+}
+svg{
+    margin-top: 40px;
+}
+h1, p, svg, .btn{
+    margin-left: 40px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 146px;
+    height: 48px;
+    border: 3px solid white;
+    border-radius: 360px;
+    background-color: white;
+}
+@media screen and (max-width: 600px) and (min-width: 100px) {
+    .container {
+        height: 1326px;
+        width: 327px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sedan, .suv, .luxury {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+
+    }
+
+    .suv {
+        transform: translateY(-8px);
+    }
+
+    .luxury {
+
+        transform: translateY(-16px);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .sedan, .suv, .luxury{
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .luxury{
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .suv{
+        transform: translateX(-8px);
+    }
+    .luxury{
+        transform: translateX(-16px);
+    }
+    .btn:hover{
+        background-color: transparent;
+        color: white !important;
+    }
+}
