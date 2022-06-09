@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <script src="../../Jquery/jquery-3.6.0.min.js"></script>
+    <script src="js.js"></script>
+</head>
+<body>
+<div class="header">
+  <div class="titleDiv">
+      <img src="images/logo.svg">
+  </div>
+  <div class="scoreDiv">
+      <p>SCORE</p>
+      <p>0</p>
+  </div>
+</div>
+<div class="selectMoveContainer">
+    <div class="placeholder">
+        <div class="firstRow">
+            <div>
+                <div class="outercircleShadow">
+                    <div class="outerCircle firstImageOuterCircle" id="paper">
+                        <div class="innerCircle firstImageInnerCircle">
+                            <img src="images/icon-paper.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="outerCircle secondImageOuterCircle" id="scissors">
+                    <div class="innerCircle secondImageInnerCircle">
+                        <img src="images/icon-scissors.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secondRow">
+            <div class="outerCircle thirdImageOuterCircle" id="rock">
+                <div class="innerCircle thirdImageInnerCircle">
+                    <img src="images/icon-rock.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="resultDiv ">
+        <div class="firstRow">
+            <div>
+                <div class="outerCircle firstImageOuterCircle">
+                    <div class="innerCircle firstImageInnerCircle">
+                        <img src="images/icon-paper.svg">
+                    </div>
+                </div>
+                <p>YOU PICKED</p>
+            </div>
+            <div class="outcomeDiv1Placeholder">
+
+            </div>
+            <div>
+                <div class="outerCircle secondImageOuterCircle">
+                    <div class="innerCircle secondImageInnerCircle">
+                        <img src="images/icon-scissors.svg">
+                    </div>
+                </div>
+                <p>THE HOUSE PICKED</p>
+            </div>
+        </div>
+</div>
+
+
+
+<div class="outcomeDiv">
+    <h1 class="outcomeContentH1">YOU WIN</h1>
+    <div class="outcomeContent">
+        <p>PLAY AGAIN</p>
+    </div>
+</div>
+
+
+<div class="footerDiv">
+    <div class="rulesDiv">
+        <p>RULES</p>
+    </div>
+</div>
+
+  
+
+</body>
+</html>

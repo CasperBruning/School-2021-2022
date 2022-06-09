@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    margin: 0;
+}
+body{
+    /*background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));*/
+    background: linear-gradient(to bottom, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.header{
+    margin: 10px auto 0 auto;
+    width: 311px;
+    height: 96px;
+    border: 2px solid hsl(217, 16%, 45%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleDiv {
+    width: 83px;
+    height: 48px;
+}
+.titleDiv img{
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+.scoreDiv{
+    width: 80px;
+    height: 72px;
+    background-color: #F3F3F3;
+    border-radius: 5%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scoreDiv p:first-child{
+    font-size: 10px;
+    color: #2A45C2;
+    letter-spacing: 1.56px;
+    margin: 0;
+}
+.scoreDiv p:last-child{
+    font-size: 40px;
+    color: #565468;
+    margin: 0;
+    font-weight: 700;
+}
+.selectMoveContainer{
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 280px;
+}
+.resultDiv{
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 280px;
+}
+.selectMoveContainer{
+    background: url("images/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+}
+.outerCircle{
+    width: 119.37px;
+    height: 116.78px;
+    background-color: #4664F4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -10px 0 -4px #2A45C2;
+}
+.resultDiv .outerCircle{
+    /*box-shadow: 0 0 20px #979797;*/
+}
+.innerCircle{
+    width: 89.31px;
+    height: 84.1px;
+    background: #F3F3F3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 5px hsla(0, 0%, 59%, 0.35);
+}
+.innerCircle img{
+    height: auto;
+    width: 45%;
+}
+.secondImageOuterCircle{
+    background: #EB9F0E;
+    box-shadow: inset 0px -10px 0 -4px #C76C1B;
+}
+
+.thirdImageOuterCircle{
+    background: #DB2E4D;
+    box-shadow: inset 0px -10px 0 -4px #9D1634;
+
+}
+.firstRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.firstRow div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.firstRow div p{
+    /*background: red;*/
+    transform: translateY(15px);
+}
+.secondRow{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.firstImageOuterCircle{
+    margin-left: 15px;
+}
+.secondImageOuterCircle{
+    margin-right: 15px;
+}
+.outcomeDiv{
+    margin: 0 auto;
+    width: 220px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-90px);
+}
+.outcomeDiv1Placeholder{
+    display: none;
+}
+.outcomeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 38px;
+    background:#F3F3F3 ;
+    border-radius: 10px;
+}
+.outcomeContent p{
+    color: #3B4262;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+}
+.outcomeContentH1{
+    font-size: 56px;
+}
+.rulesDiv{
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    width: 128px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerDiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.rulesDiv p{
+    letter-spacing: 2.5px;
+}
+@media screen and (min-width: 1366px){
+    .outcomeDiv1Placeholder{
+        display: flex;
+        width: 220px;
+        height: 150px;
+    }
+    .footerDiv{
+        margin-top: 0;
+    }
+    .resultDiv {
+        width: 600px;
+    }
+    .outcomeDiv{
+        /*display: none;*/
+        transform: translateY(-260px);
+    }
+}
