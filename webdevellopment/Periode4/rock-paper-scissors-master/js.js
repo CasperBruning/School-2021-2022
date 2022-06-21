@@ -29,14 +29,40 @@
          $(`.selectMoveContainer`).hide()
          $('.resultDiv').show()
 
+     //CSS
+         const cssRockOuterCircle = [{
+             'background-color' : '#DB2E4D',
+             'box-shadow' : 'inset 0px -10px 0 -4px #9D1634'
+         }]
+         const cssPaperOuterCircle = [{
+             'background-color' : '#4664F4',
+             'box-shadow' : 'inset 0px -10px 0 -4px #2A45C2'
+         }]
+         const cssScissorsOuterCircle = [{
+             'background-color' : '#EB9F0E',
+             'box-shadow' : 'inset 0px -10px 0 -4px #C76C1B'
+         }]
+
+     //SET MOVES ON SCREEN
+        if(computerChoice == 'rock'){
+            $('#rocks').css({'background-color' : '#DB2E4D',
+                'box-shadow' : 'inset 0px -10px 0 -4px #9D1634'})
+            $('#rocksIMG').attr('src', 'images/icon-rock.svg')
+        } else if(computerChoice == 'paper'){
+            $('#rocks').css({'background-color' : '#4664F4',
+                'box-shadow' : 'inset 0px -10px 0 -4px #2A45C2'})
+            $('#rocksIMG').attr('src', 'images/paper-rock.svg')
+        } else if (computerChoice == 'scissors'){
+            $('#rocks').css({'background-color' : '#EB9F0E',
+                'box-shadow' : 'inset 0px -10px 0 -4px #C76C1B'})
+            $('#rocksIMG').attr('src', 'images/scissors-rock.svg')
+        }
+
      })
+
      $(`.outcomeContent`).on('click', function (){
          $('.outcomeDiv').hide()
          $(`.selectMoveContainer`).show()
          $('.resultDiv').hide()
      })
-
-
-
-
  })
