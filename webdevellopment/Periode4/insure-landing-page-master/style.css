@@ -1,0 +1,390 @@
+
+/* init fonts */
+
+@font-face {
+    font-family: DMSerif;
+    src: url('fonts/DMSerifDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: Karla;
+    src: url('fonts/Karla-VariableFont_wght.ttf')
+}
+
+/* Jouw css hieronder */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Karla;
+    color: #2C2830;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    margin: 15px 0 15px 0;
+}
+.headerUL{
+    display: none;
+}
+.hamburgerIconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 13px auto 0;
+    width: 32px;
+
+}
+.introContainer{
+    width: 100%;
+    height: auto;
+}
+.introContainer img{
+    width: 100%;
+    height: auto;
+}
+.hamburgerMenu{
+    position: absolute;
+    width: 100%;
+    height: 587px;
+    background: #2C2830;
+}
+.hamburgerMenu UL{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.hamburgerMenu li{
+    color: #FFFFFF;
+    width: 327px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 1.36px;
+    text-align: center;
+    margin: 10px;
+}
+.hamburgerMenu li:last-child{
+    border: 1px solid #FFFFFF;
+}
+.blueContentContainer{
+    width: auto;
+    height: 500px;
+    background: #2D2641;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-5px);
+}
+
+.newsletterPopup{
+    position: absolute;
+    width: 365px;
+    height: 361px;
+    background: #96A9C6;
+}
+.newsletterPopup img{
+    transform: translateY(-120px);
+}
+.newsletterPopup h1{
+    font-size: 30px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    font-family: DMSerif;
+    color: #FFFFFF;
+    width: 340px;
+    height: 62px;
+}
+.newsletterPopup div:last-child{
+    display: flex;
+    flex-direction: column;
+}
+.newsletterPopup p{
+    height: 56px;
+    width: 300px;
+    color: #000000;
+    font-size: 20px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+.newsletterPopup form{
+    display: flex;
+    flex-direction: column;
+}
+.newsletterPopup input{
+    background: white;
+    width: 303px;
+    height: 57px;
+    border: 1px solid black;
+}
+.newsletterPopup .middleDiv{
+    width: 151px;
+    height: 45px;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+
+}
+
+.blueContentContainer .blueContentH1{
+    font-family: DMSerif;
+    line-height: 48px;
+    letter-spacing: -0.67px;
+    font-size: 48px;
+    color: #ffffff;
+    width: 340px;
+    height: 96px;
+    text-align: center;
+}
+.blueContentContainer .blueContentP{
+    margin: 10px 0 30px 0;
+    width: 330px;
+    height: 130px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 26px;
+}
+.signupBTN{
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    border: 2px solid #FFFFFF;
+    width: 146px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueContentContainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentContainer .titleLine{
+    width: 150px;
+    height: 2px;
+    background: #C396C6;
+}
+.contentContainer div:first-child h1{
+    font-family: DMSerif;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.67px;
+}
+.contentContainer div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 90px 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.content h2{
+    text-align: center;
+    font-family: DMSerif;
+    font-size: 28px;
+    letter-spacing: -0.39px;
+    width: 327px;
+    height: 38px;
+    margin: 20px 0 20px 0;
+}
+.content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #837D88;
+    width: 327px;
+    height: 78px;
+    text-align: center;
+}
+.footer{
+    width: 90%;
+    height: 344px;
+    background: #2D2641;
+    background-image: url("images/bg-pattern-how-we-work-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: right, top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.footer h1{
+    width: 279px;
+    height: 120px;
+    font-family: DMSerif;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.56px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.footer div{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: 1px solid #ffffff;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blueContentLine{
+    display: none;
+}
+.desktopImageDiv img{
+    display: none;
+}
+@media screen and (min-width: 993px){
+
+    .headerUL{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .headerLI{
+        color: #837D88;
+        letter-spacing: 1.5px;
+        font-weight: bold;
+        font-size: 13px;
+        margin-right: 25px;
+    }
+    .headerLI:hover{
+        color: #2C2830;
+    }
+    .headerLI:last-child{
+        color: #2C2830;
+        width: 146px;
+        height: 40px;
+        border: 1px solid #2C2830;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 150px;
+    }
+    .headerLI:last-child:hover{
+        background: #2C2830;
+        color: #FFFFFF;
+    }
+    .hamburgerIconDiv{
+        display: none;
+    }
+    .introContainer{
+        display: none;
+    }
+    .blueContentH1{
+        line-height: 64px !important;
+        font-size: 72px !important;
+        text-align: left !important;
+        width: 540px !important;
+        height: 140px !important;
+    }
+    .blueContentP{
+        text-align: left !important;
+        width: 540px !important;
+        height: 84px !important;
+    }
+    .blueContentLine{
+        width: 150px;
+        height: 1px;
+        background: #979797;
+        margin-bottom:40px ;
+        transform: translateX(-200px);
+    }
+    .middleDiv{
+        margin-left: 40px;
+    }
+    .desktopImageDiv{
+        width: 1000px;
+        height: 370px;
+    }
+    .desktopImageDiv img{
+        width: 540px;
+        height: auto;
+        transform: translateY(150px);
+        display: block;
+    }
+    .signupBTN{
+        transform: translateX(-200px);
+    }
+    .signupBTN:hover{
+        background: #FFFFFF;
+        color: #2C2830;
+    }
+    .contentContainer{
+        margin-top: 150px;
+    }
+    .contentContainer .placeholder{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .snappyProces{
+        transform: translateY(-40px);
+    }
+    .contentTitle{
+        margin-right: 58% !important;
+        margin-bottom:0 !important;
+    }
+    .titleLine{
+        margin-bottom: 40px!important;
+        margin-right: 50% !important;
+    }
+    .contentTitlePlaceholder{
+        display: flex;
+        flex-direction: column;
+    }
+    .content img{
+        margin-right: 70%;
+    }
+    .content *{
+        text-align: left!important;
+    }
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 250px;
+        margin: 5% auto;
+        background-image: url("images/bg-pattern-how-we-work-desktop.svg");
+    }
+    .footer h1{
+        width: 360px;
+        height: 112px;
+        text-align: left;
+        margin: auto 0;
+        margin-left: 5%;
+    }
+    .footer div{
+        margin-right: 5%;
+    }
+    .footer div:hover{
+        background: #FFFFFF;
+        color: #2C2830;
+    }
+}
